@@ -1,0 +1,14 @@
+\contentsline {section}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {2}Review of the International State of Industrial and Applied Mathematics, Mechanisms, Philosophy and Effectiveness}{1}
+\contentsline {subsection}{\numberline {2.1}Definitions}{2}
+\contentsline {subsection}{\numberline {2.2}Significance}{2}
+\contentsline {subsection}{\numberline {2.3}Mechanisms}{2}
+\contentsline {subsection}{\numberline {2.4}Successes}{2}
+\contentsline {subsection}{\numberline {2.5}Challenges}{2}
+\contentsline {subsubsection}{\numberline {2.5.1}Identifying Suitable Problems and Creating links}{2}
+\contentsline {subsubsection}{\numberline {2.5.2}Building working relationships}{2}
+\contentsline {subsubsection}{\numberline {2.5.3}Funding}{2}
+\contentsline {subsubsection}{\numberline {2.5.4}Academic Career Paths}{2}
+\contentsline {subsubsection}{\numberline {2.5.5}Brexit}{3}
+\contentsline {section}{\numberline {3}Real Case Study: Title here }{3}
+\contentsline {section}{\numberline {4}Final Thoughts}{3}
