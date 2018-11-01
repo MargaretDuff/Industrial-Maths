@@ -3,10 +3,10 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[12pt]{article} % Default font size is 12pt, it can be changed here
+\documentclass[11pt]{article} % Default font size is 12pt, it can be changed here
 
 \usepackage{geometry} % Required to change the page size to A4
-\geometry{a4paper} % Set the page size to be A4 as opposed to the default US Letter
+\geometry{a4paper, margin=2cm} % Set the page size to be A4 as opposed to the default US Letter
 
 \usepackage{graphicx} % Required for including pictures
 
@@ -22,7 +22,7 @@
 	\maketitle
 	
 	\begin{abstract}
-		Industrial Maths 
+		Industrial Maths is.......
 	\end{abstract}
 	\tableofcontents 
 	
@@ -65,8 +65,51 @@
 	\subsubsection{Brexit}
 	I am reluctant to mention the 'B' word but i think no report that looks at the future of Mathematical Research, Industry or Mathematics in Industry can avoid the topic. The whole scientific community is concerned over the future of funding and ability to collaborate (BREXIT LETTER NOBEL LAUREATES) and industry in the UK is facing an uncertain future (REFERENCE OR MORE HERE).
 	
-	I don't want to spend much time on this, but I would like to say that whatever happens, examples of success stories in industrial mathemtatics have demonstrated the need for callobaration: with industry, with other fields, with other departments and it will be vital for the continuing success of Industrial Mathematics that the spirit of callaboration is maintained. 
+	I don't want to spend much time on this, but I would like to say that whatever happens, examples of success stories in industrial mathematics have demonstrated the need for collaboration: with industry, with other fields, with other departments and it will be vital for the continuing success of Industrial Mathematics that the spirit of collaboration is maintained. 
 	
+	\subsubsection{Case Study 1: Trip Wire Detection for Land Mines}
+	
+	The first case study that really stood out to me, wht one brought to the second Industrial Problem-Solving Workshop (a Canadian version of the ESGI) held in Calgary in 1998. 
+	
+The industrial partner was ITRES Research LTD and they were experimenting mounting a detection camera on a boom ahead of a slowly moving truck which would look vertically downwards. It was hoped that an automatic algorithm would be used to find trip wires appearing in the image. 
+	
+	A report, the Landmine Monitor, produced in 1999 \cite{landmine} suggests that at the time the of the Study Group there were more than 250million Antipersonnel Mines in Stockpiles of which they were particularly concerned about remotely-delivered, surface laid anti vehicle mines that utilize trip wires which could explode from innocent acts by individuals. 
+	
+	A clearly defined  problem, that could have huge benefits worldwide so why was this a study group problem? Why hadn't a solution been implemented already? There were some inherent difficulties in detecting a tripwire including:
+	\begin{itemize}
+	\item wires are often partially covered by foliage
+	\item wires are not uniform in illumination 
+	\item wires are often purposefully camouflaged and come in a variety of colours and transparencies
+	\item other image features may mimic lines such as vegetation 
+	\item images are often noisy or blurry as trucks and cameras move or the camera fails to focus. Natural elements also cause additional artefacts in the field of view
+	\end{itemize}
+	The goal of the week long study group was to have a first attempt at developing an algorithm that was \textsl{robust} enough to cope with the problems above; \textit{reliable }enough to detect trip wires in with near perfect sensitivity and a high specificity and to be \textit{fast} enough to run before the truck detonates a landmine. 
+	
+	We will look at 3 elements of their work: pre-processing, line detection and improving speed:
+	\paragraph{Pre-processing}
+	\begin{itemize}
+	\item laplacian filter
+	\item Edge detection 
+	\end{itemize}
+	
+	\paragraph{Line Detection}
+		\begin{itemize}
+		\item Radon Transform
+		\item Threshold transformed images 
+	\end{itemize}
+	\paragraph{Algorithm Speed}
+		\begin{itemize}
+		\item Using the FFT
+		\item Exploiting the method of image acquisition 
+	\end{itemize}
+	
+	The algorithm produced during the week was in no way perfect, struggling with some of the more 'difficult' images and ones where the wires were oblique. Results were presented to the industry partner but future callaboration was not forthcoming, a shame but potentially due to the military applications of such work. There is evidence that ITRES continued working on this problem with conference proceedings released in 2000 \cite{Babey}. TO READ THIS PLEASE!!!!!!!!
+	
+References \cite{Stockie2015}
+References article \cite{Jessop}
+	
+	
+	\subsubsection{Case Study 2}
 	
 	
 	
