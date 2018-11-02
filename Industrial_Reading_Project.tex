@@ -38,7 +38,7 @@
 	Even defining what it means to do Mathematical Research is fraught with complications. One can't just count all those employed by universities and higher education institutes as there are a large number of very talented mathematicians working elsewhere. 	Deloitte in their report 'Measuring the Economic Benefits of Mathematical Science Research in the UK' \cite{deloitteuk} count 'Mathematical Science Occupations' as those 'which either entail mathematical science research, or used mathematical science research-derived tools and techniques' a broad definition which includes individuals which need no understanding of the underlying tools or techniques an includes all hospital and healthcare managers, social science researchers and public service administrative professionals. All very valuable jobs but not ones that I would put in the category of 'Mathematical Science Occupations. 
 	In a similar report Doloitte produced on the dutch economy \ref{deloittedutch} they narrow this definition slightly by considering ' only people in jobs requiring a higher education' to be included.  A better but still quite broad definition.
 	One might suggest those people who currently use or research 'modern' mathematical science research tools, to avoid including all those people that use an excel spreadsheet to add up large numbers. But then the definition of modern is fraught, MORE HERE
-	For the purpose of this report, I  will consider Mathematics to be that which is of interest to academic mathematicians. Mathematics focuses on the underlying structure and pattern, looks for generalisations and derives exact or approximate solutions backed up by logical proof. The importnat clarification is that the application of well known techniques does not count. 
+	For the purpose of this report, I  will consider Mathematics to be that which is of interest to academic mathematicians. Mathematics focuses on the underlying structure and pattern, looks for generalisations and derives exact or approximate solutions backed up by logical proof. The important clarification is that the application of well known techniques does not count. 
 	
 	
  Defining Industry is perhaps simpler as I define it be any non-mathematical institution including: governments, businesses, manufacturers, other academic departments, hospitals, schools, charities etc. 
@@ -50,12 +50,12 @@
 		
 	\begin{itemize}
 	\item mathematics that is done by non-academic mathematicians who work as employee of a company
-	\item mathematics that is done by academic mathematicians within research instiutions for a company, or in collaboration with a company
+	\item mathematics that is done by academic mathematicians within research institutions for a company, or in collaboration with a company
 	\item mathematics that is inspired by industry and arise from an industrial setting. 
 	\end{itemize}
 	
 	
-	John stockie essay \cite{Stockie2015}.
+	John Stockie essay \cite{Stockie2015}.
 	\subsection{Significance}
 	Deloitte Report
 	
@@ -81,7 +81,7 @@
 	A long process!!!!
 	Intellectual Property issues 
 	\subsubsection{Funding} 
-	Talk about Bond Review and about 100 phd student places etc, boosting of EPSRC funding etc 
+	Talk about Bond Review and about 100 phd student places etc., boosting of EPSRC funding etc. 
 	\subsubsection{Academic Career Paths} 
 	Needs to be seen as a viable career option 
 	How to prevent people being snaffled to industry 
@@ -90,13 +90,13 @@
 	
 	I don't want to spend much time on this, but I would like to say that whatever happens, examples of success stories in industrial mathematics have demonstrated the need for collaboration: with industry, with other fields, with other departments and it will be vital for the continuing success of Industrial Mathematics that the spirit of collaboration is maintained. 
 	
-	\subsubsection{Case Study 1: Trip Wire Detection for Land Mines}
+	\subsection{Case Study 1: Trip Wire Detection for Land Mines}
 	
-	The first case study that really stood out to me, wht one brought to the second Industrial Problem-Solving Workshop (a Canadian version of the ESGI) held in Calgary in 1998. I follow an account of the project by one of the attendees, John Stockie \cite{Stockie2015} and the Study Group report \cite{Jessop}.
+	The first case study that really stood out to me, was one brought to the second Industrial Problem-Solving Workshop (a Canadian version of the ESGI) held in Calgary in 1998. I follow an account of the project by one of the attendees, John Stockie \cite{Stockie2015} and the Study Group report \cite{Jessop}.
 	
 The industrial partner was ITRES Research LTD and they were experimenting mounting a detection camera on a boom ahead of a slowly moving truck which would look vertically downwards. It was hoped that an automatic algorithm would be used to find trip wires appearing in the image. 
 	
-	A report, the Landmine Monitor, produced in 1999 \cite{landmine} suggests that at the time the of the Study Group there were more than 250million Antipersonnel Mines in Stockpiles of which they were particularly concerned about remotely-delivered, surface laid anti vehicle mines that utilize trip wires which could explode from innocent acts by individuals. 
+	A report, the Landmine Monitor, produced in 1999 \cite{landmine} suggests that at the time the of the Study Group there were more than 250million Anti-personnel Mines in Stockpiles of which they were particularly concerned about remotely-delivered, surface laid anti vehicle mines that utilize trip wires which could explode from innocent acts by individuals. 
 	
 	A clearly defined  problem, that could have huge benefits worldwide so why was this a study group problem? Why hadn't a solution been implemented already? There were some inherent difficulties in detecting a tripwire including:
 	\begin{itemize}
@@ -110,33 +110,55 @@ The industrial partner was ITRES Research LTD and they were experimenting mounti
 	
 	We will look at 3 elements of their work: pre-processing, line detection and improving speed:
 	\paragraph{Pre-processing}
-	\begin{itemize}
-	\item laplacian filter
-	\item Edge detection 
+\begin{itemize}
+	\item \textbf{Laplacian Filter}: Mathematicians love definitions and in this case careful consideration of the definition of a wire in an image indicates a possible direction of work. Defining image intensity to be a function $u(x,y)$ of position $(x,y)$ and thus a line, a sharp edge, is one in which the function $u(x,y) $ has a high curvature.
+	To enhance this feature the convolution of the image with a Laplacian filter is taken. This has a similar effect to taking the second derivative and accentuates regions of high curvature.	
+	\item \textbf{Edge detection }: Edges are then found in the filtered image using either the Sobel edge detector or the log method. The result is a binary image with found edges indicated. 
 	\end{itemize}
 	
 	\paragraph{Line Detection}
+	Continuing the theme of precise definitions: the differentiating factor between any old line and a potential trip wire is that a wire is locally straight and although could be partially hidden consists of a sequence of co-linear line segments. In order to detect such lines they use: 
 		\begin{itemize}
-		\item Radon Transform
-		\item Threshold transformed images 
+		\item \textbf{Radon Transform}: The Radon transform of a 2D image given by:
+		
+		\begin{equation}
+			R(\rho, \theta)=\int_{R^2} u(x,y)\delta(x\cos(\theta)+y\sin(\theta)-\rho) dx dy 					
+		\end{equation}
+		transforming the image from an $(x,y) $ domain to a $ (\rho, \theta)$ domain. Peaks in the $ (\rho, \theta)$ domain correspond to lines of the form $ x\cos(\theta)+y\sin(\theta)=\rho$ in the $(x,y) $ domain. 
+		\item \textbf{Threshold transformed images }: Finding the peaks in the $ (\rho, \theta)$ domain requires some sort of threshold. If the threshold is too high then no wires are found, too low and there are too many false positives. What is defined as a wire is independent of individual images but variations in images can cause additional noise inflating all the values in the $ (\rho, \theta)$ domain causing issues. This is not a simple issue. 
 	\end{itemize}
 	\paragraph{Algorithm Speed}
 		\begin{itemize}
-		\item Using the FFT
-		\item Exploiting the method of image acquisition 
+		\item \textbf{Using the FFT}: A the time of the Study Group Matlab's inbuilt Radon transform did not take advantage of the fast Fourier transform to speed up implementation. Such a possibility was discussed. 
+		\item \textbf{Exploiting the method of image acquisition}: Images are received from the camera as a sequence of lines that are constantly updated. Discussion was had as to how the intensities in the $ (\rho, \theta)$ domain can be continuously updated as each new line is attained, reducing the number of computations compared to repeatedly taking the radon transform of the whole image. 
 	\end{itemize}
 	
-	The algorithm produced during the week was in no way perfect, struggling with some of the more 'difficult' images and ones where the wires were oblique. Results were presented to the industry partner but future callaboration was not forthcoming, a shame but potentially due to the military applications of such work. There is evidence that ITRES continued working on this problem with conference proceedings released in 2000 \cite{Babey}. TO READ THIS PLEASE!!!!!!!!
+	The algorithm produced during the week was in no way perfect, struggling with some of the more 'difficult' images and ones where the wires were oblique. Results were presented to the industry partner but future collaboration was not forthcoming, a shame but potentially due to the military applications of such work. There is evidence that ITRES continued working on this problem with conference proceedings released in 2000 \cite{Babey}. \emph{TO READ THIS PLEASE!!!!!!!!}
 	
 
 	
 	
-	\subsubsection{Case Study 2}
+	\subsection{Case Study 2: ATM filling in with cash -something ESGI Maybe not this one!!!!!!!}
+	
+	Potentially Gabor Filter Section and Computational Processing for Emotion Recognition 
+	
+	Shelter- Homeless Populations 
 	
 	
+	 Or dough defrosting 
 	
 	
-	\section{Real Case Study: Title here }
+	\subsection{Case Study 3: Optimisation of the “118” Emergency Management System in Milan  }
+	
+	''In spite of being developed by academic personnel, the outcome of the project has been actually implemented''
+	
+	https://link.springer.com/content/pdf/10.1007\%2F978-3-642-23848-2.pdf
+	
+	
+	\subsection{Case Study 4: Mathematical Modelling of the Dynamics of Meningococcal Meningitis in Africa  }
+	Or maybe avalanches- have something physical????
+	
+	\section{Real Case Study}
 	
 	\section{Final Thoughts} 
 

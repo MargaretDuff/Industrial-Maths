@@ -5,15 +5,17 @@
 \contentsline {subsection}{\numberline {2.3}Mechanisms}{2}
 \contentsline {subsection}{\numberline {2.4}Successes}{2}
 \contentsline {subsection}{\numberline {2.5}Challenges}{2}
-\contentsline {subsubsection}{\numberline {2.5.1}Identifying Suitable Problems and Creating links}{2}
+\contentsline {subsubsection}{\numberline {2.5.1}Identifying Suitable Problems and Creating links}{3}
 \contentsline {subsubsection}{\numberline {2.5.2}Building working relationships}{3}
 \contentsline {subsubsection}{\numberline {2.5.3}Funding}{3}
 \contentsline {subsubsection}{\numberline {2.5.4}Academic Career Paths}{3}
 \contentsline {subsubsection}{\numberline {2.5.5}Brexit}{3}
-\contentsline {subsubsection}{\numberline {2.5.6}Case Study 1: Trip Wire Detection for Land Mines}{3}
+\contentsline {subsection}{\numberline {2.6}Case Study 1: Trip Wire Detection for Land Mines}{3}
 \contentsline {paragraph}{Pre-processing}{4}
 \contentsline {paragraph}{Line Detection}{4}
 \contentsline {paragraph}{Algorithm Speed}{4}
-\contentsline {subsubsection}{\numberline {2.5.7}Case Study 2}{4}
-\contentsline {section}{\numberline {3}Real Case Study: Title here }{4}
-\contentsline {section}{\numberline {4}Final Thoughts}{4}
+\contentsline {subsection}{\numberline {2.7}Case Study 2: ATM filling in with cash -something ESGI Maybe not this one!!!!!!!}{4}
+\contentsline {subsection}{\numberline {2.8}Case Study 3: Optimisation of the “118” Emergency Management System in Milan }{5}
+\contentsline {subsection}{\numberline {2.9}Case Study 4: Mathematical Modelling of the Dynamics of Meningococcal Meningitis in Africa }{5}
+\contentsline {section}{\numberline {3}Real Case Study}{5}
+\contentsline {section}{\numberline {4}Final Thoughts}{5}
