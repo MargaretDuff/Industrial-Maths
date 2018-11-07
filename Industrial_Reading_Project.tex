@@ -12,7 +12,7 @@
 
 \usepackage{float} % Allows putting an [H] in \begin{figure} to specify the exact location of the figure
 
-%\usepackage{cite}
+\usepackage{cite}
 
 \begin{document}
 	
@@ -36,7 +36,7 @@
 	Defining the language and descriptors of  Industrial Maths is not a simple task indeed many writers choose a range of definitions. 
 	
 	Even defining what it means to do Mathematical Research is fraught with complications. One can't just count all those employed by universities and higher education institutes as there are a large number of very talented mathematicians working elsewhere. 	Deloitte in their report 'Measuring the Economic Benefits of Mathematical Science Research in the UK' \cite{deloitteuk} count 'Mathematical Science Occupations' as those 'which either entail mathematical science research, or used mathematical science research-derived tools and techniques' a broad definition which includes individuals which need no understanding of the underlying tools or techniques an includes all hospital and healthcare managers, social science researchers and public service administrative professionals. All very valuable jobs but not ones that I would put in the category of 'Mathematical Science Occupations. 
-	In a similar report Doloitte produced on the dutch economy \ref{deloittedutch} they narrow this definition slightly by considering ' only people in jobs requiring a higher education' to be included.  A better but still quite broad definition.
+	In a similar report Doloitte produced on the Dutch economy \ref{deloittedutch} they narrow this definition slightly by considering ' only people in jobs requiring a higher education' to be included.  A better but still quite broad definition.
 	One might suggest those people who currently use or research 'modern' mathematical science research tools, to avoid including all those people that use an excel spreadsheet to add up large numbers. But then the definition of modern is fraught, MORE HERE
 	For the purpose of this report, I  will consider Mathematics to be that which is of interest to academic mathematicians. Mathematics focuses on the underlying structure and pattern, looks for generalisations and derives exact or approximate solutions backed up by logical proof. The important clarification is that the application of well known techniques does not count. 
 	
@@ -140,12 +140,77 @@ The industrial partner was ITRES Research LTD and they were experimenting mounti
 	
 	\subsection{Case Study 2 - Shelter: Homeless Populations}
 	
-	Potentially Gabor Filter Section and Computational Processing for Emotion Recognition 
+   Brought to ESGI 29, held in Oxford in March 1996 a problem from the charity Shelter to model the numbers of homeless and non-homeless people in a Borough. The model should then be able to predict changes in homeless populations as a result in changes of local policy. I follow the report produced at the end of the study group \cite{Shelter1996}
 	
-	Shelter- Homeless Populations 
+	The populations was split into broad classes: 
+	\begin{itemize}
+		\item $ T= $ N umber of households in temporary accommodation (Homeless)
+		\item $  P= $ Number of households permanently resident in council housing stock
+		\item $ G= $ Number of households in private sector accommodation 
+	\end{itemize}
+	This is then further subdivided as:
+	\begin{itemize}
+		\item $ P_R= $ Number of households in council stock and not  seeking transfer to other council housing stock 
+		\item $ P_N= $ Number of households in council stock and seeking transfer 
+		\item $ G_R= $ Number of households in private sector accommodation seeking transfer to council housing stock 
+		\item $ G_N= $ Number of households in private sector accommodation and not seeking transfer
+	\end{itemize}
+
+Hence we have the following relations 
+\begin{itemize}
+	\item $ P=P_R+P_N $
+	\item $ G=G_R+G_N $
 	
+\end{itemize}
+
+Also define: 
+\begin{itemize}
+	\item Number of Households on the register,$  R=T+P_R+G_R $
+	\item $ P_0 = $ Total availability of housing stock 
+	\item $ G_0= $ Total number of households in the Borough
+\end{itemize}
+
+The flows in and out of population groups are shown in Figure \ref{fig:homelessrates}. A few assumptions about negligible flows have been assumed to simplify the problem: it is assumed that homeless families only come form the private sector and also that flows from $ G_R $ to $ G_N $ and $ T $ back to $ G $ are negligible. 
+
+This gives a system of differential equations
+\begin{eqnarray}
+\frac{dG_N}{dt}=-k_5 G_N-k_3 G_n +k_6 P\\
+\frac{dG_R}{dt}=-k_5 G_R +k_3 G_N -k_4 (P_0-P)G_R\\
+\frac{dT}{dt}=k_5 G -k_1(P_0 -P)T\\
+\frac{dP_N}{dt}=-k_6 P_N -k_7 P_N +(P_0-P)(k_4 G_R +k_1 T+k_8 P_R)\\
+\frac{dP_R}{dt}=-k_6 P_R+k_7 P_N -k_8(P_0-P)P_R
+\end{eqnarray}
+	 \begin{figure}
+	 	\centering
+	 	\includegraphics[width=0.7\linewidth]{Report_images/homeless_rates}
+	 	
+	 	\caption{A diagram to show  flows and and associated rates of households moving  between population groups}
+	 	\label{fig:homelessrates}
+	 \end{figure}
+	 
+	These equations implicitly assume that:  
+	\begin{itemize}
+		\item Birth and death rates can be neglected
+		\item No migration in and out of the borough 
+		item Rates depend only on the present circumstances there is no delay e.g. due to administrative processes 
+	\end{itemize}
+
+These equations look intractable but substituting $ G_0=P+T+G_r+G_N $ and $ G_0=G+P+T$ reduces the system to 3 differential equations:
+
+\begin{eqnarray}
+\frac{dT}{dt}=k_5 G -k_1(P_0 -P)T\\
+\frac{dG_R}{dt}=-k_5 G_R+k_3(G_0-P-T-G_R)-k_4(P_0-P)G_R\\
+\frac{dP}{dt}=-k_6P+(P_0-P)(k_4G_R+k_1T)
+\end{eqnarray}
 	
-	 Or dough defrosting 
+	They looked for equilibrium solutions, so setting the left hand side of the equations to zero. They were able to see that a feasible equilibrium solution always exists, where the number of occupied council houses is positive but no greater than the number actually available. 
+	
+	Looking for analytic solutions of the equations in full generality was deemed unproductive for the short intensive time available in a Study group so focus was moved to looking for numerical solutions. 
+	
+	Methodology
+	
+	Results: 
+	
 	
 	
 	\subsection{Case Study 3: Optimisation of the “118” Emergency Management System in Milan  }
