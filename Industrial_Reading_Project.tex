@@ -227,7 +227,74 @@ These equations look intractable but substituting $ G_0=P+T+G_r+G_N $ and $ G_0=
 	
 	
 	\subsection{Case Study 4: Mathematical Modelling of the Dynamics of Meningococcal Meningitis in Africa  }
-	Or maybe avalanches- have something physical????
+The book " UK Success stories in Industrial Mathematics" \cite{Aston2016} is a collection of cases studies selected from those Impact Case Studies submitted to the 2014 Research Excellence Framework. They are seen as shining examples of the mathematical sciences community engaging with problems and organisations outside of academia. 36 problems were selected out of the 250 submitted for the REF and I aimed to pick just one to write up as a case study- a challenge indeed!
+
+
+The African meningitis belt spans sub Saharan Africa and see periodic fluctuations of meningococcal meningitis , cases appearing every dry season, drop off over the rainy season and a major epidemic emerges every 6-14years. Across the world, meningitis causes about 135,000 deaths annually and substantial data is available across the African meningitis belt, so mathematical modelling of epidemiology of meningogococcal meningitis could lead to substantial benefits. Indeed, modelling has been attempted by a number of groups but we follow the work by K.B.Blyuss at the University of Sussex described in " UK Success stories in Industrial Mathematics."
+
+The standard SIR model is adapted to include 4 population groups:
+\begin{itemize}
+	\item S= Susceptible
+	\item C=Carriers
+	\item I=Infected
+	\item R=Recovered
+\end{itemize}
+The total population is $ N=S+C+I+R $ and we define the following rates:
+\begin{itemize}
+	\item $ \beta =$ the transmission rate
+	\item $ a= $ the rate at which carriers develop an invasive disease
+	\item $ \alpha =$ the rate at which carriers recover 
+	\item $ \rho= $ the rate at which individuals with invasive disease recover
+	\item $ \phi = $ the rate at which recovered individuals loose their immunity becoming susceptible again 
+	\item $ \mu = $ natural death rate
+	\item $ \gamma = $ disease induced death rate
+	
+\end{itemize}
+
+The birth rate is chosen to be $ b=\mu N =\gamma I  $ so that the total population $ N=S+C+I+R $ is constant, giving equations: 
+
+\begin{eqnarray}
+	\frac{dS}{dt}= b +\phi R-\beta \frac{S(C+I)}{N}-\mu S\\
+	\frac{dC}{dt}=\beta \frac{S(C+I)}{N}-(a+\alpha+\mu)C\\
+	\frac{dI}{dt}=aC-(\rho +\gamma+\mu)I\\
+	\frac{dR}{dt}=\rho I +\alpha C-(\phi+\mu)R
+\end{eqnarray}
+	
+	Which under rescaling by $ N $ and using  $ I=S+C+I+R $ to remove $ S $ from the equations gives
+	\begin{eqnarray}
+	\dot{C}=\beta(1-C-I-R)(C+I)-(a+\alpha+\mu)C\\
+	\dot{I}=aC-(\rho+\gamma+\mu)I\\
+	\dot{R}=\rho I+\alpha C-(\phi+\mu)R
+	\end{eqnarray}
+	
+	We look for steady state solutions when $ \dot{C}=\dot{I}=\dot{R}=0 $. Messy calculations but one finds:
+	\begin{eqnarray}
+	C^*=\lambda (\phi+\mu)(\rho+\gamma+\mu)\\
+	I^*=\lambda a(\phi+\mu)\\
+	R^*=\lambda(\alpha(\rho+\gamma+\mu)+\rho\alpha)
+	\end{eqnarray}
+	
+	Where $ \lambda $ is a proportionality constant that can be found by subbing into $  \dot{C}=0 $ giving $ \lambda=0 $:
+	
+	\begin{eqnarray}
+	\lambda=\frac{\beta(\gamma+\rho+\mu+a)-(\gamma+\rho+\mu)(\alpha+a+\mu)}{\beta(\rho+\mu+a)[(\rho+\gamma+\mu)(\phi+\mu+\alpha)+a(\phi+\mu+\rho)]}\\
+	=\frac{(\rho+\gamma+\mu)(a+\alpha+\mu)}{\beta(\rho+\mu+a)[(\rho+\gamma+\mu)(\phi+\mu+\alpha)+a(\phi+\mu+\rho)]}\frac{\beta(\gamma+\rho+\mu+a)-(\gamma+\rho+\mu)(\alpha+a+\mu)}{(\rho+\gamma+\mu)(a+\alpha+\mu)}\\
+	=\frac{(\rho+\gamma+\mu)(a+\alpha+\mu)}{\beta(\rho+\mu+a)[(\rho+\gamma+\mu)(\phi+\mu+\alpha)+a(\phi+\mu+\rho)]}\left( \frac{\beta(\gamma+\rho+\mu+a)}{(\rho+\gamma+\mu)(a+\alpha+\mu)}-1\right) 
+	\end{eqnarray}
+	
+	
+	An important quantity to identify when looking at epidemiology models is the reproduction number $ R_0 $ defined as the expected number of secondary cases produced by a single infection in a completely susceptible population. This needs to be greater than one for an epidemic to take hold, if $ R_0<1 $ the only steady state is at $ E_0=(0,0,0) $, $ S=N $ and there is a disease free state.
+	For $ R_0>1 $ a new stable stationary point should exist for values of $ C,I,R>0 $ while the steady state at $ E_0=(0,0,0) $ should become unstable. 
+	In our case looking at our two potential steady states and the equations for $\lambda$ we find that in order for $C^*, I^*, R^*>0$ we require : 
+	
+	\begin{eqnarray}
+	R_0=\frac{\beta(\gamma+\rho+\mu+a)}{(\gamma+\rho+\mu)(a+\alpha+\mu )}>1
+	\end{eqnarray}
+	Giving us the reproduction number and valuable information about in which circumstances meningitis will spread or be contained. 
+	
+	
+	
+	
 	
 	\section{Real Case Study}
 	

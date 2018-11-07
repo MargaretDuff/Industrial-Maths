@@ -17,5 +17,5 @@
 \contentsline {subsection}{\numberline {2.7}Case Study 2 - Shelter: Homeless Populations}{4}
 \contentsline {subsection}{\numberline {2.8}Case Study 3: Optimisation of the \IeC {\textquotedblleft }118\IeC {\textquotedblright } Emergency Management System in Milan }{6}
 \contentsline {subsection}{\numberline {2.9}Case Study 4: Mathematical Modelling of the Dynamics of Meningococcal Meningitis in Africa }{7}
-\contentsline {section}{\numberline {3}Real Case Study}{7}
-\contentsline {section}{\numberline {4}Final Thoughts}{7}
+\contentsline {section}{\numberline {3}Real Case Study}{8}
+\contentsline {section}{\numberline {4}Final Thoughts}{8}
