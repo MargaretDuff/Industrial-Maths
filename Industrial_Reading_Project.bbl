@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{Shelter1996}
 {Shelter: Homeless Populations}, 1996.
@@ -28,6 +28,11 @@ Philip Bond.
   in the Mathematical Sciences}.
 \newblock Technical report.
 
+\bibitem{Irving2012}
+T~J Irving, K~B Blyuss, C~Colijn, and C~L Trotter.
+\newblock {Modelling meningococcal meningitis in the African meningitis belt}.
+\newblock Technical Report~5, 2012.
+
 \bibitem{Jessop}
 Chris Jessop, Michael Lamoureux, Joshua Madden, David Saunders, Bill Vetter,
   Chris Budd, and John Stockie.
@@ -38,5 +43,10 @@ Chris Jessop, Michael Lamoureux, Joshua Madden, David Saunders, Bill Vetter,
 John~M. Stockie.
 \newblock {Mathematics For Industry: A Personal Perspective}.
 \newblock sep 2015.
+
+\bibitem{VanDenDriessche}
+P~{Van Den Driessche} and James Watmough.
+\newblock {Reproduction numbers and sub-threshold endemic equilibria for
+  compartmental models of disease transmission}, 2002.
 
 \end{thebibliography}

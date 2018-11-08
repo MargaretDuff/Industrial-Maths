@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.6)  7 NOV 2018 17:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.6)  8 NOV 2018 10:57
 entering extended mode
 **./Industrial_Reading_Project.tex
 (Industrial_Reading_Project.tex
@@ -232,20 +232,20 @@ Package pdftex.def Info: Report_images/homeless_rates.jpg  used on input line 1
 (pdftex.def)             Requested size: 338.58632pt x 243.68292pt.
  [5]
 [6 <./Report_images/homeless_rates.jpg>] [7]
-Overfull \hbox (3.03613pt too wide) in alignment at lines 279--283
+Overfull \hbox (3.03613pt too wide) in alignment at lines 281--285
  [][][] []
  []
 
-(Industrial_Reading_Project.bbl) [8] (Industrial_Reading_Project.aux)
+[8] (Industrial_Reading_Project.bbl [9]) [10] (Industrial_Reading_Project.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2121 strings out of 492970
- 30763 string characters out of 3135852
- 105790 words of memory out of 3000000
- 5972 multiletter control sequences out of 15000+200000
+ 2123 strings out of 492970
+ 30792 string characters out of 3135852
+ 106797 words of memory out of 3000000
+ 5974 multiletter control sequences out of 15000+200000
  9818 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,7n,29p,938b,223s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -262,9 +262,9 @@ gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Industrial_Reading_Project.pdf (8 pages, 275107 bytes).
+Output written on Industrial_Reading_Project.pdf (10 pages, 281502 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
+ 92 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

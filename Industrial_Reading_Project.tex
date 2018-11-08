@@ -227,11 +227,13 @@ These equations look intractable but substituting $ G_0=P+T+G_r+G_N $ and $ G_0=
 	
 	
 	\subsection{Case Study 4: Mathematical Modelling of the Dynamics of Meningococcal Meningitis in Africa  }
-The book " UK Success stories in Industrial Mathematics" \cite{Aston2016} is a collection of cases studies selected from those Impact Case Studies submitted to the 2014 Research Excellence Framework. They are seen as shining examples of the mathematical sciences community engaging with problems and organisations outside of academia. 36 problems were selected out of the 250 submitted for the REF and I aimed to pick just one to write up as a case study- a challenge indeed!
+The book "UK Success stories in Industrial Mathematics" \cite{Aston2016} is a collection of cases studies selected from those Impact Case Studies submitted to the 2014 Research Excellence Framework. They are seen as shining examples of the mathematical sciences community engaging with problems and organisations outside of academia. 36 problems were selected out of the 250 submitted for the REF and I aimed to pick just one to write up as a case study- a challenge indeed!
 
 
-The African meningitis belt spans sub Saharan Africa and see periodic fluctuations of meningococcal meningitis , cases appearing every dry season, drop off over the rainy season and a major epidemic emerges every 6-14years. Across the world, meningitis causes about 135,000 deaths annually and substantial data is available across the African meningitis belt, so mathematical modelling of epidemiology of meningogococcal meningitis could lead to substantial benefits. Indeed, modelling has been attempted by a number of groups but we follow the work by K.B.Blyuss at the University of Sussex described in " UK Success stories in Industrial Mathematics."
+The African meningitis belt spans sub Saharan Africa and see periodic fluctuations of meningococcal meningitis , cases appearing every dry season, drop off over the rainy season and a major epidemic emerges every 6-14years. Across the world, meningitis causes about 135,000 deaths annually and substantial data is available across the African meningitis belt, so mathematical modelling of epidemiology of meningogococcal meningitis could lead to substantial benefits. Indeed, modelling has been attempted by a number of groups but we follow the work by K.B.Blyuss at the University of Sussex described in "UK Success stories in Industrial Mathematics." and the associated paper \cite{Irving2012}.
 
+NOT THE ONLY MODEL THEY INVESTIGATED -NEED A LINE ABOUT THIS 
+\paragraph{Initial Modelling and Identification of Reproduction Number  }
 The standard SIR model is adapted to include 4 population groups:
 \begin{itemize}
 	\item S= Susceptible
@@ -251,7 +253,7 @@ The total population is $ N=S+C+I+R $ and we define the following rates:
 	
 \end{itemize}
 
-The birth rate is chosen to be $ b=\mu N =\gamma I  $ so that the total population $ N=S+C+I+R $ is constant, giving equations: 
+The birth rate is chosen to be $ b=\mu N +\gamma I  $ so that the total population $ N=S+C+I+R $ is constant. This assumption is only suitable for relatively short term modelling before the assumptions break down but it is a good starting point and gives equations: 
 
 \begin{eqnarray}
 	\frac{dS}{dt}= b +\phi R-\beta \frac{S(C+I)}{N}-\mu S\\
@@ -274,7 +276,7 @@ The birth rate is chosen to be $ b=\mu N =\gamma I  $ so that the total populati
 	R^*=\lambda(\alpha(\rho+\gamma+\mu)+\rho\alpha)
 	\end{eqnarray}
 	
-	Where $ \lambda $ is a proportionality constant that can be found by subbing into $  \dot{C}=0 $ giving $ \lambda=0 $:
+	Where $ \lambda $ is a proportionality constant that can be found by subbing into $  \dot{C}=0 $ giving $ \lambda=0 $ or:
 	
 	\begin{eqnarray}
 	\lambda=\frac{\beta(\gamma+\rho+\mu+a)-(\gamma+\rho+\mu)(\alpha+a+\mu)}{\beta(\rho+\mu+a)[(\rho+\gamma+\mu)(\phi+\mu+\alpha)+a(\phi+\mu+\rho)]}\\
@@ -283,18 +285,63 @@ The birth rate is chosen to be $ b=\mu N =\gamma I  $ so that the total populati
 	\end{eqnarray}
 	
 	
-	An important quantity to identify when looking at epidemiology models is the reproduction number $ R_0 $ defined as the expected number of secondary cases produced by a single infection in a completely susceptible population. This needs to be greater than one for an epidemic to take hold, if $ R_0<1 $ the only steady state is at $ E_0=(0,0,0) $, $ S=N $ and there is a disease free state.
-	For $ R_0>1 $ a new stable stationary point should exist for values of $ C,I,R>0 $ while the steady state at $ E_0=(0,0,0) $ should become unstable. 
-	In our case looking at our two potential steady states and the equations for $\lambda$ we find that in order for $C^*, I^*, R^*>0$ we require : 
+	An important quantity to identify when looking at epidemiology models is the reproduction number,  $  R_0 $. As defined in \cite{VanDenDriessche} it is such that if $ R_0 < 1 $, then the disease free  steady state $ (C,I,R)=(0,0,0) $ is stable, and the disease cannot invade the population, but if $  R_0 > 1 $, the disease free steady-state is unstable and an epidemic can take hold. 
+	For $ R_0>1 $ a new stable stationary point should exist for values of $ C,I,R>0 $.
+	In our case looking at our two potential steady states and the equations for $\lambda$ we find that in order for $C^*, I^*, R^*>0$ we require: 
 	
 	\begin{eqnarray}
 	R_0=\frac{\beta(\gamma+\rho+\mu+a)}{(\gamma+\rho+\mu)(a+\alpha+\mu )}>1
 	\end{eqnarray}
 	Giving us the reproduction number and valuable information about in which circumstances meningitis will spread or be contained. 
 	
+Again using \cite{VanDenDriessche}  a more qualitative description fo the reproduction number is  the number of new infections produced by a typical infective individual in a population at a disease free steady state.  If $ R_0 < 1 $, then on average an infected individual produces less than one new infected	individual over the course of its infectious period, and the infection cannot grow. Conversely, if 	$ R_0 > 1 $, then each infected individual produces, on average, more than one new infection, and the disease can invade the population. 
+
+
+We consider adding a new carrier to an otherwise healthy population. Two things can happen, the carrier can directly infect healthy members of the population or the carrier can become infected and then infect healthy members of the population. 
+
+The expected amount of time the carrier remains a carrier is
+ \begin{eqnarray}
+\frac{1}{a+\alpha+\mu}
+\end{eqnarray}
+and as a carrier they infect members of the general population at rate $ \beta $ giving expected number of people infected by a single carrier that doesn't become infected is:
+ \begin{eqnarray}
+\frac{\beta}{a+\alpha+\mu}
+\end{eqnarray}
+
+The carrier becomes infected with probability 
+ \begin{eqnarray}
+\frac{a}{a+\alpha+\mu}
+\end{eqnarray}
+calculated from the expect time the carrier remains a carrier multiplied by the rate of contracting the infection. The expected time they remain infected is: 
+ \begin{eqnarray}
+\frac{1}{\rho+\delta+\mu }
+\end{eqnarray}
+and they infect healthy individuals with rate $\beta  $
+
+Thus the expected number of new cases is: 
+
+\begin{eqnarray}
+R_0=\frac{\beta}{a+\alpha+\mu}+\frac{a}{a+\alpha+\mu}\frac{\beta}{\rho+\delta+\mu }\\
+=\frac{\beta(\gamma+\rho+\mu+a)}{(\gamma+\rho+\mu)(a+\alpha+\mu )}
+\end{eqnarray}
+Matching the result from before.
+
+\paragraph{Adding the seasonal effects  }
+
+
+To try and explain the seasonal variations in the number of cases, they introduced a seasonally varying rate of disease transmission:
+\begin{eqnarray}
+\beta(t)=\beta_0(1+\epsilon_\beta \cos(2\pi t))
+\end{eqnarray}
 	
-	
-	
+The model then exhibits a wide variety of dynamical behaviours and importantly, sees chaotic behaviour for a range of values of $\phi$ which is significant as $\frac{1}{\phi}$ is the expected duration of temporary immunity. Simulations suggest that that the model is able to produce the regular annual epidemics as well as epidemics with larger periods, can produce different amplitudes of epidemics and chaotic behaviour such as which is seen in the data. The longer inter epidemic periods, such as the 6-14years seen in the data corresponds to $\frac{1}{\phi}\approx 2 $ years.  
+\paragraph{Impact}
+
+\begin{itemize}
+	\item The model highlighted the important role of the temporary immunity and the value of the constant $\phi$. A focus on computing an accurate value for this constant or working clinically to alter its value could be hugely beneficial
+	\item An accurate value of the reproduction rate, $ R_0 $ is important when optimising vaccination deployment, reducing costs and increasing effectiveness. 
+	\item Future work could look at including spatial effects, potentially including satellite and meteorological data. An advance disease warning system, for the larger deadlier outbreaks every 6-14years would be hugely beneficial. 
+\end{itemize}
 	
 	\section{Real Case Study}
 	
