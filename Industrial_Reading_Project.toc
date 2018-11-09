@@ -19,6 +19,6 @@
 \contentsline {subsection}{\numberline {2.9}Case Study 4: Mathematical Modelling of the Dynamics of Meningococcal Meningitis in Africa }{7}
 \contentsline {paragraph}{Initial Modelling and Identification of Reproduction Number }{7}
 \contentsline {paragraph}{Adding the seasonal effects }{9}
-\contentsline {paragraph}{Impact}{9}
-\contentsline {section}{\numberline {3}Real Case Study}{9}
-\contentsline {section}{\numberline {4}Final Thoughts}{9}
+\contentsline {paragraph}{Impact}{10}
+\contentsline {section}{\numberline {3}Real Case Study}{10}
+\contentsline {section}{\numberline {4}Final Thoughts}{10}

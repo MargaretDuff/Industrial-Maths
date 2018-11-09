@@ -44,7 +44,7 @@
  Defining Industry is perhaps simpler as I define it be any non-mathematical institution including: governments, businesses, manufacturers, other academic departments, hospitals, schools, charities etc. 
 
 
-		For industrial mathematics, we could perhaps use words such as: 'applicable', 'interdisciplinary, ' applied', 'knowledge transfer' or 'mathematics communication'. The Bond Report \cite{Bond} describes '\textit{Impactful Mathematics} as any mathematical method that has practical application and generates societal and/or economic value'. 
+		For industrial mathematics, we could perhaps use words such as: 'applicable', 'interdisciplinary, 'applied', 'knowledge transfer' or 'mathematics communication'. The Bond Report \cite{Bond} describes '\textit{Impactful Mathematics} as any mathematical method that has practical application and generates societal and/or economic value'. 
 		
 		For this report I will use the definition John Stockie describes in his essay 'Mathematics for Industry A personal Perspective' \cite{Stockie2015} that Industrial Mathematics includes: 
 		
@@ -220,28 +220,51 @@ These equations look intractable but substituting $ G_0=P+T+G_r+G_N $ and $ G_0=
 	FUTURE WORK??????
 	
 	\subsection{Case Study 3: Optimisation of the “118” Emergency Management System in Milan  }
+	The book "European Success Stories in Industrial Mathematics" \ref{Lery2011} contains a wealth of great examples of effective knowledge transfer and collaboration. One particular example, "Optimisation of the "118" Emergency Management System in Milan" attracted me because of its real-world importance and clear mathematical optimisation problem but also because of a particular sentence: 
 	
-	''In spite of being developed by academic personnel, the outcome of the project has been actually implemented''
+	\begin{quote}
+		''In spite of being developed by academic personnel, the outcome of the project has been actually implemented''
+	\end{quote}
+
+	Perhaps, not a sentence I should have taken out of context, but CONTINUE HERE 
 	
-	https://link.springer.com/content/pdf/10.1007\%2F978-3-642-23848-2.pdf
+	
+
+	I follow the 2013 paper by R. Arinhieri, G. Carello and D. Morale \cite{Aringhieri2016}  to describe this case study.
 	
 	
 	\subsection{Case Study 4: Mathematical Modelling of the Dynamics of Meningococcal Meningitis in Africa  }
 The book "UK Success stories in Industrial Mathematics" \cite{Aston2016} is a collection of cases studies selected from those Impact Case Studies submitted to the 2014 Research Excellence Framework. They are seen as shining examples of the mathematical sciences community engaging with problems and organisations outside of academia. 36 problems were selected out of the 250 submitted for the REF and I aimed to pick just one to write up as a case study- a challenge indeed!
 
 
-The African meningitis belt spans sub Saharan Africa and see periodic fluctuations of meningococcal meningitis , cases appearing every dry season, drop off over the rainy season and a major epidemic emerges every 6-14years. Across the world, meningitis causes about 135,000 deaths annually and substantial data is available across the African meningitis belt, so mathematical modelling of epidemiology of meningogococcal meningitis could lead to substantial benefits. Indeed, modelling has been attempted by a number of groups but we follow the work by K.B.Blyuss at the University of Sussex described in "UK Success stories in Industrial Mathematics." and the associated paper \cite{Irving2012}.
+The African meningitis belt spans sub Saharan Africa and see periodic fluctuations of meningococcal meningitis, cases appearing every dry season, drop off over the rainy season and a major epidemic emerges every 6-14years. Across the world, meningitis causes about 135,000 deaths annually and substantial data is available across the African meningitis belt, so mathematical modelling of epidemiology of meningococcal meningitis could lead to substantial benefits. Indeed, modelling has been attempted by a number of groups but we follow the work by K.B.Blyuss at the University of Sussex described in "UK Success stories in Industrial Mathematics." and the associated paper \cite{Irving2012}.
 
-NOT THE ONLY MODEL THEY INVESTIGATED -NEED A LINE ABOUT THIS 
+
 \paragraph{Initial Modelling and Identification of Reproduction Number  }
-The standard SIR model is adapted to include 4 population groups:
+Looking for a simple model the team looked towards the standard SIR model. In the case of meningitis, individuals can be carriers without developing the infection and there is a high ratio of carriers to cases, thus an additional "carrier" class was a necessary addition, giving 4 classes: 
 \begin{itemize}
 	\item S= Susceptible
 	\item C=Carriers
 	\item I=Infected
 	\item R=Recovered
 \end{itemize}
-The total population is $ N=S+C+I+R $ and we define the following rates:
+The total population is $ N=S+C+I+R $. The question of temporary immunity was a major part of this work and they considered a variety of models where there was:
+\begin{itemize}
+	\item no immunity, and thus no recovered class, recovered individuals went straight  to susceptible 
+	\item   immunity only if they have had developed a meningitis infection, if individuals had only been a carrier then they got new immunity
+	\item immunity if they had been a carrier, developed the infection or both
+\end{itemize}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{Report_images/meningitis_model}
+	\caption{A diagram to show the flows between population groups in the chosen meningitus model, taken from Fig 2 in paper  \cite{Irving2012}}
+	\label{fig:meningitismodel}
+\end{figure}
+
+
+
+ Modelling all 3 cases they found the best fit to the observed data was the last case and the model shown in FIgure \ref{fig:meningitismodel}, with rates defined as followed:
 \begin{itemize}
 	\item $ \beta =$ the transmission rate
 	\item $ a= $ the rate at which carriers develop an invasive disease
@@ -250,7 +273,7 @@ The total population is $ N=S+C+I+R $ and we define the following rates:
 	\item $ \phi = $ the rate at which recovered individuals loose their immunity becoming susceptible again 
 	\item $ \mu = $ natural death rate
 	\item $ \gamma = $ disease induced death rate
-	
+
 \end{itemize}
 
 The birth rate is chosen to be $ b=\mu N +\gamma I  $ so that the total population $ N=S+C+I+R $ is constant. This assumption is only suitable for relatively short term modelling before the assumptions break down but it is a good starting point and gives equations: 
