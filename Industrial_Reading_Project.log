@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.6)  9 NOV 2018 14:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.6)  12 NOV 2018 09:25
 entering extended mode
 **./Industrial_Reading_Project.tex
 (Industrial_Reading_Project.tex
@@ -223,31 +223,37 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 52.
- [2] [3] [4]
+ [2] [3]
+Overfull \hbox (97.93005pt too wide) in paragraph at lines 145--146
+\OT1/cmr/m/n/10.95 To READ https://www.gov.scot/binaries/content/documents/govs
+cot/publications/research-publication/2018/06/health-
+ []
+
+[4]
 <Report_images/homeless_rates.jpg, id=26, 599.841pt x 431.6928pt>
 File: Report_images/homeless_rates.jpg Graphic file (type jpg)
 <use Report_images/homeless_rates.jpg>
 Package pdftex.def Info: Report_images/homeless_rates.jpg  used on input line 1
-87.
+89.
 (pdftex.def)             Requested size: 338.58632pt x 243.68292pt.
  [5]
 
-LaTeX Warning: Reference `Lery2011' on page 6 undefined on input line 223.
+LaTeX Warning: Reference `Lery2011' on page 6 undefined on input line 225.
 
 [6 <./Report_images/homeless_rates.jpg>]
 <Report_images/meningitis_model.jpg, id=34, 637.4214pt x 255.354pt>
 File: Report_images/meningitis_model.jpg Graphic file (type jpg)
 <use Report_images/meningitis_model.jpg>
 Package pdftex.def Info: Report_images/meningitis_model.jpg  used on input line
- 260.
+ 262.
 (pdftex.def)             Requested size: 338.58632pt x 135.64088pt.
  [7]
-Overfull \hbox (3.03613pt too wide) in alignment at lines 304--308
+Overfull \hbox (3.03613pt too wide) in alignment at lines 306--310
  [][][] []
  []
 
 [8 <./Report_images/meningitis_model.jpg>] [9] (Industrial_Reading_Project.bbl)
-[10] (Industrial_Reading_Project.aux)
+[10] [11] (Industrial_Reading_Project.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -255,7 +261,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  2131 strings out of 492970
  31014 string characters out of 3135852
- 105809 words of memory out of 3000000
+ 106809 words of memory out of 3000000
  5981 multiletter control sequences out of 15000+200000
  9818 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -273,9 +279,9 @@ gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Industrial_Reading_Project.pdf (10 pages, 323339 bytes).
+Output written on Industrial_Reading_Project.pdf (11 pages, 324350 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
+ 96 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
