@@ -241,7 +241,7 @@ These equations look intractable but substituting $ G_0=P+T+G_r+G_N $ and $ G_0=
 	They focused on 3 areas: evaluation of the current EMS system; study of operational policies which can improve the system performance through a simulation model and using optimisation to fund an alternative set of ambulance posts. 
 	\begin{figure}
 		\centering
-		\includegraphics[width=0.7\linewidth]{Report_images/MilanEMS}
+		\includegraphics[width=0.9\linewidth]{Report_images/MilanEMS}
 		\caption{The process of responding to an emergency call}
 		\label{fig:milanems}
 	\end{figure}
@@ -268,15 +268,41 @@ The model was initialised to model current procedure and for the 7 days worth of
 
 Various parameters could now be varied in order to test different improvement strategies:
 \begin{itemize}
-	\item \textbf{Increases to  ambulance average speed}: Road improvements, reserved lanes and systems to wave ambulances through traffic lights could all increase average ambulance speed. An averge increase of 5km/h was shown in the model to increase the number of urgent calls reached within 8minutes by approximately 20\%.
-	\item \textbf{Adding a new ambulance}: 
+	\item \textbf{Increases to  ambulance average speed}: Road improvements, reserved lanes and systems to wave ambulances through traffic lights could all increase average ambulance speed. An average increase of 5km/h was shown in the model to increase the number of urgent calls reached within 8minutes by approximately 20\%.
+	\item \textbf{Adding a new ambulance}:  Adding a new standard ambulance to the fleet would be an expensive investment and the model showed that with the current set of ambulance posts that there would be little improvement in response rates, due to ambulances gathering in a few posts and leading to unbalanced global coverage. 
 	\item \textbf{Moving to "smart" ambulances}: The possibility of summoning an ambulance before it reaches its post on return from a mission, or in redirecting an ambulance on its way to a less urgent mission can be evaluated using the model, because of the agent based approach to modelling ambulances. At the time of the work, ambulances were not equipped with GPS systems and therefore this sort of assignment was not possible. On the heaviest days the model was predicting up to a 20\% improvement in the number of urgent calls responded to within the 8 minute deadline, similar figures to that of increases in ambulance speed but at potentially a much reduced cost and less dependent on external factors such as weather. 
 \end{itemize}
 
 \paragraph{Finding an alternative set of ambulance posts}
+HELP!!!! NEEDS MORE OF MY OWN INTUITION 
 
+Low Priority Calls Coverage (LPCC) optimisation model was developed by the authors to take a potential set of posts and solve a minimisation problem, to discover the theoretical minimum number of required ambulances and where their posts should be located. First some definitions of variables:
+\begin{itemize}
+	\item $V=$ the set of points to be covered. For each point $ i \in V $, $d_i^h$ denotes the amount of hight priority demands and $d_i^l$ low priority demands 
+	\item $ W= $ the set of candidate post locations. The capacity associated to each post is denoted by $ k_j $.
+	\item Let $ W_i^h $ be the set of candidate posts from which a demand point $ i $ can be reached within the 8 minute threshold. 
+	We introduce a second time limit in which a certain percentage of non urgent calls must be seen, and similarly let $ W_i^l $ be the set of posts from which $ i $ can be reached in this longer time frame
+	\item Let $ y_{ij} $ be the fraction of emergency demand of point $ i  $ served by an ambulance at post $ j $. Similarly $ w_{ij} $ to be the fraction of non urgent demand at point $ i  $ served by an ambulance at point $ j $.
+	\item An integer variable $ x_j $ is define for each post $ j $, representing the number of ambulances assigned to the post, this can be zero.
+\end{itemize}
 
+\begin{eqnarray}
+\min \ z=\sum_{j\in W} x_j \label{1a}\\
+s.t.\ &\sum_{j\in W_i^h} x_j\geq1\ \ &\forall i \in V\label{1b}\\
+&\sum_{j\in W_i^h} y_{ij}=1\ \ &\forall i \in V\label{1c}\\
+&\sum_{j\in W}w_{ij}=1 \ \ & \forall i\in V \label{1d}\\
+&\sum_{i \in V} \sum_{j \in W_i^l} d_i^l w_{ij} \geq q \sum_{i \in V} d_i^l\label{1e}\\
+&\sum_{i \in V} (d_i^h y_{ij} +d_i^l w_{ij}) \leq k_jx_j & \forall j \in W\label{1f}\\
+&x_j\in Z_+, \ w_{ij} \in [0,1], \ &\forall i \in V,\  \forall j \in W \label{1g}
+\end{eqnarray}
+Where Eq \ref{1a} is the objective function: to minimise the number of required ambulances. Eq \ref{1b} ensures that there is coverage over all the city. Eq \ref{1c} ensures that urgent calls are served within the given time limit. Eq \ref{1d} guarantees that all the low priority calls can be served by and ambulance at any posts. Eq \ref{1e} forces that a given percentage of the non-urgent calls ate served with a second time limit. Eq \ref{1f} limits the number of missions in a given time frames. Finally \ref{1g} defines the domains of the variables 
  
+ 
+For the solution of Milan the city was divided into 493 grid squares, chosen such that the area in each gird is covered by the same set of candidate post locations. Thus as long as each sub area is covered, all possible areas will also be covered. They set $ V=W $, $ q=0.5 $ and the non-urgent time frame to be 30minutes. This gives an optimal solution of 25 ambulances.
+
+The remaining 4 ambulances are then allocated using an iterative procedure where the model from the previous section is used, and ambulance posts given  a ranking determining their utilisation. New posts are added in such a way as to decrease the highest utilisation value , this is iterated until there is a post located for each ambulance. 
+
+This could also be used to design a set of posts to reach a threshold level of performance
 	\subsection{Case Study 4: Mathematical Modelling of the Dynamics of Meningococcal Meningitis in Africa  }
 The book "UK Success stories in Industrial Mathematics" \cite{Aston2016} is a collection of cases studies selected from those Impact Case Studies submitted to the 2014 Research Excellence Framework. They are seen as shining examples of the mathematical sciences community engaging with problems and organisations outside of academia. 36 problems were selected out of the 250 submitted for the REF and I aimed to pick just one to write up as a case study- a challenge indeed!
 
