@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.6)  12 NOV 2018 09:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.6)  14 NOV 2018 11:09
 entering extended mode
 **./Industrial_Reading_Project.tex
 (Industrial_Reading_Project.tex
@@ -236,36 +236,41 @@ File: Report_images/homeless_rates.jpg Graphic file (type jpg)
 Package pdftex.def Info: Report_images/homeless_rates.jpg  used on input line 1
 89.
 (pdftex.def)             Requested size: 338.58632pt x 243.68292pt.
- [5]
+ [5] [6 <./Report_images/homeless_rates.jpg>]
 
-LaTeX Warning: Reference `Lery2011' on page 6 undefined on input line 225.
+LaTeX Warning: Reference `Lery2011' on page 7 undefined on input line 229.
 
-[6 <./Report_images/homeless_rates.jpg>]
-<Report_images/meningitis_model.jpg, id=34, 637.4214pt x 255.354pt>
+<Report_images/MilanEMS.jpg, id=34, 526.96875pt x 508.90125pt>
+File: Report_images/MilanEMS.jpg Graphic file (type jpg)
+<use Report_images/MilanEMS.jpg>
+Package pdftex.def Info: Report_images/MilanEMS.jpg  used on input line 244.
+(pdftex.def)             Requested size: 338.58632pt x 326.99248pt.
+[7 <./Report_images/MilanEMS.jpg>] [8]
+<Report_images/meningitis_model.jpg, id=42, 637.4214pt x 255.354pt>
 File: Report_images/meningitis_model.jpg Graphic file (type jpg)
 <use Report_images/meningitis_model.jpg>
 Package pdftex.def Info: Report_images/meningitis_model.jpg  used on input line
- 262.
+ 304.
 (pdftex.def)             Requested size: 338.58632pt x 135.64088pt.
- [7]
-Overfull \hbox (3.03613pt too wide) in alignment at lines 306--310
+ [9 <./Report_images/meningitis_model.jpg>]
+Overfull \hbox (3.03613pt too wide) in alignment at lines 348--352
  [][][] []
  []
 
-[8 <./Report_images/meningitis_model.jpg>] [9] (Industrial_Reading_Project.bbl)
-[10] [11] (Industrial_Reading_Project.aux)
+[10] [11] (Industrial_Reading_Project.bbl) [12] (Industrial_Reading_Project.aux
+)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2131 strings out of 492970
- 31014 string characters out of 3135852
- 106809 words of memory out of 3000000
- 5981 multiletter control sequences out of 15000+200000
+ 2139 strings out of 492970
+ 31191 string characters out of 3135852
+ 107825 words of memory out of 3000000
+ 5988 multiletter control sequences out of 15000+200000
  9818 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,7n,29p,938b,223s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,7n,29p,938b,225s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKT
@@ -279,9 +284,9 @@ gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Industrial_Reading_Project.pdf (11 pages, 324350 bytes).
+Output written on Industrial_Reading_Project.pdf (12 pages, 373790 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
+ 100 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

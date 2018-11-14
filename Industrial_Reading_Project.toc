@@ -16,9 +16,12 @@
 \contentsline {paragraph}{Algorithm Speed}{4}
 \contentsline {subsection}{\numberline {2.7}Case Study 2 - Shelter: Homeless Populations}{4}
 \contentsline {subsection}{\numberline {2.8}Case Study 3: Optimisation of the \IeC {\textquotedblleft }118\IeC {\textquotedblright } Emergency Management System in Milan }{7}
-\contentsline {subsection}{\numberline {2.9}Case Study 4: Mathematical Modelling of the Dynamics of Meningococcal Meningitis in Africa }{7}
-\contentsline {paragraph}{Initial Modelling and Identification of Reproduction Number }{7}
-\contentsline {paragraph}{Adding the seasonal effects }{10}
-\contentsline {paragraph}{Impact}{10}
-\contentsline {section}{\numberline {3}Real Case Study}{10}
-\contentsline {section}{\numberline {4}Final Thoughts}{10}
+\contentsline {paragraph}{Evaluation of the current EMS system }{7}
+\contentsline {paragraph}{Development of a simulation model in order to test operational policies }{8}
+\contentsline {paragraph}{Finding an alternative set of ambulance posts}{8}
+\contentsline {subsection}{\numberline {2.9}Case Study 4: Mathematical Modelling of the Dynamics of Meningococcal Meningitis in Africa }{9}
+\contentsline {paragraph}{Initial Modelling and Identification of Reproduction Number }{9}
+\contentsline {paragraph}{Adding the seasonal effects }{11}
+\contentsline {paragraph}{Impact}{12}
+\contentsline {section}{\numberline {3}Real Case Study}{12}
+\contentsline {section}{\numberline {4}Final Thoughts}{12}

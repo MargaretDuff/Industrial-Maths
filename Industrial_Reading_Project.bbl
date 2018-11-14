@@ -34,6 +34,11 @@ Philip Bond.
   in the Mathematical Sciences}.
 \newblock Technical report.
 
+\bibitem{Byatt-Smith2003}
+J~G Byatt-Smith, A~A Lacey, D~F Parker, D~Simpson, W~R Smith, and J~A~D Wattis.
+\newblock {MATHEMATICAL MODELLING OF HOMELESS POPULATIONS}.
+\newblock Technical report, 2003.
+
 \bibitem{Irving2012}
 T~J Irving, K~B Blyuss, C~Colijn, and C~L Trotter.
 \newblock {Modelling meningococcal meningitis in the African meningitis belt}.
@@ -54,5 +59,10 @@ John~M. Stockie.
 P~{Van Den Driessche} and James Watmough.
 \newblock {Reproduction numbers and sub-threshold endemic equilibria for
   compartmental models of disease transmission}, 2002.
+
+\bibitem{Waugh1999}
+Andrew Waugh and Andrew Lacey.
+\newblock {A Model of Council House Allocation}.
+\newblock Technical report, 1999.
 
 \end{thebibliography}
