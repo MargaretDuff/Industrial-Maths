@@ -1,0 +1,269 @@
+\documentclass{beamer}
+
+\usepackage{beamerthemesplit}
+\usepackage{wasysym}
+\usepackage{amsmath, mathtools}
+\usetheme{Berlin}
+
+\title{Advection and diffusion in a porous medium}
+\author{Jessica Cervi}
+\date{\today}
+
+
+\begin{document}
+\begin{frame}
+\maketitle
+\end{frame}
+\begin{frame}
+ \tableofcontents
+\end{frame}
+
+\section{The model}
+\subsection{Background}
+\begin{frame}
+\frametitle{Porous medium model}
+\begin{itemize}
+\item What is a \alert{Porous medium?}
+\end{itemize}
+\vspace{1cm}
+ \begin{columns}      \begin{column}{0.5\textwidth} Tissues can be treated as a porous medium as they are  composed of dispersed cells separated by connective voids which allow for flow of nutrients.      \end{column}      \begin{column}{0.4\textwidth}         \includegraphics[scale=0.4]{porous_med}      \end{column}   \end{columns}
+
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Mass diffusion and advection in brain tissues}
+\begin{itemize}
+\item \alert{Diffusion} is an essential mechanism for delivering glucose and oxygen from the vascular system to brain cells.
+\item \alert{Advection} is a transport mechanism of a substance or conserved property by a fluid due to the fluid's bulk motion.
+\end{itemize}
+\end{frame}
+
+
+
+\subsection{Geometry}
+\begin{frame}
+\frametitle{The domain}
+We model a simplified situation in which the fluid is moving through a 2D thin fracture that could be seen as an oversimplified porous medium,\\The domain is the form:
+\begin{align*}
+\Omega=\{\mathbf{x}=(x,y,)\in \mathbb{R}^2,0<x<L, 0<y<H_0\}
+\end{align*}
+where $H_0$ is the height of the channel and $L$ is the characteristic lenght of the domain.
+The following assumption holds:
+\begin{align*}
+H_0\ll L \to \epsilon=\frac{H_0}{L}\ll1
+\end{align*}
+\end{frame}
+\begin{frame}
+\frametitle{Mass diffusion and advection in brain tissues}
+\begin{figure}
+\includegraphics[width=10cm, heigh=5cm]{porous1}
+\end{figure}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Boundary and initial condition}
+Boundary condition:
+\begin{itemize}
+\item No-slip boundary condition applies on the bed surface
+\begin{align*}
+u_y=0 \qquad \text{on   } y=0, y=H_0 
+ \end{align*}
+\end{itemize}
+Concentration initial condition is:
+\begin{align*}
+c=c_0\qquad \text{  at    }t=0
+\end{align*}
+where $c_0$ is a smooth function, indicating that in a typical cell of the porous medium the initial concentration is uniform.
+\end{frame}
+
+\section{Governing equations}
+\subsection{Continuity equation}
+\begin{frame}
+\frametitle{Advection-diffusion equation}
+\framesubtitle{Outline}
+The transport of oxygen can be described by the advection-diffusion equation. It be derived from the \alert{continuity equation}.
+\begin{align*}
+\frac{\delta c}{\delta t}+\nabla \cdot \mathbf{J}=0
+\end{align*}
+where $c$ is the concentration of the species and $\mathbf{J}$ is the flux. \\
+Sources of flux:
+\begin{itemize}
+\item diffusive flux
+\item advective flux
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{The Fick's law}
+\framesubtitle{Diffusive flux}
+Fick's law describes concentration $c $ of a compound in a material
+\begin{align*}
+\frac{\delta}{\delta t}\left(\iiint_V c \delta V\right)=-\oiint_S D \nabla c \delta S
+\end{align*}
+ Using the divergence theorem and recalling that $V$ is an arbitrary volume we can rewrite the above equation as:
+\begin{align*}
+\frac{\delta c}{\delta t} =-D \nabla \cdot \left( \nabla C_f\right) =-D\nabla^2 C_f
+\end{align*}
+where $c$ is the concentration of the nutrients .
+\end{frame}
+
+\begin{frame}
+\frametitle{Advective flux}
+The advection is the transport mechanism of a species  by a fluid due to the fluid's bulk motion. \begin{align*}
+\frac{\delta c}{\delta t}=\nabla \cdot ( \mathbf{u}c)
+\end{align*}
+where $\mathbf{u}=(u_x, u_y)=(u_x,0)$ is the blood flow term (i.e the velocity vector field). 
+\end{frame}
+
+
+\begin{frame}
+\frametitle{The uptake term}
+The uptake term  represents the consumption of the species by the surrounding tissue. This can be modeled by the following equation:
+\begin{align*}
+F(c)=F_0c
+\end{align*}
+where $F_0$ is the surface reactivity coefficient.
+
+\end{frame}
+
+\begin{frame}
+\frametitle{The advection-diffusion equation}
+\framesubtitle{Final form}
+Conservation of $c$ reads:
+\begin{align*}
+\frac{\delta c}{\delta t}+\nabla \cdot \left(\left(\mathbf{u} c\right)-D^*\nabla c\right)=F(c)
+\end{align*}
+where $D^*$ is the {\em effective diffusion coefficient} given by:
+\begin{align*}
+D^*=\frac{\phi D}{\tau^2}
+\end{align*}
+where $\phi$ is the porosity and $\tau$ is the tortuosity of the capillaries
+\end{frame}
+
+\subsection{Darcy and Brinkman models}
+\begin{frame}
+\frametitle{The blood flow model}
+The blood flow term could be derived starting from the  Navier-Stokes equations for incompressible fluids:
+\begin{align*}
+\rho \frac{\delta \mathbf{u}}{\delta t}+(\mathbf{u}\cdot\nabla)\mathbf{u}\rho&=-\nabla P+\nu \nabla^2 \mathbf{u}+F\\
+\nabla \cdot \mathbf{u}&=0
+\end{align*}
+\end{frame}
+
+\begin{frame}
+\frametitle{The blood flow model}
+\framesubtitle{Asymptotic expansion}
+The velocity $\mathbf{u}$ and the pressure $P$  can be written  as  asymptotic expansions in $\epsilon$:
+\begin{align*}
+&\mathbf{u}^{\epsilon}=\epsilon^2\mathbf{u}^0+\epsilon^3\mathbf{u}+O(\epsilon^4)\\
+&P^{\epsilon}=P^0+\epsilon P+ \epsilon^{2}P^2+O(\epsilon^3)
+\end{align*}
+\end{frame}
+
+\begin{frame}
+\frametitle{The blood flow model}
+\framesubtitle{Asymptotic expansion}
+For a slow steady flow we ca neglect the left-hand term side in the momentum equation. Substituting the expansions and collecting equal power of $\epsilon$ yield:
+\begin{align*}
+&\Big[-\nu\frac{\delta^2 \mathbf{u}^0}{\delta y^2}+\nabla_{x'}p^0+\frac{\delta P^1}{\delta y}\mathbf{k}\Big]+
+\epsilon\Big[-\nu\frac{\delta^2 \mathbf{u}^1}{\delta y^2}+\nabla_{x'}p^1+\frac{\delta P^2}{\delta y}\mathbf{k}\Big]+\\
+&+\epsilon^2 \Big[-\nu\frac{\delta^2 \mathbf{u}^2}{\delta y^2}-\nu\nabla_{x'}\mathbf{u^0}+\nabla_{x'}p^2+\frac{\delta P^3}{\delta y}\mathbf{k}\Big]+\cdots=F
+\end{align*}
+\end{frame}
+
+\begin{frame}
+\frametitle{The blood flow model}
+\framesubtitle{Leading order solution}
+Keeping only the first term we arrive at:
+\begin{align*}
+-\nu\frac{\delta^2 \mathbf{u}^0}{\delta y^2}+\nabla_{x'}p^0+\frac{\delta P^1}{\delta y}\mathbf{k}=F
+\end{align*}
+Regarding that $\mathbf{u^0}=0$ for $y=0$ the solution is in the form:
+\begin{align*}
+\mathbf{u}^0=\frac{1}{2\nu}y(h(x')-y)\mathbf{w}(x')
+\end{align*}
+\end{frame}
+
+\begin{frame}
+\frametitle{The blood flow model}
+\framesubtitle{Leading order solution}
+The standard Darcy's law:
+\begin{align*}
+\mathbf{w}+\nabla_{x'}P^0=F
+\end{align*}
+
+Darcy model \alert{ignores the boundary effects} on the flow. 
+\end{frame}
+
+\begin{frame}
+\frametitle{The blood flow model}
+\framesubtitle{Lower order terms}
+The equation for the first and the second order are:
+\begin{align*}
+O(\epsilon)\to & -\nu\frac{\delta^2 \mathbf{u}^1}{\delta y^2}+\nabla_{x'}p^1+\frac{\delta P^2}{\delta y}\mathbf{k}=0\\
+& \nabla \cdot \mathbf{u^0}+\frac{\delta u_2^1}{\delta y}=0
+\end{align*}
+\begin{align*}
+O(\epsilon^2) \to& -\nu\frac{\delta^2 \mathbf{u}^2}{\delta y^2}-\nu\nabla_{x'}\mathbf{u^0}+\nabla_{x'}p^2+\frac{\delta P^3}{\delta y}\mathbf{k}=0\\
+&\nabla \cdot \mathbf{u^1}+\frac{\delta u_2^2}{\delta y}=0
+\end{align*}
+\end{frame}
+\begin{frame}
+\frametitle{The blood flow model}
+\framesubtitle{Lower order terms}
+Order $\epsilon$ solution:
+\begin{align*}
+O(\epsilon)\to \begin{cases}
+&u_3^1 = -\int_0^y(div_{x'}\mathbf{u}^0(x',z)\delta z)\\
+&\mathbf{u}^1  = u_3^1\mathbf{k}\\
+&p^2 = \nu\frac{\delta u_3^1}{\delta y}
+\end{cases}
+\end{align*}
+\end{frame}
+
+\begin{frame}
+\frametitle{The blood flow model}
+\framesubtitle{Lower order terms}
+Applying the previous solution to the order $\epsilon^2$ system leads to:
+\begin{align*}
+O(\epsilon^2)\to \begin{cases}
+&\mu B^{\epsilon}\mathbf{u}^{\epsilon}+\nabla_{x'}p^0-\nu \nabla^2 \mathbf{u}=F\\
+&div_{x'}\mathbf{v^{\epsilon}}=0 \text{ in the domain  }O\\
+&\mathbf{u}^{\epsilon}=0 \text{ on } \delta O
+\end{cases}
+\end{align*}
+Which is the Darcy-Brinkman law for viscous fluid \alert{with no-slip B.C}.
+\end{frame}
+
+\begin{frame}
+\frametitle{The blood flow model}
+\framesubtitle{Comparison between the models}
+\flushleft
+\includegraphics[scale=0.45]{table}
+\end{frame}
+
+\section{Conclusion and future work}
+\begin{frame}
+\frametitle{Remarks}
+\begin{itemize}
+\item Diffusion and advection are both important to model the transport of nutrient through tissues.\\
+\item The uptake term takes into account the loss of nutrients and the chemical reactions.\\
+\item The Brinkmann model is more accurate and efficient than Darcy model.\\
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Future work}
+\begin{itemize}
+\item Model the uptake term considering the chemical effects
+\item Combine the diffusion-advection equation with the Brinkman model to find an expression for the concentration\\
+\item 3-D model and simulation
+\end{itemize}
+\end{frame}
+\begin{frame}
+\centerline{THANKS!}
+
+\end{frame}
+\end{document}

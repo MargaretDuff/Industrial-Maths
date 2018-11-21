@@ -1,0 +1,8 @@
+\beamer@endinputifotherversion {3.26pt}
+\beamer@sectionintoc {1}{The model}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Background}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Geometry}{5}{0}{1}
+\beamer@sectionintoc {2}{Governing equations}{8}{0}{2}
+\beamer@subsectionintoc {2}{1}{Continuity equation}{8}{0}{2}
+\beamer@subsectionintoc {2}{2}{Darcy and Brinkman models}{13}{0}{2}
+\beamer@sectionintoc {3}{Conclusion and future work}{22}{0}{3}

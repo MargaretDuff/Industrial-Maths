@@ -1,0 +1,69 @@
+\documentclass{beamer}
+
+\usepackage{beamerthemesplit}
+\usepackage{wasysym}
+\usepackage{amsmath, mathtools}
+\usetheme{Berlin}
+
+\title{Damage Theory}
+\author{Jessica Cervi}
+\date{\today}
+
+
+\begin{document}
+\begin{frame}
+\maketitle
+\end{frame}
+ 
+\section{Damage Theory}
+\subsection{Background}
+\begin{frame}
+\frametitle{Classical DamageTheory}
+Classical theory (widely accepted, Saparto and Dewey, 1984) is based on the assumption that damage  is measured by 
+\begin{equation*}
+TD(t) = \int_0^tr^{(43-T(t))}dt \qquad r = \left\{\begin{array}{cc}0.25 & T\le43^oC\\0.50&T>43^oC\end{array}\right.
+\end{equation*}
+
+This formula 
+\begin{itemize}
+\item is entirely phenomenological/heuristic (has no mechanistic basis);
+\item Damage threshold varies widely among different tissues;
+\item No explanation of the significance/origin of the threshold at 43$^o$C.
+\end{itemize}
+
+
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Another Idea}
+In paper by  Zhou, Chen, and  Zhang, 2007, it was suggested that damage is the result of irreversible, protein denaturization, governed by the chemical reaction
+\begin{equation*}
+P\rightarrow D,
+\end{equation*}
+($P =$ folded protein, $D=$ denatured protein) at an Arrhenius reaction rate
+\begin{equation*}
+r(T) = A\exp(-\frac{\Delta G}{RT})
+\end{equation*}
+where $\Delta G$ is activation energy, $R$ is universal gas constant.
+
+This leads to damage fraction
+\begin{equation*}
+\Omega(t) = \log(\frac{P_0}{P(t)}) = \int_0^tA\exp(-\frac{\Delta G}{RT(t)})dt
+\end{equation*}
+($P_0=$ initial folded protein).
+ 
+\end{frame}
+ 
+
+\begin{frame}
+\frametitle{Comments}
+\begin{itemize}
+\item While this formula was used for damage from a laser, we believe it is also applicable to damage from ultrasound (HIFU);
+\item The parameters $A$, $\Delta G$ and $\Omega_\theta$ (damage threshold) can be chosen to match different tissue types.
+\item $\Omega(t)$ can be readily computed using the Pennes model (described above).
+\end{itemize}
+ 
+\end{frame}
+\end{document}
+ 
