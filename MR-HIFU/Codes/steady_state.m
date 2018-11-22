@@ -1,4 +1,5 @@
 %function steady_state()
+%% 
 
 %
 % Defining the parameters
@@ -14,10 +15,12 @@ diff = 1/(6*dx^2);
 perf = (2/3)*(10^(-3));
 
 %
+%% 
 % Initial condition
 %
 
 u = zeros(nx,1);
+%% 
 
 %
 %  Creating the matrix for the diffusion term
@@ -41,6 +44,7 @@ end
 Diff_matrix2= diag(main_first_der) + diag(off_down_first_der, -1) + diag(off_up_first_der,1);
 
 Diff3 = Diff_matrix1 + Diff_matrix2;
+%% 
 
 %
 %  Adding in the Neumann condition at the origin
@@ -51,6 +55,7 @@ Diff3(1, 2) = 6;
 
 Diff3 = Diff3* diff;
 Diff3 = sparse(Diff3);
+%% 
 
 %
 % Adding in the perfusion term
@@ -58,6 +63,7 @@ Diff3 = sparse(Diff3);
 
 I = speye(nx);
 Perf_matrix = perf * speye(nx);
+%% 
 
 %
 % Adding in the source term Q
@@ -70,6 +76,7 @@ Source(1) = 1;
 
 news = transpose(news);
 
+%% 
 
 %
 % Timestepping using the Crank-Nicolson method
