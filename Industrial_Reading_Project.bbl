@@ -39,6 +39,13 @@ J~G Byatt-Smith, A~A Lacey, D~F Parker, D~Simpson, W~R Smith, and J~A~D Wattis.
 \newblock {MATHEMATICAL MODELLING OF HOMELESS POPULATIONS}.
 \newblock Technical report, 2003.
 
+\bibitem{Hosseini2018}
+Bamdad Hosseini, Charles Mougenot, Samuel Pichardo, James~M Drake, John~M
+  Stockie, and Elodie Constanciel.
+\newblock {A Bayesian approach for energy-based estimation of acoustic
+  aberrations in high intensity focused ultrasound treatment}.
+\newblock Technical report, 2018.
+
 \bibitem{Irving2012}
 T~J Irving, K~B Blyuss, C~Colijn, and C~L Trotter.
 \newblock {Modelling meningococcal meningitis in the African meningitis belt}.
@@ -49,6 +56,18 @@ Chris Jessop, Michael Lamoureux, Joshua Madden, David Saunders, Bill Vetter,
   Chris Budd, and John Stockie.
 \newblock {Trip Wire Detection for Land Mines Written by}.
 \newblock Technical report.
+
+\bibitem{Rieke2008}
+Viola Rieke and Kim {Butts Pauly}.
+\newblock {MR thermometry}.
+\newblock {\em Journal of Magnetic Resonance Imaging}, 27(2):376--390, feb
+  2008.
+
+\bibitem{Sapareto1984}
+Stephen~A. Sapareto and William~C. Dewey.
+\newblock {Thermal dose determination in cancer therapy}.
+\newblock {\em International Journal of Radiation Oncology, Biology, Physics},
+  1984.
 
 \bibitem{Stockie2015}
 John~M. Stockie.
@@ -64,5 +83,11 @@ P~{Van Den Driessche} and James Watmough.
 Andrew Waugh and Andrew Lacey.
 \newblock {A Model of Council House Allocation}.
 \newblock Technical report, 1999.
+
+\bibitem{Zhou2007}
+Jianhua Zhou, J~K Chen, Yuwen Zhang, † William, and Nancy Thompson.
+\newblock {Theoretical Analysis of Thermal Damage in Biological Tissues Caused
+  by Laser Irradiation}.
+\newblock Technical Report~1, 2007.
 
 \end{thebibliography}

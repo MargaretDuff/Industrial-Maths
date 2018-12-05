@@ -13,6 +13,8 @@
 \usepackage{float} % Allows putting an [H] in \begin{figure} to specify the exact location of the figure
 
 \usepackage{cite}
+\usepackage{amsmath}
+\usepackage{gensymb}
 
 \begin{document}
 	
@@ -506,8 +508,109 @@ The model then exhibits a wide variety of dynamical behaviours and importantly, 
 	\item Future work could look at including spatial effects, potentially including satellite and meteorological data. An advance disease warning system, for the larger deadlier outbreaks every 6-14 years would be hugely beneficial. 
 \end{itemize}
 	
-	\section{Real Case Study}
+	\section{Extended Case Study - High Intensity Focused Ultrasound}
 	
+	High Intensity Focused Ultrasound (HIFU) is a non-invasive technique to enhance biological therapies by exposing tissues to acoustic energy. Applications include:
+	\begin{itemize}
+		\item Destroying cancerous tissue using thermal hyperthermia 
+		\item Localised drug delivery 
+		\item Functional/structural modification of tissues
+	\end{itemize}
+In addition paediatric.foetal application are beginning to be explored due to the potential to deliver a non-ionizing energy based therapy,, in a non-invasive manner 
+	\begin{itemize}
+		\item Transducer produces ultrasound signal focused on a region, $8mm\times2mm\times2mm$
+		\item Pressure variations due to the ultrasound lead to a temperature source $Q(\textbf{x},t)$
+		\item Temperature $T(\textbf{x},t)$ changes due to the action of the source, diffusion and perfusion due to blood flow. 
+		\item High temperatures over a sustained time lead to tissue damage. 
+	\end{itemize}
+	
+	The problem can be split into three areas: focusing the ultrasound signal onto the region, controlling the temperature levels and using the correct amount of heat for the right amount of time to lead to the desired effects and imaging the whole procedure. 
+	
+	
+	\subsection{Set Up}
+	clinical adoption of HIFU has expanded rapidly in recent years partly due to better visualisation and thermometry tools. A typical set up is shown in Figure \ref{fig:howitworks}
+			\begin{figure}[H]
+		\centering
+		\begin{center}$
+			\begin{array}{ccc}
+			\includegraphics[width=0.33\linewidth]{"Report_images/howitworks"} &
+			\includegraphics[width=0.33\linewidth]{"Report_images/howitworks2"}&
+			\includegraphics[width=0.33\linewidth]{"Report_images/howitworks3"}
+			\end{array}$
+		\end{center}
+		
+		\caption{The set-up of MRI with integrated HIFU, REFERENCE....   }
+		\label{fig:howitworks}
+	\end{figure}
+	\subsection{Imaging}
+	Safety and efficacy of the treatment require accurate temperature measurement throughout the thermal procedure.
+	
+	The method has shown some success in uterine fibroids, prostate cancer and liver tumours but application of the method for treatment of brain tissue remains a challenge due to strong aberration due to the skull bone, defocuses the beam and results in a loss of acoustic pressure. One approach to correct for this is to use imagery to detect the location of the beam and then to correct for the defocusing to refocus the beam. 
+	
+	MRI thermometry, is a method where a traditional MRI scanner can be used to measure temperature. Temperature measurement is based on the water proton resonance frequency (PRF) shift induced phased differences between dynamic frames. MR dynamic phase images a relative frequency shift is calculated. 
+	
+	\begin{equation}
+	\Delta T= \frac{\Delta \phi}{2 \pi \alpha \gamma B_0 T_E}
+	\end{equation}
+	
+	Where: 
+	\begin{itemize}
+		\item $\Delta \Phi $ = phase shift 
+		\item $\alpha$ = Temperature sensitivity coefficient 
+		\item $\gamma$ = gyromagnetic ratio
+		\item $B_0$ = magnetic field strength
+		\item $T_E$ = echo time 
+	\end{itemize}
+
+	Temperature maps are calculated in real time and displayed as overlays on the magnitude image. This can be seen in Figure \ref{fig:mriimage}.
+	
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.7\linewidth]{Report_images/MRIimage}
+		\caption{Temperature maps are calculated in real time and displayed as overlays on the magnitude image}
+		\label{fig:mriimage}
+	\end{figure}
+	
+	
+	More information in paper \cite{Rieke2008}
+	
+	Drawbacks to this is that temperature in bone and fat tissue cannot be measured with the PRF method and the phased of a MR image is sensitive to disturbances such as transducer movement and magnetic field drift and to patient movement.
+	
+	
+	
+
+	
+	\subsection{Focusing the ultrasound signal}
+	
+		MAGNETIC RESONANCE ACOUSTIC RADIATION FORCE IMAGING 	\cite{Hosseini2018}
+		
+	
+	\subsection{Modelling Heat transfer and thermal dose}
+	
+	Different temperatures during heating and coooling, diffusion from the target area and possible patient movement all contribute to uneven heating in different areas. Some sort of normalisation is required to calculate the effect on each individual cell. Some sort of thermal dose measure is required, from which effective dose and dangerous levels can be estimated. 
+	
+	Pennes Bioheat equation. 
+	
+	Classical theory \cite{Sapareto1984}  measures thermal dose as a time integral over treatment:
+	
+\begin{equation}
+TD(t)=\int_{0}^{t}r^{43-T(t)}dt,\ \ \text{where  } r=
+\begin{cases}
+0.25, & \text{if}\ T\leq 43 \degree C \\
+0.5, & \text{if}\ T>43 \degree C
+\end{cases}
+\end{equation}
+	
+	The value taken as sufficient "dose" to cause thermal necrosis in soft tissue is 240 EM (equivalent minutes) at $43 \degree C $. One can also calculate that it takes just a 1 second exposure at $57 \degree C $ to give a thermal dose of 273 EM and thermal necrosis. For every degree above  $43 \degree C $ the required time to coagulate the tissue halves. 
+	
+	The model has its advantages for HIFU: importantly it is valid for the high temperatures seen in HIFU and it is valid for tissues with different thermal sensitivity although the threshold for thermal dose required for cell death changes. 
+	
+	However, the model has its draw backs as there is anon linear response between temperature and cell death - higher probability of dying with increasing temperature and time exposure. Also, measuring dose does not directly predict damage. Finally, tissues have varying thermal sensitivity and will ablate at different thermal doses which will add extra complexity to the model.
+	
+	Other idea \cite{Zhou2007}
+	
+	
+	 
 	\section{Final Thoughts} 
 
 	

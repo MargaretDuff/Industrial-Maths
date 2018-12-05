@@ -8,7 +8,7 @@
 \contentsline {subsubsection}{\numberline {2.3.2}Elsewhere in the world }{4}
 \contentsline {subsection}{\numberline {2.4}Successes}{4}
 \contentsline {subsection}{\numberline {2.5}Challenges}{4}
-\contentsline {subsubsection}{\numberline {2.5.1}Identifying Suitable Problems and Creating links}{4}
+\contentsline {subsubsection}{\numberline {2.5.1}Identifying Suitable Problems and Creating links}{5}
 \contentsline {subsubsection}{\numberline {2.5.2}Building working relationships}{5}
 \contentsline {subsubsection}{\numberline {2.5.3}Funding}{5}
 \contentsline {subsubsection}{\numberline {2.5.4}Academic Career Paths}{5}
@@ -16,15 +16,19 @@
 \contentsline {subsection}{\numberline {2.6}Case Study 1: Trip Wire Detection for Land Mines}{5}
 \contentsline {paragraph}{Pre-processing}{6}
 \contentsline {paragraph}{Line Detection}{6}
-\contentsline {paragraph}{Algorithm Speed}{6}
+\contentsline {paragraph}{Algorithm Speed}{7}
 \contentsline {subsection}{\numberline {2.7}Case Study 2 - Shelter: Homeless Populations}{7}
 \contentsline {subsection}{\numberline {2.8}Case Study 3: Optimisation of the \IeC {\textquotedblleft }118\IeC {\textquotedblright } Emergency Management System in Milan }{9}
 \contentsline {paragraph}{Evaluation of the current EMS system }{9}
-\contentsline {paragraph}{Development of a simulation model in order to test operational policies }{9}
+\contentsline {paragraph}{Development of a simulation model in order to test operational policies }{11}
 \contentsline {paragraph}{Finding an alternative set of ambulance posts}{11}
 \contentsline {subsection}{\numberline {2.9}Case Study 4: Mathematical Modelling of the Dynamics of Meningococcal Meningitis in Africa }{12}
-\contentsline {paragraph}{Initial Modelling and Identification of Reproduction Number }{12}
+\contentsline {paragraph}{Initial Modelling and Identification of Reproduction Number }{13}
 \contentsline {paragraph}{Adding the seasonal effects }{15}
 \contentsline {paragraph}{Impact}{15}
-\contentsline {section}{\numberline {3}Real Case Study}{15}
-\contentsline {section}{\numberline {4}Final Thoughts}{15}
+\contentsline {section}{\numberline {3}Extended Case Study - High Intensity Focused Ultrasound}{16}
+\contentsline {subsection}{\numberline {3.1}Set Up}{16}
+\contentsline {subsection}{\numberline {3.2}Imaging}{16}
+\contentsline {subsection}{\numberline {3.3}Focusing the ultrasound signal}{17}
+\contentsline {subsection}{\numberline {3.4}Modelling Heat transfer and thermal dose}{18}
+\contentsline {section}{\numberline {4}Final Thoughts}{18}
