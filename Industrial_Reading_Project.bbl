@@ -11,12 +11,6 @@
 {Measuring the Economic Benefits of Mathematical Science Research in the UK}.
 \newblock Technical report, 2013.
 
-\bibitem{Aringhieri2016}
-Roberto Aringhieri, Giuliana Carello, and Daniela Morale.
-\newblock {Supporting decision making to improve the performance of an Italian
-  Emergency Medical Service}.
-\newblock {\em Annals of Operations Research}, 2016.
-
 \bibitem{Aston2016}
 Philip~J. Aston, Anthony~J. Mulholland, and Katherine~M.M. Tant, editors.
 \newblock {\em {UK Success Stories in Industrial Mathematics}}.
@@ -57,17 +51,24 @@ Chris Jessop, Michael Lamoureux, Joshua Madden, David Saunders, Bill Vetter,
 \newblock {Trip Wire Detection for Land Mines Written by}.
 \newblock Technical report.
 
+\bibitem{Pennes1948}
+H.~H. Pennes.
+\newblock {Analysis of Tissue and Arterial Blood Temperatures in the Resting
+  Human Forearm}.
+\newblock {\em Journal of Applied Physiology}, 1(2):93--122, 1948.
+
+\bibitem{R.AringhieriG.Carello2013}
+D.~Morale. {R. Aringhieri, G. Carello}, Supporting, Roberto Aringhieri,
+  Giuliana Carello, and Daniela Morale.
+\newblock {Supporting decision making to improve the performance of an Italian
+  Emergency Medical Service}.
+\newblock {\em ANNALS OF OPERATIONS RESEARCH}, 2013.
+
 \bibitem{Rieke2008}
 Viola Rieke and Kim {Butts Pauly}.
 \newblock {MR thermometry}.
 \newblock {\em Journal of Magnetic Resonance Imaging}, 27(2):376--390, feb
   2008.
-
-\bibitem{Sapareto1984}
-Stephen~A. Sapareto and William~C. Dewey.
-\newblock {Thermal dose determination in cancer therapy}.
-\newblock {\em International Journal of Radiation Oncology, Biology, Physics},
-  1984.
 
 \bibitem{Stockie2015}
 John~M. Stockie.

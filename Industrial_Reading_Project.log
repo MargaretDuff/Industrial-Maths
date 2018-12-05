@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.6)  5 DEC 2018 10:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.6)  5 DEC 2018 13:04
 entering extended mode
 **./Industrial_Reading_Project.tex
 (Industrial_Reading_Project.tex
@@ -356,16 +356,38 @@ File: Report_images/MRIimage.jpg Graphic file (type jpg)
 Package pdftex.def Info: Report_images/MRIimage.jpg  used on input line 569.
 (pdftex.def)             Requested size: 338.58632pt x 383.50299pt.
  [17 <./Report_images/MRIimage.jpg>]
-(Industrial_Reading_Project.bbl [18]) [19] (Industrial_Reading_Project.aux)
+<Report_images/tissueproperties.jpg, id=78, 680.5425pt x 161.85469pt>
+File: Report_images/tissueproperties.jpg Graphic file (type jpg)
+<use Report_images/tissueproperties.jpg>
+Package pdftex.def Info: Report_images/tissueproperties.jpg  used on input line
+ 612.
+(pdftex.def)             Requested size: 483.69687pt x 115.03864pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 613--613
+[]\OT1/cmr/m/n/10.95 Figure 6: Ma-te-rial prop-er-ties of tis-sues, NEEEEEEEEEE
+EEED-DDDDDDD A
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 613--613
+\OT1/cmr/m/n/10.95 REEEEEEEE-EFFFFFFFF-FEEEEEEEER-RRRRRRRREEEEEEEEEEENNNNNNC-C-
+C-C-C-C-C-
+ []
+
+
+LaTeX Warning: Citation `Sapareto1984' on page 18 undefined on input line 622.
+
+[18 <./Report_images/tissueproperties.jpg>] (Industrial_Reading_Project.bbl
+[19]) [20] (Industrial_Reading_Project.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2837 strings out of 492970
- 39632 string characters out of 3135852
- 119754 words of memory out of 3000000
- 6657 multiletter control sequences out of 15000+200000
+ 2844 strings out of 492970
+ 39852 string characters out of 3135852
+ 119763 words of memory out of 3000000
+ 6663 multiletter control sequences out of 15000+200000
  11632 words of font info for 41 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,12n,29p,1267b,346s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -384,9 +406,9 @@ s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Program Files/MiKTeX
 ts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmu10.pfb>
-Output written on Industrial_Reading_Project.pdf (19 pages, 787516 bytes).
+Output written on Industrial_Reading_Project.pdf (20 pages, 851683 bytes).
 PDF statistics:
- 135 PDF objects out of 1000 (max. 8388607)
+ 139 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
