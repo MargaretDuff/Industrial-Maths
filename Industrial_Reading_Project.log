@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.6)  5 DEC 2018 13:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.6)  5 DEC 2018 18:10
 entering extended mode
 **./Industrial_Reading_Project.tex
 (Industrial_Reading_Project.tex
@@ -377,17 +377,25 @@ C-C-C-C-C-
 
 LaTeX Warning: Citation `Sapareto1984' on page 18 undefined on input line 622.
 
-[18 <./Report_images/tissueproperties.jpg>] (Industrial_Reading_Project.bbl
-[19]) [20] (Industrial_Reading_Project.aux)
+[18 <./Report_images/tissueproperties.jpg>] [19]
+<Report_images/studygroupcode.jpg, id=86, 336.50719pt x 212.29312pt>
+File: Report_images/studygroupcode.jpg Graphic file (type jpg)
+<use Report_images/studygroupcode.jpg>
+Package pdftex.def Info: Report_images/studygroupcode.jpg  used on input line 6
+95.
+(pdftex.def)             Requested size: 338.58632pt x 213.60776pt.
+
+(Industrial_Reading_Project.bbl [20 <./Report_images/studygroupcode.jpg>])
+[21] (Industrial_Reading_Project.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2844 strings out of 492970
- 39852 string characters out of 3135852
- 119763 words of memory out of 3000000
- 6663 multiletter control sequences out of 15000+200000
+ 2850 strings out of 492970
+ 40037 string characters out of 3135852
+ 118772 words of memory out of 3000000
+ 6668 multiletter control sequences out of 15000+200000
  11632 words of font info for 41 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,12n,29p,1267b,346s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -406,9 +414,9 @@ s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Program Files/MiKTeX
 ts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmu10.pfb>
-Output written on Industrial_Reading_Project.pdf (20 pages, 851683 bytes).
+Output written on Industrial_Reading_Project.pdf (21 pages, 874142 bytes).
 PDF statistics:
- 139 PDF objects out of 1000 (max. 8388607)
+ 143 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -656,6 +656,49 @@ TD(t)=\int_{0}^{t}r^{43-T(t)}dt,\ \ \text{where  } r=
 		
 	 	The parameters, A, E and $\Omega_\theta$, the damage threshold, can be varied to match different tissue types. Originally developed for use to model damage from a laser perhaps more work needed....not sure -MORE HEREEEEEEEEEEEEEEEEEEEEEEEEEE!!!!!!!!!!!!!!
 	 	
+	 	
+	 	\subsubsection{Study group modelling}
+	 	
+	 	During the study group they focused on looking at muscle tissue where the approximate values are:
+	 	\begin{itemize}
+	 		\item $\rho c \approx 3 \time 10^g$
+	 		\item $\gamma \approx 2000$
+	 		\item $Q \approx 4\rho c-10 \rho c$
+	 		\item length scale of $L \approx 10^{-3}$
+	 		\item $k \approx 1/2$
+	 	\end{itemize}
+ 	
+ 	hence near the focus we have 
+ 	\begin{itemize}
+ 		\item $\nabla (k\nabla T) \approx 10^6$
+ 		\item $ \gamma (T-T_b) \approx 10^3$
+ 		\item $ Q \approx 10^6$
+ 	\end{itemize}
+ and hence we can conclude that at the focus, perfusion is unimportant unless we are close to a major blood vessel.  Q diminishes rapidly away from the focus, and so both perfusion and diffusion act together to reduce the temperature. 
+ 
+ They chose to rewrite the Pennes equation as a radially symmetric system close to the centre. The used the approximation: 
+ \begin{equation}
+ Q=Q_0 \rho c \left(\frac{J_1\left(\frac{r}{L}\right)}{\frac{r}{L}}\right)^2= Q_0\rho c \left(\frac{J_1(s)}{s}\right)^2
+ \end{equation}
+ where $s=r/L$ and this gives the equation:
+ \begin{equation}
+ T_t=\frac{1}{6s}(sT)_ss-\frac{2}{3}\times 10^{-3}(T-T_b)+Q_0 \left(\frac{J_1(s)}{s}\right)^2
+ \end{equation}
+ with initial conditions $$ T_s(0)=0 , \ \ \ T(\infty)=T_b .$$
+ 
+ This can be solved numerically with the Crank Nicholson method, with rapid converge utilising the sparsity of the resulting matrices. 
+ 
+ They ran with $Q_0=5$ for $0<t<30$ and then for $Q_0=0$ for $t>30$. Reproducing this method I get the result shown in Figure 
+ 
+ \begin{figure}
+ 	\centering
+ 	\includegraphics[width=0.7\linewidth]{Report_images/studygroupcode}
+ 	\caption{A reproduction of the graph prodcued during the study group of temperature profile against time, where there is heating for the first 30sec before the tissue is left to cool}
+ 	\label{fig:studygroupcode}
+ \end{figure}
+ 
+ 
+ 
 	 	  
 	\section{Final Thoughts} 
 

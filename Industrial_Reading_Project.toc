@@ -31,4 +31,5 @@
 \contentsline {subsection}{\numberline {3.2}Imaging}{16}
 \contentsline {subsection}{\numberline {3.3}Focusing the ultrasound signal}{17}
 \contentsline {subsection}{\numberline {3.4}Modelling Heat transfer and thermal dose}{18}
-\contentsline {section}{\numberline {4}Final Thoughts}{19}
+\contentsline {subsubsection}{\numberline {3.4.1}Study group modelling}{19}
+\contentsline {section}{\numberline {4}Final Thoughts}{20}
