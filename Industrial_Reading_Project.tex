@@ -111,6 +111,7 @@ However, a more quantitative argument is required to convince the most sceptical
 		\end{itemize}	
 		\item \textit{The Turing Gateway to Mathematics (TGM)} is the impact initiative of the Isaac Newton Institute (INI) based at the University of Cambridge. The TGM reaches out to and engages with the users of maths: industry, business, public sector and other scientific disciplines. Maintaining contacts across the world they can facilitate interactions and activities such as programmes of work, research and training events, as well as bespoke projects
 		\item  \textit{A Knowledge Transfer Partnership} helps facilitate a 3 way partnership between a business or not for profit organisation, a research organisation or university and a graduate (known as the Associate). Designed for businesses who have an idea for a new project, capability or significant change but  do not have all the in-house expertise. Businesses benefit from new expertise and innovation. Research organisations benefit financially and  the possibility of publishing, identifying new research themes and apply their knowledge and expertise to real-world problems. Associates gain experience, often job opportunities and dedicated coaching, mentoring and personal development through working with the KTN.
+		\item \textit{Undergraduate placements and sandwich courses} 
 		
 	
 	\end{itemize}
@@ -258,7 +259,7 @@ This gives a system of differential equations
 \end{eqnarray}
 	 \begin{figure}
 	 	\centering
-	 	\includegraphics[width=0.7\linewidth]{Report_images/homeless_rates}
+	 	\includegraphics[width=0.9\linewidth]{Report_images/homeless_rates}
 	 	
 	 	\caption{A diagram to show  flows and and associated rates of households moving  between population groups}
 	 	\label{fig:homelessrates}
@@ -399,7 +400,7 @@ The total population is $ N=S+C+I+R $. The question of temporary immunity was a 
 
 \begin{figure}
 	\centering
-	\includegraphics[width=0.7\linewidth]{Report_images/meningitis_model}
+	\includegraphics[width=0.9\linewidth]{Report_images/meningitis_model}
 	\caption{A diagram to show the flows between population groups in the chosen meningitus model, taken from Fig 2 in paper  \cite{Irving2012}}
 	\label{fig:meningitismodel}
 \end{figure}
@@ -528,7 +529,7 @@ In addition paediatric.foetal application are beginning to be explored due to th
 	
 	
 	\subsection{Set Up}
-	clinical adoption of HIFU has expanded rapidly in recent years partly due to better visualisation and thermometry tools. A typical set up is shown in Figure \ref{fig:howitworks}
+	Clinical adoption of HIFU has expanded rapidly in recent years partly due to better visualisation and thermometry tools. A typical set up is shown in Figure \ref{fig:howitworks}
 			\begin{figure}[H]
 		\centering
 		\begin{center}$
@@ -633,7 +634,7 @@ TD(t)=\int_{0}^{t}r^{43-T(t)}dt,\ \ \text{where  } r=
 	
 	The model has its advantages for HIFU: importantly it is valid for the high temperatures seen in HIFU and it is valid for tissues with different thermal sensitivity although the threshold for thermal dose required for cell death changes. 
 	
-	However, the model has its draw backs as there is anon linear response between temperature and cell death - higher probability of dying with increasing temperature and time exposure. Also, measuring dose does not directly predict damage. Finally, tissues have varying thermal sensitivity and will ablate at different thermal doses which will add extra complexity to the model.
+	However, the model has its draw backs as there is a non linear response between temperature and cell death - higher probability of dying with increasing temperature and time exposure. Also, measuring dose does not directly predict damage. Finally, tissues have varying thermal sensitivity and will ablate at different thermal doses which will add extra complexity to the model.
 	
 		An alternative model for cell damage was introduced in  paper  \cite{Zhou2007}. Zhou et al suggest that damage is the result of a chemical reaction 
 		\begin{equation}
@@ -661,7 +662,7 @@ TD(t)=\int_{0}^{t}r^{43-T(t)}dt,\ \ \text{where  } r=
 	 	
 	 	During the study group they focused on looking at muscle tissue where the approximate values are:
 	 	\begin{itemize}
-	 		\item $\rho c \approx 3 \time 10^g$
+	 		\item $\rho c \approx 3 \times 10^6$
 	 		\item $\gamma \approx 2000$
 	 		\item $Q \approx 4\rho c-10 \rho c$
 	 		\item length scale of $L \approx 10^{-3}$
@@ -693,16 +694,161 @@ TD(t)=\int_{0}^{t}r^{43-T(t)}dt,\ \ \text{where  } r=
  \begin{figure}
  	\centering
  	\includegraphics[width=0.7\linewidth]{Report_images/studygroupcode}
- 	\caption{A reproduction of the graph prodcued during the study group of temperature profile against time, where there is heating for the first 30sec before the tissue is left to cool}
+ 	\caption{A reproduction of the graph produced during the study group of temperature profile against time, where there is heating for the first 30sec before the tissue is left to cool}
  	\label{fig:studygroupcode}
  \end{figure}
  
+\subsection{Current Work } 
+ \subsubsection{Aims}
+ 
+\begin{itemize}
+	\item  Work on modelling heat transfer which encompasses: 
+\begin{itemize}
+	\item  Thermal conductivity
+\item  Thermal diffusion 
+\item  Specific heat capacity
+\item  Perfusion 
+\end{itemize}
+ of the tissue of interest but also including its surrounding structures primarily bone in our case.
+ 
+\item To use this  to model thermal dose and thermal damage of the tissues and surrounding structures. 
+\end{itemize}
+ 
+ \subsubsection{2D model homogeneous muscle tissue}
+Initially, I looked at creating a 2D model of the set up modelled in the study group. Thus thermal conductivity, thermal diffusion, specific heat capacity, perfusion constants are taken for muscle 
+Q was modelled as a Gaussian at the centre of the area of interest and a constant temperature of 37 degrees  were taken as Dirichlet boundary conditions 
+
+To get some feeling for the equations initially I discretised the problem using a central difference in space and a forward difference in time. Thus if $T^i_{m,n}= T(i\delta t, m\delta x, n\delta y)$ we have that:
+
+\begin{eqnarray}
+\rho c \left( \frac{T^{i+1}_{m,n}-T^i_{m,n}}{\delta t}\right)= k\left[  \frac{(T^i_{m+1,n}-2T^i_{m,n}+T^i_{m-1,n})}{(\delta x)^2}+\frac{(T^i_{m,n+1}-2T^i_{m,n}+T^i_{m,n-1})}{(\delta y)^2}\right] +Q^i_{m,n}-\omega c_b(T^i_{m,n}-T_b) \label{euler method}
+\end{eqnarray}
+
+This is an explicit method and so easy to implement and indeed the images produced, shown in figure \ref{fig:forwardcentraldifference} seem to make sense from what we expect physically. 
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.9\linewidth]{Report_images/forward_central_difference}
+	\caption{Heating modelled using a forward difference in time and central difference in space.}
+	\label{fig:forwardcentraldifference}
+\end{figure}
+
+Although I am able to make use of some of the numpy linear algebra routines in built into python, making this code relatively quick to run, adding structure by changing the values of the constants depending on location in the array means many of these routines cannot be implemented, increasing code cost. We do note however that due to the large values of $\rho c$ then this method should be stable for a range of values of $\delta t$ and $\delta x$.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{"Report_images/2d_homogenous heating and cooling"}
+	\caption{2D model of heating and cooling of muscle tissue. The first line is heating, second line cooling.}
+	\label{fig:2dhomogenous-heating-and-cooling}
+\end{figure}
+Consider a 1D version of equation \ref{euler method}:
+
+\begin{eqnarray}
+T^{i+1}_m=T^i_m+\frac{k\delta t}{\rho c (\delta x)^2}[T^i_{m-1}-2T^i_m+T^i_{m+1}]+\frac{\delta t}{\rho c}[Q^i_m-\omega c_b (T^i_m-37)]
+\end{eqnarray} 
+
+Which can be written in the form $$ T_{\delta x}^{n+1}=A_{\delta x}T_{\delta x}^{n}+f_{\delta x}^{n} $$
+where 
+
+$$ A_{\delta x}= \left( \begin{array}{ccccc}
+1- 2\frac{k \delta t}{(\delta x)^2 \rho c} -\frac{\delta t \omega c_b}{\rho c }& \frac{k \delta t}{(\delta x)^2 \rho c} & 0 &\cdots  &0  \\ 
+\frac{k \delta t}{(\delta x)^2 \rho c}& \ddots  & \ddots  &  & \vdots \\ 
+0& \ddots  &  & \ddots  & 0 \\ 
+0&  & \ddots  & \ddots  & \frac{k \delta t}{(\delta x)^2 \rho c} \\ 
+0& \cdots &  0&\frac{k \delta t}{(\delta x)^2 \rho c}  & 1- 2\frac{k \delta t}{(\delta x)^2 \rho c} -\frac{\delta t \omega c_b}{\rho c }
+\end{array}  \right)  $$
+
+This is a  Toeplitz tridiagonal matrix and thus it has eigenvalues:
+
+\begin{eqnarray}
+\lambda_k = 1-\frac{\delta t \omega c_b}{\rho c}-4\frac{k \delta t}{(\delta x)^2 \rho c}\sin^2\left( \frac{k\pi}{2d+2}\right) 
+\end{eqnarray}
+
+Where $D$ is the matrix dimension and $k=1,...,d$. For stability, as our matrix is symmetric and thus normal, we require that the absolute values of the  eigenvalues are less than one. As the second and third term are both very small due to $\rho c \approx 10^6$. 
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{Report_images/study_group_code_2D_model}
+	\caption{Temperature of a point a short distance from the focus measured thorughout a heating and cooling period}
+	\label{fig:studygroupcode2dmodel}
+\end{figure}
+
+
+To reduce computational cost we try a semi-discretisation to give an ODE in time, and then use pythons inbuilt ODE solver, odeint. This is based on the  lsoda from the FORTRAN library odepack which automatically selects between nonstiff (Adams) and stiff (BDF) methods. The ODE is given by:
+
+\begin{eqnarray}
+\rho c \frac{dT}{dt}= k\left[  \frac{(T^i_{m+1,n}-2T^i_{m,n}+T^i_{m-1,n})}{(\delta x)^2}+\frac{(T^i_{m,n+1}-2T^i_{m,n}+T^i_{m,n-1})}{(\delta y)^2}\right] +Q^i_{m,n}-\omega c_b(T^i_{m,n}-T_b).
+\end{eqnarray}
+
+Ignoring the perfusion term, valid because it is small, we can get models for heating and cooling as given in \ref{fig:2dhomogenous-heating-and-cooling}, again there is nothing unexpected. Additionally, recording temperatures from a small distance away from the focus and plotting a graph of temperature against time gives the result as shown in figure \ref{fig:studygroupcode2dmodel}. This is similar to the temperature profile shown in figure \ref{fig:studygroupcode}. For the moment we ignore exact units (MORE NEEDED!!!!!!!!!!!!)
+
+Adding back in the perfusion term, despite how small it is, has a dramatic effect on the numerical stability (need to prove this). Problems originating at the boundary are particularly common. Examples are shown in figure \ref{fig:instability}. WHHHHHHHHHHHHHYYYYYYYYYYYYYYY????????
+
  
  
-	 	  
+  
+
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.95\linewidth]{Report_images/instability}
+	\caption{Examples of instability caused by the perfusion term}
+	\label{fig:instability}
+\end{figure}
+
+\subsubsection{2D model with added bone structures}	 	
+
+Initially we changed the constants
+
+\begin{itemize}
+	\item  Thermal conductivity
+	\item  Thermal diffusion 
+	\item  Specific heat capacity
+	\item  Perfusion 
+\end{itemize}
+
+in a particular region of the domain to that for bone. The region can be seen on the left of figure \ref{fig:bone-without-changing-q}. The gaussian source is focused at position $(50,50)$.  This had very little effect, because the increase in the density of bone is offset by a decrease in the specific heat capacity of bone and decrease in thermal conductivity , comparing $\frac{k}{\rho_{muscle} c_{muscle}} = \frac{0.5}{3430 \times 1041} \approx 1/7141260 $ and $\frac{k}{\rho_{bone} c_{bone}} =\frac{0.38}{ 1420 \times 1700} =1/ 6352631$. This is not a huge difference and it would take a long time for significant differences to be visible and running 1000 steps gave a residual of the difference between the bone and no bone simulations on the right of figure \ref{fig:bone-without-changing-q}. We are relieved to see there is a slight lack of symmetry with darker areas suggesting a greater change where the bone lies. However, the relative difference is still very small, less than a degree. 
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{"Report_images/bone without changing Q"}
+	\caption{TO DO PLEASE}
+	\label{fig:bone-without-changing-q}
+\end{figure}
+
+We double check that the code is working correctly by Code was working correctly by choosing the "bone" to have a diffusivity constant of 10 times smaller than that of muscle. After 1000 steps this gives the results shown in figure \ref{fig:change-diffusion-constant}, which clearly shows a lack of symmetry and a slower diffusion process occurring in bone leading to lower temperatures in the bone. 
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.8\linewidth]{"Report_images/change diffusion constant"}
+	\caption{Experimenting with changing diffusion constant in a strip lying in the top half of the region, modelling bone}
+	\label{fig:change-diffusion-constant}
+\end{figure}
+
+This was very unexpected compared to what is seen  experimentally. For example as discussed in paper \cite{Cochard2009}, by Caochard et al. they discuss how thermal ablation induced by high intensity focused ultrasound has produced promising clinical results to treat hepatocarcinoma and other liver tumors. However skin burns have been reported due to the high absorption of ultrasonic energy by the ribs. A very interesting paper that discusses how to correct for the ribs effect on focusing and analysis derived from time reversal mirrors to reduce heating of the ribs. They point to Duam et al. \cite{Daum1999}  in which it was reported that using magnetic resonance temperature monitoring of pigs in vivo that  temperature elevations were five times higher on the ribs than in the intercostal space. 
+
+Looking back to the table in figure \ref{fig:tissueproperties} we see that we have yet to take into account the difference in the attenuation coefficient in bone and in muscle. This would effect Q, the source term in the equation and so we need to model this differently. 
+
+  
+
+
+
+In doing this we got....
+
+
+Code up Crank Nicholson...more usable format for code....
+
+
+\subsubsection{Modelling thermal dose}
+\subsubsection{Units and other stuff}
+
+
+  
 	\section{Final Thoughts} 
 
-	
+\pagebreak	
 	\bibliography{Industrial_Reading_Project}
 	\bibliographystyle{plain}
 \end{document}
