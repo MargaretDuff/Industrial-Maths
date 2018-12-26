@@ -1,13 +1,29 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Industrial_Reading_Project.aux
 The style file: plain.bst
 Database file #1: Industrial_Reading_Project.bib
+Warning--I didn't find a database entry for "ESGIhandbook"
 Warning--I didn't find a database entry for "Sapareto1984"
 Warning--to sort, need author or key in deloitteuk
+Warning--to sort, need author or key in Smith
+Warning--to sort, need author or key in REF2017
+Warning--to sort, need author or key in UKRI
+Warning--to sort, need author or key in IAA
+Warning--to sort, need author or key in Steinbeis
+Warning--to sort, need author or key in WIPO
+Warning--to sort, need author or key in FieldsCIM
+Warning--to sort, need author or key in FieldsCFI
+Warning--to sort, need author or key in CQAM
+Warning--to sort, need author or key in IMI
+Warning--to sort, need author or key in Gov
 Warning--to sort, need author or key in landmine
 Warning--to sort, need author or key in Shelter1996
-Warning--empty author in landmine
+Warning--empty author in IMI
+Warning--empty year in IMI
+Warning--empty author in Shelter1996
 Warning--empty author in deloitteuk
 Warning--empty institution in deloitteuk
+Warning--empty author in WIPO
+Warning--empty institution in WIPO
 Warning--empty institution in Babey
 Warning--empty year in Babey
 Warning--empty institution in Bond
@@ -19,6 +35,7 @@ Warning--empty institution in Irving2012
 Warning--empty institution in Jessop
 Warning--empty year in Jessop
 Warning--empty journal in Stockie2015
+Warning--empty institution in Thum2017
 Warning--empty institution in Waugh1999
 Warning--empty institution in Zhou2007
-(There were 20 warnings)
+(There were 37 warnings)

@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.6)  20 DEC 2018 16:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.26)  26 DEC 2018 17:10
 entering extended mode
 **./Industrial_Reading_Project.tex
 (Industrial_Reading_Project.tex
 LaTeX2e <2018-04-01> patch level 5
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+("C:\Users\marga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
+("C:\Users\marga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size11.clo"
 File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -20,21 +20,26 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+("C:\Users\marga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.
+sty"
 Package: geometry 2018/04/16 v5.8 Page Geometry
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("C:\Users\marga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.st
+y"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+("C:\Users\marga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.s
+ty"
 Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+("C:\Users\marga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.
+sty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+("C:\Users\marga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.
+sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count88
@@ -50,28 +55,33 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+("C:\Users\marga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.
+cfg"))
+("C:\Users\marga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.
+sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+("C:\Users\marga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.
+sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Users\marga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+("C:\Users\marga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graph
+ics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+("C:\Users\marga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdfte
+x.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen111
 \Gin@req@width=\dimen112
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+("C:\Users\marga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count91
 \float@exts=\toks16
@@ -79,29 +89,35 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks17
 \@floatcapt=\box27
 )
-(C:\Users\magd21\AppData\Roaming\MiKTeX\2.9\tex\latex\cite\cite.sty
+("C:\Users\marga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cite\cite.sty"
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+("C:\Users\marga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.st
+y"
 Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+
+("C:\Users\marga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.st
+y"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+("C:\Users\marga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
 \ex@=\dimen113
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+("C:\Users\marga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen114
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+("C:\Users\marga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count92
@@ -141,25 +157,27 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \mathdisplay@stack=\toks22
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
-)
-(C:\Users\magd21\AppData\Roaming\MiKTeX\2.9\tex\latex\was\gensymb.sty
+) ("C:\Users\marga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\was\gensymb.sty"
 Package: gensymb 2003/07/02 v1.0 (WaS)
+) ("C:\Users\marga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 (Industrial_Reading_Project.aux)
 \openout1 = `Industrial_Reading_Project.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -195,7 +213,9 @@ LaTeX Font Info:    ... okay on input line 19.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(C:\Users\magd21\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+
+("C:\Users\marga\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
+ii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count104
 \scratchdimen=\dimen122
@@ -208,31 +228,41 @@ LaTeX Font Info:    ... okay on input line 19.
 \MPnumerator=\count108
 \makeMPintoPDFobject=\count109
 \everyMPtoPDFconversion=\toks24
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+)
+("C:\Users\marga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-
+base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+("C:\Users\marga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infware
+rr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+("C:\Users\marga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.st
+y"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+("C:\Users\marga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdefin
+ekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+("C:\Users\marga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds
+.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )))
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+("C:\Users\marga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions
+.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+("C:\Users\marga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetke
+ys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+("C:\Users\marga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcmd
+s.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+("C:\Users\marga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifluate
+x.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -241,7 +271,8 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+("C:\Users\marga\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftexc
+mds.sty"
 Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -256,217 +287,251 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-LaTeX Info: Redefining \celsius on input line 19.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 19.
+LaTeX Info: Redefining \celsius on input line 20.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 20.
 
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 19.
-Package gensymb Info: Using \Omega for \ohm on input line 19.
+LaTeX Info: Redefining \ohm on input line 20.
+Package gensymb Info: Using \Omega for \ohm on input line 20.
 
 Package gensymb Warning: Not defining \micro.
 
-(Industrial_Reading_Project.toc)
+(Industrial_Reading_Project.toc [1
+
+{C:/Users/marga/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}])
 \tf@toc=\write3
 \openout3 = `Industrial_Reading_Project.toc'.
 
- [1
 
-{C:/Users/magd21/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 
-LaTeX Warning: Reference `deloittedutch' on page 2 undefined on input line 46.
+LaTeX Warning: Reference `deloittedutch' on page 2 undefined on input line 49.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 63.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+[2]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 66.
+ ("C:\Users\marga\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 63.
- [2] [3] [4]
-Overfull \hbox (37.39075pt too wide) in paragraph at lines 143--146
-\OT1/cmr/m/n/10.95 A long pro-cess!!!! Lack of un-der-stand-ing of busi-ness dr
-ivers and cul-ture - dif-fer-ent lan-guage/timescales/skillsets
- []
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 66.
+ [3] [4]
 
-[5] [6]
-Overfull \hbox (97.93005pt too wide) in paragraph at lines 218--219
+LaTeX Warning: Reference `Africa' on page 5 undefined on input line 138.
+
+[5]
+
+LaTeX Warning: Reference `Dowling2015' on page 6 undefined on input line 142.
+
+[6] [7]
+
+LaTeX Warning: Citation `ESGIhandbook' on page 8 undefined on input line 200.
+
+[8] [9] [10]
+Overfull \hbox (97.93005pt too wide) in paragraph at lines 306--307
 \OT1/cmr/m/n/10.95 To READ https://www.gov.scot/binaries/content/documents/govs
 cot/publications/research-publication/2018/06/health-
  []
 
-[7]
-<Report_images/homeless_rates.jpg, id=37, 599.841pt x 431.6928pt>
+[11]
+<Report_images/homeless_rates.jpg, id=49, 599.841pt x 431.6928pt>
 File: Report_images/homeless_rates.jpg Graphic file (type jpg)
 <use Report_images/homeless_rates.jpg>
-Package pdftex.def Info: Report_images/homeless_rates.jpg  used on input line 2
-62.
+Package pdftex.def Info: Report_images/homeless_rates.jpg  used on input line 3
+50.
 (pdftex.def)             Requested size: 435.32422pt x 313.30191pt.
- [8 <./Report_images/homeless_rates.jpg>]
+ [12 <./Report_images/homeless_rates.jpg>]
 
-LaTeX Warning: Reference `Lery2011' on page 9 undefined on input line 302.
+LaTeX Warning: Reference `Lery2011' on page 13 undefined on input line 390.
 
-<Report_images/MilanEMS.jpg, id=42, 526.96875pt x 538.26094pt>
+<Report_images/MilanEMS.jpg, id=54, 526.96875pt x 538.26094pt>
 File: Report_images/MilanEMS.jpg Graphic file (type jpg)
 <use Report_images/MilanEMS.jpg>
-Package pdftex.def Info: Report_images/MilanEMS.jpg  used on input line 317.
+Package pdftex.def Info: Report_images/MilanEMS.jpg  used on input line 405.
 (pdftex.def)             Requested size: 435.32422pt x 444.67032pt.
-[9] [10 <./Report_images/MilanEMS.jpg>] [11] [12]
-<Report_images/meningitis_model.jpg, id=57, 637.4214pt x 255.354pt>
+[13] [14 <./Report_images/MilanEMS.jpg>] [15] [16]
+<Report_images/meningitis_model.jpg, id=70, 637.4214pt x 255.354pt>
 File: Report_images/meningitis_model.jpg Graphic file (type jpg)
 <use Report_images/meningitis_model.jpg>
 Package pdftex.def Info: Report_images/meningitis_model.jpg  used on input line
- 403.
+ 491.
 (pdftex.def)             Requested size: 435.32422pt x 174.39432pt.
- [13 <./Report_images/meningitis_model.jpg>]
-Overfull \hbox (3.03613pt too wide) in alignment at lines 447--451
+ [17 <./Report_images/meningitis_model.jpg>]
+Overfull \hbox (3.03613pt too wide) in alignment at lines 535--539
  [][][] []
  []
 
-[14] [15]
-<"Report_images/howitworks".jpg, id=68, 663.4386pt x 425.9112pt>
+[18] [19]
+<"Report_images/howitworks".jpg, id=81, 663.4386pt x 425.9112pt>
 File: "Report_images/howitworks".jpg Graphic file (type jpg)
 <use "Report_images/howitworks".jpg>
-Package pdftex.def Info: "Report_images/howitworks".jpg  used on input line 537
+Package pdftex.def Info: "Report_images/howitworks".jpg  used on input line 625
 .
 (pdftex.def)             Requested size: 159.62085pt x 102.47423pt.
-<"Report_images/howitworks2".jpg, id=69, 270.7716pt x 148.3944pt>
+<"Report_images/howitworks2".jpg, id=82, 270.7716pt x 148.3944pt>
 File: "Report_images/howitworks2".jpg Graphic file (type jpg)
 <use "Report_images/howitworks2".jpg>
-Package pdftex.def Info: "Report_images/howitworks2".jpg  used on input line 53
-8.
+Package pdftex.def Info: "Report_images/howitworks2".jpg  used on input line 62
+6.
 (pdftex.def)             Requested size: 159.62085pt x 87.47946pt.
-<"Report_images/howitworks3".jpg, id=70, 490.2315pt x 241.50224pt>
+<"Report_images/howitworks3".jpg, id=83, 490.2315pt x 241.50224pt>
 File: "Report_images/howitworks3".jpg Graphic file (type jpg)
 <use "Report_images/howitworks3".jpg>
-Package pdftex.def Info: "Report_images/howitworks3".jpg  used on input line 53
-9.
+Package pdftex.def Info: "Report_images/howitworks3".jpg  used on input line 62
+7.
 (pdftex.def)             Requested size: 159.62085pt x 78.63469pt.
 
-Overfull \hbox (25.16568pt too wide) in paragraph at lines 535--541
+Overfull \hbox (25.16568pt too wide) in paragraph at lines 623--629
  []$ 
  []
 
-[16 <./Report_images/howitworks.jpg> <./Report_images/howitworks2.jpg> <./Repor
+[20 <./Report_images/howitworks.jpg> <./Report_images/howitworks2.jpg> <./Repor
 t_images/howitworks3.jpg>]
-<Report_images/MRIimage.jpg, id=74, 272.51813pt x 308.65312pt>
+<Report_images/MRIimage.jpg, id=87, 272.51813pt x 308.65312pt>
 File: Report_images/MRIimage.jpg Graphic file (type jpg)
 <use Report_images/MRIimage.jpg>
-Package pdftex.def Info: Report_images/MRIimage.jpg  used on input line 570.
+Package pdftex.def Info: Report_images/MRIimage.jpg  used on input line 658.
 (pdftex.def)             Requested size: 338.58632pt x 383.50299pt.
- [17] [18 <./Report_images/MRIimage.jpg>]
-<Report_images/tissueproperties.jpg, id=81, 680.5425pt x 161.85469pt>
+ [21 <./Report_images/MRIimage.jpg>]
+<Report_images/tissueproperties.jpg, id=91, 680.5425pt x 161.85469pt>
 File: Report_images/tissueproperties.jpg Graphic file (type jpg)
 <use Report_images/tissueproperties.jpg>
 Package pdftex.def Info: Report_images/tissueproperties.jpg  used on input line
- 613.
+ 701.
 (pdftex.def)             Requested size: 483.69687pt x 115.03864pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 614--614
+Underfull \hbox (badness 10000) in paragraph at lines 702--702
 []\OT1/cmr/m/n/10.95 Figure 6: Ma-te-rial prop-er-ties of tis-sues, NEEEEEEEEEE
 EEED-DDDDDDD A
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 614--614
+Underfull \hbox (badness 10000) in paragraph at lines 702--702
 \OT1/cmr/m/n/10.95 REEEEEEEE-EFFFFFFFF-FEEEEEEEER-RRRRRRRREEEEEEEEEEENNNNNNC-C-
 C-C-C-C-C-
  []
 
 
-LaTeX Warning: Citation `Sapareto1984' on page 19 undefined on input line 623.
+LaTeX Warning: Citation `Sapareto1984' on page 22 undefined on input line 711.
 
-[19 <./Report_images/tissueproperties.jpg>]
-<Report_images/studygroupcode.jpg, id=86, 336.50719pt x 212.29312pt>
+[22 <./Report_images/tissueproperties.jpg>] [23]
+<Report_images/studygroupcode.jpg, id=98, 336.50719pt x 212.29312pt>
 File: Report_images/studygroupcode.jpg Graphic file (type jpg)
 <use Report_images/studygroupcode.jpg>
-Package pdftex.def Info: Report_images/studygroupcode.jpg  used on input line 6
-96.
+Package pdftex.def Info: Report_images/studygroupcode.jpg  used on input line 7
+84.
 (pdftex.def)             Requested size: 338.58632pt x 213.60776pt.
- [20]
-Overfull \hbox (57.18202pt too wide) in alignment at lines 723--725
+
+Overfull \hbox (57.18202pt too wide) in alignment at lines 811--813
  [][][] []
  []
 
-<Report_images/forward_central_difference.jpg, id=90, 319.1925pt x 210.7875pt>
+[24 <./Report_images/studygroupcode.jpg>]
+<Report_images/forward_central_difference.jpg, id=102, 319.1925pt x 210.7875pt>
+
 File: Report_images/forward_central_difference.jpg Graphic file (type jpg)
 <use Report_images/forward_central_difference.jpg>
 Package pdftex.def Info: Report_images/forward_central_difference.jpg  used on 
-input line 731.
+input line 819.
 (pdftex.def)             Requested size: 435.32422pt x 287.48094pt.
-<"Report_images/2d_homogenous heating and cooling".jpg, id=91, 533.3526pt x 320
-.397pt>
+<"Report_images/2d_homogenous heating and cooling".jpg, id=103, 533.3526pt x 32
+0.397pt>
 File: "Report_images/2d_homogenous heating and cooling".jpg Graphic file (type 
 jpg)
 <use "Report_images/2d_homogenous heating and cooling".jpg>
 Package pdftex.def Info: "Report_images/2d_homogenous heating and cooling".jpg 
- used on input line 740.
+ used on input line 828.
 (pdftex.def)             Requested size: 483.69687pt x 290.56927pt.
-[21 <./Report_images/studygroupcode.jpg>] [22 <./Report_images/forward_central_
-difference.jpg> <./Report_images/2d_homogenous heating and cooling.jpg>]
-<Report_images/study_group_code_2D_model.jpg, id=98, 312.41719pt x 208.52907pt>
-
+ [25 <./Report_images/forward_central_difference.jpg>]
+<Report_images/study_group_code_2D_model.jpg, id=108, 312.41719pt x 208.52907pt
+>
 File: Report_images/study_group_code_2D_model.jpg Graphic file (type jpg)
 <use Report_images/study_group_code_2D_model.jpg>
 Package pdftex.def Info: Report_images/study_group_code_2D_model.jpg  used on i
-nput line 772.
+nput line 860.
 (pdftex.def)             Requested size: 338.58632pt x 226.0035pt.
-<Report_images/instability.jpg, id=99, 918.3108pt x 208.6194pt>
+<Report_images/instability.jpg, id=109, 918.3108pt x 208.6194pt>
 File: Report_images/instability.jpg Graphic file (type jpg)
 <use Report_images/instability.jpg>
-Package pdftex.def Info: Report_images/instability.jpg  used on input line 796.
+Package pdftex.def Info: Report_images/instability.jpg  used on input line 884.
 
 (pdftex.def)             Requested size: 459.51054pt x 104.3922pt.
-
-[23 <./Report_images/study_group_code_2D_model.jpg>]
-<"Report_images/bone without changing Q".jpg, id=103, 425.4294pt x 198.9834pt>
+ [26 <./Report_images/2d_homogenous heating and cooling.jpg>]
+[27 <./Report_images/study_group_code_2D_model.jpg> <./Report_images/instabilit
+y.jpg>]
+<"Report_images/bone without changing Q".jpg, id=116, 425.4294pt x 198.9834pt>
 File: "Report_images/bone without changing Q".jpg Graphic file (type jpg)
 <use "Report_images/bone without changing Q".jpg>
 Package pdftex.def Info: "Report_images/bone without changing Q".jpg  used on i
-nput line 816.
+nput line 904.
 (pdftex.def)             Requested size: 338.58632pt x 158.37018pt.
-<"Report_images/change diffusion constant".jpg, id=104, 283.81032pt x 198.7425p
+<"Report_images/change diffusion constant".jpg, id=117, 283.81032pt x 198.7425p
 t>
 File: "Report_images/change diffusion constant".jpg Graphic file (type jpg)
 <use "Report_images/change diffusion constant".jpg>
 Package pdftex.def Info: "Report_images/change diffusion constant".jpg  used on
- input line 825.
+ input line 913.
 (pdftex.def)             Requested size: 386.95897pt x 270.99886pt.
- [24 <./Report_images/instability.jpg> <./Report_images/bone without changing Q
-.jpg>] [25 <./Report_images/change diffusion constant.jpg>] (Industrial_Reading
-_Project.bbl) [26]
-(Industrial_Reading_Project.aux)
+ [28 <./Report_images/bone without changing Q.jpg>]
+(Industrial_Reading_Project.bbl
+Overfull \hbox (57.79216pt too wide) in paragraph at lines 24--27
+[]\OT1/cmr/m/n/10.95 Impact Ac-cel-er-a-tion Ac-counts - EP-SRC web-site.  http
+s://epsrc.ukri.org/innovation/fundingforimpact/impact-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--46
+[]\OT1/cmr/m/n/10.95 EXECUTIVE SUM-MARY Land-mine Mon-i-tor.  http://the-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--54
+[]\OT1/cmr/m/n/10.95 Initial de-ci-sions on the Re-search Ex-cel-lence Frame-wo
+rk 2021,.
+ []
+
+[29 <./Report_images/change diffusion constant.jpg>]
+Underfull \hbox (badness 2134) in paragraph at lines 99--104
+[]\OT1/cmr/m/n/10.95 Professor Dame Ann Dowl-ing.  The Dowl-ing Re-view of Busi
+ness-University Re-search
+ []
+
+) [30] (Industrial_Reading_Project.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2889 strings out of 492970
- 41561 string characters out of 3135852
- 119848 words of memory out of 3000000
- 6701 multiletter control sequences out of 15000+200000
+ 2982 strings out of 492970
+ 44156 string characters out of 3126593
+ 120033 words of memory out of 3000000
+ 6790 multiletter control sequences out of 15000+200000
  11632 words of font info for 41 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,12n,29p,1267b,346s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmu10.pfb>
-Output written on Industrial_Reading_Project.pdf (26 pages, 1152451 bytes).
+ 41i,12n,29p,1429b,346s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/marga/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmbx10.pfb><C:/Users/marga/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmbx12.pfb><C:/Users/marga/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/marga/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/marga/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/mar
+ga/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
+C:/Users/marga/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmr10.pfb><C:/Users/marga/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr12.pfb><C:/Users/marga/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmr17.pfb><C:/Users/marga/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/marga/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/marga/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users
+/marga/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb><C:/Users/marga/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmsy8.pfb><C:/Users/marga/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmti10.pfb><C:/Users/marga/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmu10.pfb>
+Output written on Industrial_Reading_Project.pdf (30 pages, 1176335 bytes).
 PDF statistics:
- 165 PDF objects out of 1000 (max. 8388607)
+ 177 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  76 words of extra memory for PDF output out of 10000 (max. 10000000)
 

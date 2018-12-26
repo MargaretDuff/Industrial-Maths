@@ -1,15 +1,66 @@
 \begin{thebibliography}{10}
 
+\bibitem{FieldsCFI}
+{Centre for Financial Industries | Fields Institute for Research in
+  Mathematical Sciences}.
+\newblock http://www.fields.utoronto.ca/centres/centre-financial-industries.
+
+\bibitem{FieldsCIM}
+{Commercial and Industrial Mathematics Program | Fields Institute for Research
+  in Mathematical Sciences}.
+\newblock http://www.fields.utoronto.ca/activities/CIMP.
+
+\bibitem{CQAM}
+{Fields-CQAM | Mathematics | Ontario}.
+\newblock https://www.cqam.ca/.
+
+\bibitem{IMI}
+{Guide to Industry-University Collaboration: Delivering innovative solutions to
+  complex challenges}.
+\newblock Technical report, Institute for Mathematical Innovation, University
+  of Bath.
+
+\bibitem{IAA}
+{Impact Acceleration Accounts - EPSRC website}.
+\newblock
+  https://epsrc.ukri.org/innovation/fundingforimpact/impact-acceleration-accounts/.
+
+\bibitem{UKRI}
+{Pathways to Impact - UK Research and Innovation}.
+\newblock
+  https://www.ukri.org/innovation/excellence-with-impact/pathways-to-impact/.
+
+\bibitem{Gov}
+{Research and Development tax reliefs - GOV.UK}.
+
+\bibitem{Smith}
+{Smith Institute | Mathematics - strategic and tactical problem solving}.
+
 \bibitem{Shelter1996}
-{Shelter: Homeless Populations}, 1996.
+{Shelter: Homeless Populations}.
+\newblock Technical report, European Study Groups with Industry, Oxford, 1996.
 
 \bibitem{landmine}
 {EXECUTIVE SUMMARY Landmine Monitor}.
-\newblock Technical report, international Campaign to Ban Landmines, 1999.
+\newblock http://the-monitor.org/media/1757245/lm1999execsum.pdf, 1999.
 
 \bibitem{deloitteuk}
 {Measuring the Economic Benefits of Mathematical Science Research in the UK}.
 \newblock Technical report, 2013.
+
+\bibitem{REF2017}
+{Initial decisions on the Research Excellence Framework 2021,}.
+\newblock www.ref.ac.uk/panels/panelmembership/, 2017.
+
+\bibitem{Steinbeis}
+{Steinbeis | Facts and Dates}.
+\newblock
+  https://www.steinbeis.de/en/steinbeis/about-steinbeis/facts-and-dates.html,
+  2017.
+
+\bibitem{WIPO}
+{World Intellectual Property Indicators 2017}.
+\newblock Technical report, 2017.
 
 \bibitem{Aston2016}
 Philip~J. Aston, Anthony~J. Mulholland, and Katherine~M.M. Tant, editors.
@@ -44,6 +95,13 @@ Douglas~R Daum, Nadine~B Smith, Randy King, and Kullervo Hynynen.
   AND KIDNEY USING AN ULTRASONIC PHASED ARRAY}.
 \newblock Technical report, 1999.
 
+\bibitem{DOWLING2015}
+Professor Dame~Ann Dowling.
+\newblock {The Dowling Review of Business-University Research Collaborations}.
+\newblock
+  https://www.raeng.org.uk/publications/reports/the-dowling-review-of-business-university-research,
+  2015.
+
 \bibitem{Hosseini2018}
 Bamdad Hosseini, Charles Mougenot, Samuel Pichardo, James~M Drake, John~M
   Stockie, and Elodie Constanciel.
@@ -59,7 +117,7 @@ T~J Irving, K~B Blyuss, C~Colijn, and C~L Trotter.
 \bibitem{Jessop}
 Chris Jessop, Michael Lamoureux, Joshua Madden, David Saunders, Bill Vetter,
   Chris Budd, and John Stockie.
-\newblock {Trip Wire Detection for Land Mines Written by}.
+\newblock {Trip Wire Detection for Land Mines}.
 \newblock Technical report.
 
 \bibitem{Pennes1948}
@@ -85,6 +143,11 @@ Viola Rieke and Kim {Butts Pauly}.
 John~M. Stockie.
 \newblock {Mathematics For Industry: A Personal Perspective}.
 \newblock sep 2015.
+
+\bibitem{Thum2017}
+Dr~Martin Thum.
+\newblock {Frauhofer-Sesellschaft Annual Report 2017: THE FUTURE OF WORK}.
+\newblock Technical report, 2017.
 
 \bibitem{VanDenDriessche}
 P~{Van Den Driessche} and James Watmough.
