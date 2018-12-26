@@ -11,32 +11,32 @@
 \contentsline {subsection}{\numberline {2.6}Challenges}{7}
 \contentsline {subsubsection}{\numberline {2.6.1}Identifying Suitable Problems and Creating links}{7}
 \contentsline {subsubsection}{\numberline {2.6.2}Building working relationships}{8}
-\contentsline {subsubsection}{\numberline {2.6.3}Intellectual Property and Conflicts of Interest}{9}
+\contentsline {subsubsection}{\numberline {2.6.3}Intellectual Property and Conflicts of Interest}{8}
 \contentsline {subsubsection}{\numberline {2.6.4}Academic Career Paths}{9}
 \contentsline {subsubsection}{\numberline {2.6.5}Brexit}{9}
-\contentsline {subsection}{\numberline {2.7}Case Study 1: Trip Wire Detection for Land Mines }{10}
+\contentsline {subsection}{\numberline {2.7}Case Study 1: Trip Wire Detection for Land Mines }{9}
 \contentsline {paragraph}{Pre-processing}{10}
 \contentsline {paragraph}{Line Detection}{10}
 \contentsline {paragraph}{Algorithm Speed}{11}
 \contentsline {subsection}{\numberline {2.8}Case Study 2 - Shelter: Homeless Populations }{11}
 \contentsline {subsection}{\numberline {2.9}Case Study 3: Optimisation of the \IeC {\textquotedblleft }118\IeC {\textquotedblright } Emergency Management System in Milan }{13}
-\contentsline {paragraph}{Evaluation of the current EMS system }{14}
+\contentsline {paragraph}{Evaluation of the current EMS system }{15}
 \contentsline {paragraph}{Development of a simulation model in order to test operational policies }{15}
-\contentsline {paragraph}{Finding an alternative set of ambulance posts}{15}
-\contentsline {subsection}{\numberline {2.10}Case Study 4: Mathematical Modelling of the Dynamics of Meningococcal Meningitis in Africa }{16}
+\contentsline {paragraph}{Finding an alternative set of ambulance posts}{16}
+\contentsline {subsection}{\numberline {2.10}Case Study 4: Mathematical Modelling of the Dynamics of Meningococcal Meningitis in Africa }{17}
 \contentsline {paragraph}{Initial Modelling and Identification of Reproduction Number }{17}
 \contentsline {paragraph}{Adding the seasonal effects }{19}
-\contentsline {paragraph}{Impact}{19}
-\contentsline {section}{\numberline {3}Extended Case Study - High Intensity Focused Ultrasound}{20}
-\contentsline {subsection}{\numberline {3.1}Set Up}{20}
-\contentsline {subsection}{\numberline {3.2}Imaging}{20}
-\contentsline {subsection}{\numberline {3.3}Focusing the ultrasound signal}{21}
-\contentsline {subsection}{\numberline {3.4}Modelling Heat transfer and thermal dose}{22}
-\contentsline {subsubsection}{\numberline {3.4.1}Study group modelling}{23}
-\contentsline {subsection}{\numberline {3.5}Current Work }{24}
-\contentsline {subsubsection}{\numberline {3.5.1}Aims}{24}
-\contentsline {subsubsection}{\numberline {3.5.2}2D model homogeneous muscle tissue}{24}
-\contentsline {subsubsection}{\numberline {3.5.3}2D model with added bone structures}{26}
-\contentsline {subsubsection}{\numberline {3.5.4}Modelling thermal dose}{28}
-\contentsline {subsubsection}{\numberline {3.5.5}Units and other stuff}{28}
-\contentsline {section}{\numberline {4}Final Thoughts}{28}
+\contentsline {paragraph}{Impact}{20}
+\contentsline {section}{\numberline {3}Extended Case Study - High Intensity Focused Ultrasound}{21}
+\contentsline {subsection}{\numberline {3.1}Set Up}{21}
+\contentsline {subsection}{\numberline {3.2}Imaging}{21}
+\contentsline {subsection}{\numberline {3.3}Focusing the ultrasound signal}{22}
+\contentsline {subsection}{\numberline {3.4}Modelling Heat transfer and thermal dose}{23}
+\contentsline {subsubsection}{\numberline {3.4.1}Study group modelling}{24}
+\contentsline {subsection}{\numberline {3.5}Current Work }{25}
+\contentsline {subsubsection}{\numberline {3.5.1}Aims}{25}
+\contentsline {subsubsection}{\numberline {3.5.2}2D model homogeneous muscle tissue}{25}
+\contentsline {subsubsection}{\numberline {3.5.3}2D model with added bone structures}{27}
+\contentsline {subsubsection}{\numberline {3.5.4}Modelling thermal dose}{29}
+\contentsline {subsubsection}{\numberline {3.5.5}Units and other stuff}{29}
+\contentsline {section}{\numberline {4}Final Thoughts}{29}
