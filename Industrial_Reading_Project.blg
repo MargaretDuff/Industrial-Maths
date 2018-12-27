@@ -15,11 +15,13 @@ Warning--to sort, need author or key in FieldsCFI
 Warning--to sort, need author or key in CQAM
 Warning--to sort, need author or key in IMI
 Warning--to sort, need author or key in Gov
+Warning--to sort, need author or key in royalsoc2010
 Warning--to sort, need author or key in landmine
 Warning--to sort, need author or key in Shelter1996
 Warning--empty author in IMI
 Warning--empty year in IMI
 Warning--empty author in Shelter1996
+Warning--empty author in royalsoc2010
 Warning--empty author in deloitteuk
 Warning--empty institution in deloitteuk
 Warning--empty author in WIPO
@@ -42,4 +44,4 @@ Warning--empty journal in Stockie2015
 Warning--empty institution in Thum2017
 Warning--empty institution in Waugh1999
 Warning--empty institution in Zhou2007
-(There were 41 warnings)
+(There were 43 warnings)
