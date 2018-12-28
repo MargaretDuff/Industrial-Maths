@@ -1,71 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{FieldsCFI}
-{Centre for Financial Industries | Fields Institute for Research in
-  Mathematical Sciences}.
-\newblock http://www.fields.utoronto.ca/centres/centre-financial-industries.
-
-\bibitem{FieldsCIM}
-{Commercial and Industrial Mathematics Program | Fields Institute for Research
-  in Mathematical Sciences}.
-\newblock http://www.fields.utoronto.ca/activities/CIMP.
-
-\bibitem{CQAM}
-{Fields-CQAM | Mathematics | Ontario}.
-\newblock https://www.cqam.ca/.
-
-\bibitem{IMI}
-{Guide to Industry-University Collaboration: Delivering innovative solutions to
-  complex challenges}.
-\newblock Technical report, Institute for Mathematical Innovation, University
-  of Bath.
-
-\bibitem{IAA}
-{Impact Acceleration Accounts - EPSRC website}.
-\newblock
-  https://epsrc.ukri.org/innovation/fundingforimpact/impact-acceleration-accounts/.
-
-\bibitem{UKRI}
-{Pathways to Impact - UK Research and Innovation}.
-\newblock
-  https://www.ukri.org/innovation/excellence-with-impact/pathways-to-impact/.
-
-\bibitem{Gov}
-{Research and Development tax reliefs - GOV.UK}.
-
-\bibitem{Smith}
-{Smith Institute | Mathematics - strategic and tactical problem solving}.
-
-\bibitem{Shelter1996}
-{Shelter: Homeless Populations}.
-\newblock Technical report, European Study Groups with Industry, Oxford, 1996.
-
-\bibitem{landmine}
-{EXECUTIVE SUMMARY Landmine Monitor}.
-\newblock http://the-monitor.org/media/1757245/lm1999execsum.pdf, 1999.
-
-\bibitem{royalsoc2010}
-{The Scientific Century: securing our future prosperity}.
-\newblock Technical report, The Royal Society, 2010.
-
-\bibitem{deloitteuk}
-{Measuring the Economic Benefits of Mathematical Science Research in the UK}.
-\newblock Technical report, 2013.
-
-\bibitem{REF2017}
-{Initial decisions on the Research Excellence Framework 2021,}.
-\newblock www.ref.ac.uk/panels/panelmembership/, 2017.
-
-\bibitem{Steinbeis}
-{Steinbeis | Facts and Dates}.
-\newblock
-  https://www.steinbeis.de/en/steinbeis/about-steinbeis/facts-and-dates.html,
-  2017.
-
-\bibitem{WIPO}
-{World Intellectual Property Indicators 2017}.
-\newblock Technical report, 2017.
-
 \bibitem{Aston2016}
 Philip~J. Aston, Anthony~J. Mulholland, and Katherine~M.M. Tant, editors.
 \newblock {\em {UK Success Stories in Industrial Mathematics}}.
@@ -81,7 +15,8 @@ Stephen~K Babey, John~E Mcfee, Cliiord~D Anger, Avygdor Moise, and Stephen~B
 Philip Bond.
 \newblock {THE ERA OF MATHEMATICS An Independent Review of Knowledge Exchange
   in the Mathematical Sciences}.
-\newblock Technical report.
+\newblock Technical report, Facilitated by te Engineering and Physical Sciences
+  Research Council and the Knowledge Transfer Network, 2018.
 
 \bibitem{Broda}
 Piotr Broda, Tijana Levajkovic, Milena Kresoja, Marina Marceta, Hermann Mena,
@@ -92,7 +27,14 @@ Piotr Broda, Tijana Levajkovic, Milena Kresoja, Marina Marceta, Hermann Mena,
 \bibitem{Byatt-Smith2003}
 J~G Byatt-Smith, A~A Lacey, D~F Parker, D~Simpson, W~R Smith, and J~A~D Wattis.
 \newblock {MATHEMATICAL MODELLING OF HOMELESS POPULATIONS}.
-\newblock Technical report, 2003.
+\newblock {\em Math. Scientist}, 28:1--12, 2003.
+
+\bibitem{Shelter1996}
+John Byatt-Smith, Craig Glasgow, Michael Grinfield, Shirley Harris, Andrew
+  Lacey, Stefan {Llewellyn Smith}, Tim Lowe, Colin Please, Warren Smith, Angeli
+  Thomis, and Jonathon Wattis.
+\newblock {Shelter: Homeless Populations}.
+\newblock Technical report, European Study Groups with Industry, Oxford, 1996.
 
 \bibitem{Cochard2009}
 E.~Cochard, C.~Prada, J.~F. Aubry, and M.~Fink.
@@ -105,12 +47,48 @@ Douglas~R Daum, Nadine~B Smith, Randy King, and Kullervo Hynynen.
   AND KIDNEY USING AN ULTRASONIC PHASED ARRAY}.
 \newblock Technical report, 1999.
 
+\bibitem{deloitteNL}
+{Deloitte Netherlands}.
+\newblock {Mathematical sciences and their value for the Dutch economy}.
+\newblock Technical report, Deloitte Netherlands, 2013.
+
+\bibitem{deloitteuk}
+{Deloitte UK}.
+\newblock {Measuring the Economic Benefits of Mathematical Science Research in
+  the UK}.
+\newblock Technical report, Deloitte UK, 2013.
+
 \bibitem{DOWLING2015}
 Professor Dame~Ann Dowling.
 \newblock {The Dowling Review of Business-University Research Collaborations}.
 \newblock
   https://www.raeng.org.uk/publications/reports/the-dowling-review-of-business-university-research,
   2015.
+
+\bibitem{IAA}
+{Engineering and Physical Sciences Research Council}.
+\newblock {Impact Acceleration Accounts - EPSRC website}.
+\newblock
+  https://epsrc.ukri.org/innovation/fundingforimpact/impact-acceleration-accounts/.
+
+\bibitem{FieldsCFI}
+{Fields Institute for Research in Mathematical Sciences}.
+\newblock {Centre for Financial Industries}.
+\newblock http://www.fields.utoronto.ca/centres/centre-financial-industries.
+
+\bibitem{FieldsCIM}
+{Fields Institute for Research in Mathematical Sciences}.
+\newblock {Commercial and Industrial Mathematics Program}.
+\newblock http://www.fields.utoronto.ca/activities/CIMP.
+
+\bibitem{CQAM}
+{Fields Institute for Research in Mathematical Sciences}.
+\newblock {Fields-CQAM | Mathematics | Ontario}.
+\newblock https://www.cqam.ca/.
+
+\bibitem{Gov}
+Gov.uk.
+\newblock {Research and Development tax reliefs - GOV.UK}.
 
 \bibitem{Hosseini2018}
 Bamdad Hosseini, Charles Mougenot, Samuel Pichardo, James~M Drake, John~M
@@ -119,10 +97,22 @@ Bamdad Hosseini, Charles Mougenot, Samuel Pichardo, James~M Drake, John~M
   aberrations in high intensity focused ultrasound treatment}.
 \newblock Technical report, 2018.
 
+\bibitem{IMI}
+{Institute for Mathematics of Innovation}.
+\newblock {Guide to Industry-University Collaboration: Delivering innovative
+  solutions to complex challenges}.
+\newblock Technical report, Institute for Mathematical Innovation, University
+  of Bath.
+
+\bibitem{landmine}
+{International Campaign to Ban Landmines}.
+\newblock {EXECUTIVE SUMMARY Landmine Monitor}.
+\newblock http://the-monitor.org/media/1757245/lm1999execsum.pdf, 1999.
+
 \bibitem{Irving2012}
 T~J Irving, K~B Blyuss, C~Colijn, and C~L Trotter.
 \newblock {Modelling meningococcal meningitis in the African meningitis belt}.
-\newblock Technical Report~5, 2012.
+\newblock {\em Source: Epidemiology and Infection}, 140(5):897--905, 2012.
 
 \bibitem{Jessop}
 Chris Jessop, Michael Lamoureux, Joshua Madden, David Saunders, Bill Vetter,
@@ -130,11 +120,24 @@ Chris Jessop, Michael Lamoureux, Joshua Madden, David Saunders, Bill Vetter,
 \newblock {Trip Wire Detection for Land Mines}.
 \newblock Technical report.
 
+\bibitem{European2011}
+Thibaut Lery, Heather Tewkesbury, Mario Primicerio, Maria~J. Esteban, Magnus
+  Fontes, Yvon Maday, Volker Mehrmann, Gon{\c{c}}alo Quadros, Wil Schilders,
+  and Andreas Schuppert, editors.
+\newblock {\em {European Success Stories in Industrial Mathematics}}.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg, 2011.
+
 \bibitem{Luci}
 Jelena Luci, Danka {Nedeljkov Marko Neumann Lukas Vojnovi}, and Ivana {Zarin
   Helena}.
 \newblock {Improving defrosting procedure for a frozen dough}.
 \newblock Technical report.
+
+\bibitem{Owens2018}
+Brian Owens.
+\newblock {Europe's Nobel laureates step up warnings about Brexit's effect on
+  science}.
+\newblock {\em Nature}, oct 2018.
 
 \bibitem{Pennes1948}
 H.~H. Pennes.
@@ -149,21 +152,61 @@ D.~Morale. {R. Aringhieri, G. Carello}, Supporting, Roberto Aringhieri,
   Emergency Medical Service}.
 \newblock {\em ANNALS OF OPERATIONS RESEARCH}, 2013.
 
+\bibitem{impactcriteria2014}
+{Research Excellence Framework 2014}.
+\newblock {Assessment criteria and level definitions : REF 2014}.
+\newblock
+  https://www.ref.ac.uk/2014/panels/assessmentcriteriaandleveldefinitions/,
+  2014.
+
+\bibitem{REF2017}
+{Research Excellence Framework 2014}.
+\newblock {Initial decisions on the Research Excellence Framework 2021,}.
+\newblock www.ref.ac.uk/panels/panelmembership/, 2017.
+
 \bibitem{Rieke2008}
 Viola Rieke and Kim {Butts Pauly}.
 \newblock {MR thermometry}.
 \newblock {\em Journal of Magnetic Resonance Imaging}, 27(2):376--390, feb
   2008.
 
+\bibitem{Sapareto1984a}
+Stephen~A. Sapareto and William~C. Dewey.
+\newblock {Thermal dose determination in cancer therapy}.
+\newblock {\em International Journal of Radiation Oncology*Biology*Physics},
+  10(6):787--800, apr 1984.
+
+\bibitem{Smith}
+{Smith Institute}.
+\newblock {Mathematics - strategic and tactical problem solving}.
+
+\bibitem{Steinbeis}
+{Steinbeis Institution}.
+\newblock {Steinbeis | Facts and Dates}.
+\newblock
+  https://www.steinbeis.de/en/steinbeis/about-steinbeis/facts-and-dates.html,
+  2017.
+
 \bibitem{Stockie2015}
 John~M. Stockie.
 \newblock {Mathematics For Industry: A Personal Perspective}.
 \newblock sep 2015.
 
+\bibitem{royalsoc2010}
+{The Royal Society}.
+\newblock {The Scientific Century: securing our future prosperity}.
+\newblock Technical report, The Royal Society, 2010.
+
 \bibitem{Thum2017}
 Dr~Martin Thum.
 \newblock {Frauhofer-Sesellschaft Annual Report 2017: THE FUTURE OF WORK}.
 \newblock Technical report, 2017.
+
+\bibitem{UKRI}
+{UK Research and Innovation}.
+\newblock {Pathways to Impact - UK Research and Innovation}.
+\newblock
+  https://www.ukri.org/innovation/excellence-with-impact/pathways-to-impact/.
 
 \bibitem{VanDenDriessche}
 P~{Van Den Driessche} and James Watmough.
@@ -173,7 +216,12 @@ P~{Van Den Driessche} and James Watmough.
 \bibitem{Waugh1999}
 Andrew Waugh and Andrew Lacey.
 \newblock {A Model of Council House Allocation}.
-\newblock Technical report, 1999.
+\newblock 1999.
+
+\bibitem{WIPO}
+{World Intellectual Property Organisation}.
+\newblock {World Intellectual Property Indicators 2017}.
+\newblock Technical report, 2017.
 
 \bibitem{Zhou2007}
 Jianhua Zhou, J~K Chen, Yuwen Zhang, † William, and Nancy Thompson.
