@@ -32,10 +32,7 @@
 			{\Large\textsc{Supervised by: Professor Chris Budd}}\\[4\baselineskip] % Author name, lower case for consistent small caps
 			{ABSTRACT}\\[1\baselineskip]
 			{This report forms the conclusion of a reading project completed at the University of Bath supervised by Professor Chris Budd. 
-				The first part of the report focuses on the International State of Industrial and Applied Mathematics, Mechanisms, Philosophy and Effectiveness and includes four case studies showing just some of the breadth of applicable mathematics research carried out. The second part of the report looks at a specific Industrial Mathematics problem, that of modelling temperature variations due to High Intensity Focused Ultrasound on structures including human muscle and bone. A background to the problem is given, along with examples of previous work before some current work is explained.  }\\[4\baselineskip]
-			
-			
-			
+				The first part of the report focuses on the International State of Industrial and Applied Mathematics, Mechanisms, Philosophy and Effectiveness and includes four case studies showing just some of the breadth of applicable mathematics research carried out. The second part of the report looks at a specific Industrial Mathematics problem, that of modelling temperature variations due to High Intensity Focused Ultrasound on structures including human muscle and bone. A background to the problem is given, along with examples of previous work before some current work is explained.  }\\[4\baselineskip]			
 		}
 		
 	\end{titlepage}
@@ -380,8 +377,7 @@ The industrial partner was ITRES Research LTD and they were experimenting mounti
 	
 	\subsection{Case Study 2 - Shelter: Homeless Populations \label{homeless}}
 	
-To READ https://www.gov.scot/binaries/content/documents/govscot/publications/research-publication/2018/06/health-homelessness-scotland/documents/00536908-pdf/00536908-pdf/govscot\%3Adocument
-	
+
    Brought to ESGI 29, held in Oxford in March 1996 a problem from the charity Shelter to model the numbers of homeless and non-homeless people in a Borough. The model should then be able to predict changes in homeless populations as a result in changes of local policy. I follow the report produced at the end of the study group \cite{Shelter1996}
 	
 	The populations was split into broad classes: 
@@ -701,23 +697,23 @@ In addition paediatric foetal application are beginning to be explored due to th
 	
 	The problem can be split into three areas: focusing the ultrasound signal onto the region, controlling the temperature levels and using the correct amount of heat for the right amount of time to lead to the desired effects and imaging the whole procedure. 
 	
-	
-	\subsection{Set Up}
+	\subsection{Background}
+	\subsubsection{Set Up}
 	Clinical adoption of HIFU has expanded rapidly in recent years partly due to better visualisation and thermometry tools. A typical set up is shown in Figure \ref{fig:howitworks}
 			\begin{figure}[H]
 		\centering
 		\begin{center}$
-			\begin{array}{ccc}
-			\includegraphics[width=0.33\linewidth]{"Report_images/howitworks"} &
-			\includegraphics[width=0.33\linewidth]{"Report_images/howitworks2"}&
-			\includegraphics[width=0.33\linewidth]{"Report_images/howitworks3"}
+			\begin{array}{c}
+			\includegraphics[width=0.9\linewidth]{"Report_images/howitworks"} \\
+			\includegraphics[width=0.5\linewidth]{"Report_images/howitworks2"}\\
+			\includegraphics[width=0.9\linewidth]{"Report_images/howitworks3"}
 			\end{array}$
 		\end{center}
 		
 		\caption{The set-up of MRI with integrated HIFU, REFERENCE....   }
 		\label{fig:howitworks}
 	\end{figure}
-	\subsection{Imaging}
+	\subsubsection{Imaging}
 	Safety and efficacy of the treatment require accurate temperature measurement throughout the thermal procedure of the target tissue but also of surrounding structures.
 	
 	The method has shown some success in uterine fibroids, prostate cancer and liver tumours but application of the method for treatment of brain tissue remains a challenge due to strong aberration due to the skull bone, defocuses the beam and results in a loss of acoustic pressure. Thus another important use of imagery to detect the location of the beam and then to correct for the defocusing to refocus the beam. 
@@ -748,33 +744,40 @@ In addition paediatric foetal application are beginning to be explored due to th
 	
 	The Review Paper by Viola Reike and Kim Butts Pauly on MR thermometry \cite{Rieke2008} gives a good overview of the science as well as some of the drawbacks.  	It discusses how the target for many ablation procedures lies in the abdomen where normal body motions such as breathing have a significant effect and that more reliable and robust motion insensitive acquisition and reconstruction techniques need to be developed.
 	 
-	Other drawbacks to MR thermometry is that temperature in bone and fat tissue cannot be measured with the PRF method and the phase of a MR image is sensitive to disturbances such as transducer movement and magnetic field drift. Finally, as highlighted in the initial study group proposal that MR thermometry does not provide high spatial resolution so partial volume effects, where the averaging of temperature across a size of a voxel when the voxel contains heterogeneous tissues, causes underestimates of temperature. 
+	Other drawbacks to MR thermometry is that temperature in bone and fat tissue cannot be measured with the PRF method and the phase of a MR image is sensitive to disturbances such as transducer movement and magnetic field drift. As noted in paper \cite{Hosseini2018} there are also high computational costs. Finally, as highlighted in the initial study group proposal that MR thermometry does not provide high spatial resolution so partial volume effects, where the averaging of temperature across a size of a voxel when the voxel contains heterogeneous tissues, causes underestimates of temperature. 
 	
 	
 	
 
 	
-	\subsection{Focusing the ultrasound signal}
+	\subsubsection{Focusing the ultrasound signal}
 	
 	When condsidering the focusing of the ultrasound signal there are many different methods being investigated. Not the main focus of this report but I couldn't resist looking at two possible avenues of investigation : 
 	\begin{itemize}
-		\item  \textit{Magnetic Resonance acoustic radiation force imaging}  is described in a paper by Bambad Hosseini et al 	\cite{Hosseini2018}.
-		\item \textit{Time Reversal Acoustics} is described in a very accessible article for Scientific American by Matthias Fink, \cite{Fink1999}. Put very simply
-		- describe what
-		A major application is that of lithotripsy, the breaking up of kidney stones, etc....
-		Probably not suitable for tumours but for example in avoiding big absorbers such as the ribs  paper \cite{Cochard2009}. 
+		\item  \textit{Magnetic Resonance acoustic radiation force imaging} (MR-ARFI) is described in a paper by Bambad Hosseini et al	\cite{Hosseini2018}. Here the aim is to obtain measurements of the intensity of the acoustic field at the focal point. MR-ARFI uses low-duty cycle HIFU pulses that cause tissue displacement in the order of microns at the focal point of the beam. These can ten be measured with the MRI using gradient pulses and displacement maps are generated that can be used to verify and correct the degree of focusing of the HIFU beam. the main drayvack of this technique is the number of sonication tests required which leads to a long acquisition time for the MRI data. The paper suggests that this number of sonication tests can be reduced by casting the problem within the framework of Bayesian Inverse Problems allowing for a stable estimations of the aberrations with very noisy data and few sonication tests. The benefits of using a Bayesian model is also that associated uncertainities in the estimate are also given.
+		\item \textit{Time Reversal Acoustics} is described in a very accessible article for Scientific American by Matthias Fink, \cite{Fink1999}. Put very simply, an acoustic time reversal mirror operates in two steps. In the first step a source inside the area of interest emits sound waves that propagate out. They are distorted by inhomogeneities in the medium. These are then detected by a set of transducers in an array surrounding the region of interest and the signals are fed to a computer. In the second step, the signal is time reversed and the transducers play back the signal. The original wave is recreated, but travelling backwards, retracing its steps through the medium and refocusing on the original source.  The time symmetry in the wace equation and the linear mean the return wave, is physically possible, it satisfies all the correct equations. The linear constructive and destructive interference properties of waves also mean that small errors and noise do not grow exponentially, but instead remain linear and result in only minor defocusing around the original source.
+		
+		A very interesting phenomena, is that when the array of transducers is relatively small, and a distance away from the source, inhomgoneities in the media actually improve the focusing, the opposite of what is to be expected. (REFERENCE HERE)
+		
+		A major application is that of lithotripsy, the breaking up of kidney stones, here there is no obvious source of sound waves. Instead one part of the array sends a brief pulse out into the media (the body) and that wave is reflected back to the array by reflectors in the media. This is recorded time reversed and remitted, focusing back on the reflectors. If there are several targets in the media, repeating of this process eventually focuses on the brightest reflector. 
+		Probably not suitable for tumours but for example in avoiding big absorbers such as the ribs  paper \cite{Cochard2009}. The task of locating kidney stones in real time where their is movement due to breathing, and the destruction process is very difficult by conventional methods such as x-rays. After several iterations of the pulse-echo time reversal process the  waves focus on the most reflective area of the stone. Intermittent amplified pulses can then be used to shatter the stone. 
+		
+		Applications to thermal hyperthermia have been investigated. Fink's group have looked at focusing ultrasound waves through the skull using a modified play back algorithm to correct for the strong absorbing properties of the skull breaking the time reversal symmetry. They were successfully able to focus on a 1.5mm spot. 
+		
+		A paper by Cochard et al from 2009 \cite{Cochard2009}, uses a method that decomposes the time reversal operator, the DORT method, to assist focusing through the ribs. The DORT method very roughly finds that the singular values of the time reversal operator  which correspond to the reflectors in the media. The brighest reflectors, with highest singular values are that of the ribs. Finding the corresponding vectors in the singular value decomposition finds those vectors that will focus on the ribs. An excitation vector orthogonal to the subspace of emissions focusing on the ribs applied to the transducers should avoid focusing on the ribs and allow treatment of organs inside the rib cage. 
+		
+		STEAL DIAGRAM FROM ESSAY????
 	\end{itemize}
 	
 		
 		
 	
-	\subsection{Modelling Heat transfer and thermal dose}
+	\subsubsection{Modelling Heat transfer and thermal dose}
 	
-	Different temperatures during heating and cooling, diffusion from the target area and possible patient movement all contribute to uneven heating in different areas. Some sort of normalisation is required to calculate the effect on each individual cell. Some sort of thermal dose measure is required, from which effective dose and dangerous levels can be estimated. 
-	
+
 	Proposed in the 1940s, the Pennes Bioheat Transfer Model, \cite{Pennes1948} models heat transfer in the body die to externally applied heating/cooling sources. It has three terms, a diffusion term, an external heating term, and a convection term due to the perfusion of heat due to blood flow. The model accounts for the thermal conductivity, specific heat capacity and blood perfusion of specific tissue types. 
 	\begin{equation}
-		\rho c \frac{\partial T}{\partial t}= \nabla\cdot k \nabla T-\omega c_b (T-T_b)+Q
+		\boxed{\rho c \frac{\partial T}{\partial t}= \nabla\cdot k \nabla T-\omega c_b (T-T_b)+Q}
 	\end{equation}
 	where:
 	
@@ -788,37 +791,39 @@ In addition paediatric foetal application are beginning to be explored due to th
 		\item $ t= $ Time [$ s $]
 	\end{itemize}
 	
-	Values for specific tissue types are shown in Figure \ref{fig:tissueproperties}. 
+	
 	
 	\begin{figure}
 		\centering
 		\includegraphics[width=1\linewidth]{Report_images/tissueproperties}
-		\caption{Material properties of tissues, NEEEEEEEEEEEEEDDDDDDDD A REEEEEEEEEFFFFFFFFFEEEEEEEERRRRRRRRREEEEEEEEEEENNNNNNCCCCCCCCCCCEEEEEEEEEEEE}
+		\caption{Material properties of tissues, taken from paper \cite{Scott2014}.}
 		\label{fig:tissueproperties}
 	\end{figure}
 	
-	Initially, Harry Pennes experimented on patients by inserting thermocouples into patients' forearms but the model has been validated over the years against other models and is applicable to many different heating sources and types.
+	Initially, Harry Pennes experimented on patients by inserting thermocouples into patients' forearms but the model has been validated over the years against other models and is applicable to many different heating sources and types. Values for specific tissue types are available and are shown in Figure \ref{fig:tissueproperties}. 
+	
+	However, there is not one specific temperature at which all sells automatically ablate, the effects are cumulative and vary between types of tissue, Different temperatures during heating and cooling, diffusion from the target area and possible patient movement all contribute to uneven heating in different areas. Therefore, some sort of normalisation is required to calculate the effect on each individual cell. Some sort of thermal dose measure is required, from which effective dose and dangerous levels can be estimated. 
 	
 	
 	
-	
-	Classical theory \cite{Sapareto1984a}  measures thermal dose as a time integral over treatment:
+	The most commonly used model, \cite{Sapareto1984a}  measures thermal dose as a time integral over treatment:
 	
 \begin{equation}
-TD(t)=\int_{0}^{t}r^{43-T(t)}dt,\ \ \text{where  } r=
+\boxed{TD(t)=\int_{0}^{t}r^{43-T(t)}dt,\ \ \text{where  } r=
 \begin{cases}
 0.25, & \text{if}\ T\leq 43 \degree C \\
-0.5, & \text{if}\ T>43 \degree C
-\end{cases}
+0.5, & \text{if}\ T>43 \degree C 
+\end{cases}}
+\label{Sapereto}
 \end{equation}
 	
 	The value taken as sufficient "dose" to cause thermal necrosis in soft tissue is 240 EM (equivalent minutes) at $43 \degree C $. One can also calculate that it takes just a 1 second exposure at $57 \degree C $ to give a thermal dose of 273 EM and thermal necrosis. For every degree above  $43 \degree C $ the required time to coagulate the tissue halves. 
 	
 	The model has its advantages for HIFU: importantly it is valid for the high temperatures seen in HIFU and it is valid for tissues with different thermal sensitivity although the threshold for thermal dose required for cell death changes. 
 	
-	However, the model has its draw backs as there is a non linear response between temperature and cell death - higher probability of dying with increasing temperature and time exposure. Also, measuring dose does not directly predict damage. Finally, tissues have varying thermal sensitivity and will ablate at different thermal doses which will add extra complexity to the model.
+	Showing this model to mathematicians with no knowledge of biology but skills in modelling, their first question is where does $ r $ come from and what is special about $43 \degree C $? The model is not very intuitive. From a more practical point of view, the model has its draw backs as there is a non linear response between temperature and cell death - higher probability of dying with increasing temperature and time exposure. Also, measuring dose does not directly predict damage, for example: you can't say that if you give an area a thermal dose of 120EM then approximately half the cells will have been damaged. Finally, tissues have varying thermal sensitivity and will ablate at different thermal doses which will add extra complexity to the model.
 	
-		An alternative model for cell damage was introduced in  paper  \cite{Zhou2007}. Zhou et al suggest that damage is the result of a chemical reaction 
+		An alternative model for cell damage was introduced in  paper  \cite{Zhou2007}. Zhou et al suggest that damage is the result of a chemical reaction:
 		\begin{equation}
 		P\rightarrow D
 		\end{equation}
@@ -826,11 +831,11 @@ TD(t)=\int_{0}^{t}r^{43-T(t)}dt,\ \ \text{where  } r=
 		Where P represents a healthy folded protein and D a denatured protein. The irreversible process of protein denaturization occurs at an Arrhenuius reaction rate:
 		
 		\begin{equation}
-			r(T)=A\exp\left( \frac{E}{RT}\right) 
+			\boxed{r(T)=A\exp\left( \frac{E}{RT}\right) }
 		\end{equation}	
 		where A is a frequency factor, E the energy of activation of the denaturization reaction, R is the universal gas constant and T is the absolute temperature of the tissue. From this a damage fraction can be calculated:
 		\begin{equation}
-			\Omega(t)=\log\left( \frac{P_0}{P(t)}\right) =\int_{0}^{t}A\exp\left( \frac{E}{RT}\right) dt
+			\boxed{\Omega(t)=\log\left( \frac{P_0}{P(t)}\right) =\int_{0}^{t}A\exp\left( \frac{E}{RT}\right) dt}
 		\end{equation}
 		where $ P_0$ is the initial amount of folded protein.
 		
@@ -840,9 +845,29 @@ TD(t)=\int_{0}^{t}r^{43-T(t)}dt,\ \ \text{where  } r=
 	 	The parameters, A, E and $\Omega_\theta$, the damage threshold, can be varied to match different tissue types. Originally developed for use to model damage from a laser perhaps more work needed....not sure -MORE HEREEEEEEEEEEEEEEEEEEEEEEEEEE!!!!!!!!!!!!!!
 	 	
 	 	
-	 	\subsubsection{Study group modelling}
+	 	\subsubsection{Study group work}
+	 	The problem challenges for the study group were: 
+	 	\begin{enumerate}
+	 		\item Can a tissue type dependant thermal dose model (similar to the Pennes Bioheat model for tissue heating) be derived that takes into account the thermal conductivity, thermal diffusion, specific heat, and perfusion of the tissue of interest and surrounding structures?
+	 	\item 	Can a spatially dependant (and perhaps a patient specific) thermal dose model be derived which can work directly with intraoperative temperature measurements to better predict the volume of ablated tissue during a MR-HIFU treatment?
+	 	\end{enumerate}
 	 	
-	 	During the study group they focused on looking at muscle tissue where the approximate values are:
+	 	Due to the short time frame of a study group they decided to focus on a couple of problems: 
+	 	
+	 	\begin{itemize}
+	 		\item Find a semi-analytic expression for the spatially extended
+	 	temperature field T(x; t)
+	 	\item Obtain numerical computations of a simplified model which
+	 	allows us to look at the effects of parameter variation and
+	 	compare these with calculations from a more sophisticated
+	 	model
+	 	\item Determine useful and usable models for the spatial tissue
+	 	damage which depend on material parameters which takes
+	 	into account the thermal dose, thermal conductivity, thermal
+	 	diffusion, specific heat, and perfusion of the issue of interest
+	 	and surrounding structures.
+	 	\end{itemize}
+	 	They focused on looking at muscle tissue where the approximate values are:
 	 	\begin{itemize}
 	 		\item $\rho c \approx 3 \times 10^6$
 	 		\item $\gamma \approx 2000$
@@ -851,15 +876,15 @@ TD(t)=\int_{0}^{t}r^{43-T(t)}dt,\ \ \text{where  } r=
 	 		\item $k \approx 1/2$
 	 	\end{itemize}
  	
- 	hence near the focus we have 
+ 	Thus looking at the size of terms in the Pennes Bioheat transfer equation:
  	\begin{itemize}
  		\item $\nabla (k\nabla T) \approx 10^6$
  		\item $ \gamma (T-T_b) \approx 10^3$
  		\item $ Q \approx 10^6$
  	\end{itemize}
- and hence we can conclude that at the focus, perfusion is unimportant unless we are close to a major blood vessel.  Q diminishes rapidly away from the focus, and so both perfusion and diffusion act together to reduce the temperature. 
+ and hence it can be concluded that at the focus, perfusion is unimportant unless we are close to a major blood vessel.  $ Q $ diminishes rapidly away from the focus, and so both perfusion and diffusion act together to reduce the temperature. 
  
- They chose to rewrite the Pennes equation as a radially symmetric system close to the centre. The used the approximation: 
+ They chose to rewrite the Pennes equation as a radially symmetric system close to the focus. The used the approximation: 
  \begin{equation}
  Q=Q_0 \rho c \left(\frac{J_1\left(\frac{r}{L}\right)}{\frac{r}{L}}\right)^2= Q_0\rho c \left(\frac{J_1(s)}{s}\right)^2
  \end{equation}
@@ -869,32 +894,65 @@ TD(t)=\int_{0}^{t}r^{43-T(t)}dt,\ \ \text{where  } r=
  \end{equation}
  with initial conditions $$ T_s(0)=0 , \ \ \ T(\infty)=T_b .$$
  
- This can be solved numerically with the Crank Nicholson method, with rapid converge utilising the sparsity of the resulting matrices. 
+ This can be solved numerically with the Crank Nicholson method, with rapid convergence,  utilising the sparsity of the resulting matrices. 
  
- They ran with $Q_0=5$ for $0<t<30$ and then for $Q_0=0$ for $t>30$. Reproducing this method I get the result shown in Figure 
+ They ran with $Q_0=5$ for $0<t<30$ and then for $Q_0=0$ for $t>30$. Reproducing this method I get the result shown in Figure \ref{studygroupcode}.  
  
+ This compared well to the results from more complex 3D models and can be tested by using $ Q=\sin(r)/r $ which would give an analytic solution. It is also exceptionally quick to run and constants can easily be altered for different mediums. 
+ 
+ However, the 1D spherically symmetric model does not give many options for inhomogeneities in the region of interest. For example heating near a bone or near a major blood vessel, a major part of the first question posed for the study group. This was an area that identified for progress. 
  \begin{figure}
  	\centering
  	\includegraphics[width=0.7\linewidth]{Report_images/studygroupcode}
  	\caption{A reproduction of the graph produced during the study group of temperature profile against time, where there is heating for the first 30sec before the tissue is left to cool}
  	\label{fig:studygroupcode}
  \end{figure}
- 
 \subsection{Current Work } 
- \subsubsection{Aims}
- 
+ \subsubsection{Aims}   
+  Following on from the study group, the aims of my short project are to: 
+ \begin{itemize}
+ 	\item  Work on modelling heat transfer which encompasses: 
+ 	\begin{itemize}
+ 		\item  Thermal conductivity
+ 		\item  Thermal diffusion 
+ 		\item  Specific heat capacity
+ 		\item  Perfusion 
+ 	\end{itemize}
+ 	of the tissue of interest but also including its surrounding structures primarily bone in our case.
+ 	
+ 	\item To use this  to model thermal dose and thermal damage of the tissues and surrounding structures. 
+ \end{itemize}
+
+\subsubsection{(Very) Brief literature review}
+
+There are two papers I found interesting reading when considering temperature modelling with more complex structures:
 \begin{itemize}
-	\item  Work on modelling heat transfer which encompasses: 
-\begin{itemize}
-	\item  Thermal conductivity
-\item  Thermal diffusion 
-\item  Specific heat capacity
-\item  Perfusion 
+	\item A 2014 paper in the international Journal of Hyperthermia by Scott et al \cite{Scott2014} look at theoretical parametric and patient spefic models to assess the feasibility of ultrasound ablation of tumours in or near the spine. They used the Pennes Bioheat transfer equations, with the properties from table \ref{fig:tissueproperties} and equation \ref{Sapereto} gives the thermal dose. They modelled $ Q $ as an exponential function:
+	\begin{equation}
+	Q=2\alpha I=2\tau \alpha I_s\frac{r_t}{r}\exp\left( -2\int_{r_t}^r \mu dr' \right) 
+	\end{equation}
+	where $ \alpha $ is the ultrasound absorption coefficient, I is the acoustic intensity, $ \tau $ is the transmission coefficient, $ I_s $ is the acoustic intensity on the transducer surface, $ r_t $ is the transducer radius, r is the radial distance from the transducers central axis and $ \mu $ is the ultrasound attenuation coefficient.
+	
+	Finite element analysis with mesh sizes ranging from 0.4mm on inner surfaces to 5mm overall were used with gradual transitions in mesh size. Dirichlet boundary conditions were used with $ 37\degree C $ on the outermost tissue boundaries and convective boundary conditions applied between inner boundaries between different structures. Patient specific models were generated based on 11 real life patients, and tumours and analysed using COMSOL multiphysics 4.3 in conjunction with MATLAB. 
+	
+	They found that bone adjacent to or surrounding a tumour can augment heating at the tumour boundaries, shortening treatment times while containing heating to the target volume, as bone has a high ultrasound absorption coefficient and is thermally and acoustically insulation. They were also able to give some estimates of the minimum amount of bone required to protect nerve structures with a maximum thermal dose of  3.6EM to the nerve tissues. They found that in 5 cases of patient models, complete ablation of tumours was modelled as possible and in another 4 cases 94.6\%-100\% of the tumour could be ablated. The model could be very valuable in assessing whether treatment could be viable and planning for treatment. 
+	\item Also the 2012 paper by Sassaroli et al for the Scientific World Journal \cite{Sassaroli2012},  look at the potential impact of vasculature on the temperature achieved. They looked at the cases of a homogeneous block of muscle like tissue with either one vessel, a vessel pair or multiple vessel pairs. Like the previous paper they used the Pennes Bioheat transfer equation and equation \ref{Sapereto}. 
+	
+	For the case of a single vessel  with the flow velocity of the artery running along the axial direction of the transducer, with the ultrasound focus at the blood vessel centre and blood flow opposite to the ultrasound beam propagation. With this geometry the model can be solved using cylindrical symmetry simplifying the calculations.  Results for different sized blood vessels are shown in figure \ref{fig:sassaroli}. They found that temperatures favourable to thermal damage can be reaches by that the temperature distribution is highly inhomogeneous due to the blood vessel presence.  Varying the size of blood vessels they found that the largest vessels were very difficult to heat but those less than 0.3mm in radius heated easily to the nearby tissue temperature.
+	\begin{figure}
+		\centering
+		\includegraphics[width=\linewidth]{Report_images/sassaroli}
+		\caption{Results of a cylindrically symmetric model of HIFU heating at the centre of different sized blood vessels. Taken from paper \cite{Sassaroli2012}}
+		\label{fig:sassaroli}
+	\end{figure}
+	
+	In the cases of multiple blood vessels they were bale to solve the full inhomogeneous model using COMSOL and Matlab and were able to investigate how over a treatment period the focus and power of the ultrasound could be varied in order to try and give a uniform thermal dose despite the cooling effects of the blood vessels.   
 \end{itemize}
- of the tissue of interest but also including its surrounding structures primarily bone in our case.
- 
-\item To use this  to model thermal dose and thermal damage of the tissues and surrounding structures. 
-\end{itemize}
+
+
+
+
+
  
  \subsubsection{2D model homogeneous muscle tissue}
 Initially, I looked at creating a 2D model of the set up modelled in the study group. Thus thermal conductivity, thermal diffusion, specific heat capacity, perfusion constants are taken for muscle 
@@ -1024,7 +1082,7 @@ Code up Crank Nicholson...more usable format for code....
 
 
 \subsubsection{Modelling thermal dose}
-\subsubsection{Units and other stuff}
+\subsection{Next Steps}
 
 
   

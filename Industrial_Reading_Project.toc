@@ -28,18 +28,20 @@
 \contentsline {paragraph}{Finding an alternative set of ambulance posts}{20}
 \contentsline {subsection}{\numberline {2.9}Case Study 4: Mathematical Modelling of the Dynamics of Meningococcal Meningitis in Africa }{21}
 \contentsline {paragraph}{Initial Modelling and Identification of Reproduction Number }{22}
-\contentsline {paragraph}{Adding the seasonal effects }{25}
+\contentsline {paragraph}{Adding the seasonal effects }{24}
 \contentsline {paragraph}{Impact}{25}
 \contentsline {section}{\numberline {3}Extended Case Study - High Intensity Focused Ultrasound }{26}
-\contentsline {subsection}{\numberline {3.1}Set Up}{26}
-\contentsline {subsection}{\numberline {3.2}Imaging}{26}
-\contentsline {subsection}{\numberline {3.3}Focusing the ultrasound signal}{28}
-\contentsline {subsection}{\numberline {3.4}Modelling Heat transfer and thermal dose}{28}
-\contentsline {subsubsection}{\numberline {3.4.1}Study group modelling}{29}
-\contentsline {subsection}{\numberline {3.5}Current Work }{30}
-\contentsline {subsubsection}{\numberline {3.5.1}Aims}{30}
-\contentsline {subsubsection}{\numberline {3.5.2}2D model homogeneous muscle tissue}{31}
-\contentsline {subsubsection}{\numberline {3.5.3}2D model with added bone structures}{33}
-\contentsline {subsubsection}{\numberline {3.5.4}Modelling thermal dose}{34}
-\contentsline {subsubsection}{\numberline {3.5.5}Units and other stuff}{34}
-\contentsline {section}{\numberline {4}Final Thoughts}{34}
+\contentsline {subsection}{\numberline {3.1}Background}{26}
+\contentsline {subsubsection}{\numberline {3.1.1}Set Up}{26}
+\contentsline {subsubsection}{\numberline {3.1.2}Imaging}{28}
+\contentsline {subsubsection}{\numberline {3.1.3}Focusing the ultrasound signal}{28}
+\contentsline {subsubsection}{\numberline {3.1.4}Modelling Heat transfer and thermal dose}{30}
+\contentsline {subsubsection}{\numberline {3.1.5}Study group work}{32}
+\contentsline {subsection}{\numberline {3.2}Current Work }{33}
+\contentsline {subsubsection}{\numberline {3.2.1}Aims}{33}
+\contentsline {subsubsection}{\numberline {3.2.2}(Very) Brief literature review}{34}
+\contentsline {subsubsection}{\numberline {3.2.3}2D model homogeneous muscle tissue}{35}
+\contentsline {subsubsection}{\numberline {3.2.4}2D model with added bone structures}{38}
+\contentsline {subsubsection}{\numberline {3.2.5}Modelling thermal dose}{39}
+\contentsline {subsection}{\numberline {3.3}Next Steps}{39}
+\contentsline {section}{\numberline {4}Final Thoughts}{39}

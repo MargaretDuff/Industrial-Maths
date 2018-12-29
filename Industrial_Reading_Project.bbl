@@ -86,6 +86,11 @@ Professor Dame~Ann Dowling.
 \newblock {Fields-CQAM | Mathematics | Ontario}.
 \newblock https://www.cqam.ca/.
 
+\bibitem{Fink1999}
+Mathias Fink.
+\newblock {Time-Reversed acoustics}.
+\newblock {\em Scientific American}, nov 1999.
+
 \bibitem{Gov}
 Gov.uk.
 \newblock {Research and Development tax reliefs - GOV.UK}.
@@ -175,6 +180,19 @@ Stephen~A. Sapareto and William~C. Dewey.
 \newblock {Thermal dose determination in cancer therapy}.
 \newblock {\em International Journal of Radiation Oncology*Biology*Physics},
   10(6):787--800, apr 1984.
+
+\bibitem{Sassaroli2012}
+E.~Sassaroli, K.~C.P. Li, and B.~E. O'Neill.
+\newblock {Modeling focused ultrasound exposure for the optimal control of
+  thermal dose distribution}.
+\newblock {\em The Scientific World Journal}, 2012.
+
+\bibitem{Scott2014}
+Serena~J. Scott, Vasant Salgaonkar, Punit Prakash, E.~Clif Burdette, and
+  Chris~J. Diederich.
+\newblock {Interstitial ultrasound ablation of vertebral and paraspinal
+  tumours: Parametric and patient-specific simulations}.
+\newblock {\em International Journal of Hyperthermia}, 2014.
 
 \bibitem{Smith}
 {Smith Institute}.
