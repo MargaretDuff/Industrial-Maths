@@ -44,4 +44,4 @@
 \contentsline {subsubsection}{\numberline {3.2.4}2D model with added bone structures}{38}
 \contentsline {subsubsection}{\numberline {3.2.5}Modelling thermal dose}{39}
 \contentsline {subsection}{\numberline {3.3}Next Steps}{39}
-\contentsline {section}{\numberline {4}Final Thoughts}{39}
+\contentsline {section}{\numberline {4}Final Thoughts}{40}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.26)  29 DEC 2018 12:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.26)  29 DEC 2018 14:34
 entering extended mode
 **./Industrial_Reading_Project.tex
 (Industrial_Reading_Project.tex
@@ -482,8 +482,8 @@ Package pdftex.def Info: "Report_images/change diffusion constant".jpg  used on
  input line 1065.
 (pdftex.def)             Requested size: 386.95897pt x 270.99886pt.
  [38 <./Report_images/instability.jpg> <./Report_images/bone without changing Q
-.jpg>] [39 <./Report_images/change diffusion constant.jpg>] (Industrial_Reading
-_Project.bbl
+.jpg>] [39 <./Report_images/change diffusion constant.jpg>] [40] (Industrial_Re
+ading_Project.bbl
 
 ! Package inputenc Error: Unicode character ´ (U+B4)
 (inputenc)                not set up for use with LaTeX.
@@ -503,22 +503,22 @@ Underfull \hbox (badness 2134) in paragraph at lines 62--67
 ness-University Re-search
  []
 
-[40]
+[41]
 Underfull \hbox (badness 2126) in paragraph at lines 224--228
 []\OT1/cmr/m/n/10.95 UK Re-search and In-no-va-tion.  Path-ways to Im-pact - UK
  Re-search and In-no-va-tion.
  []
 
-[41]) [42] (Industrial_Reading_Project.aux)
+[42]) [43] (Industrial_Reading_Project.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3027 strings out of 492970
- 45297 string characters out of 3126593
- 119175 words of memory out of 3000000
- 6829 multiletter control sequences out of 15000+200000
+ 3029 strings out of 492970
+ 45322 string characters out of 3126593
+ 119189 words of memory out of 3000000
+ 6831 multiletter control sequences out of 15000+200000
  11440 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,12n,29p,1349b,346s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -542,9 +542,9 @@ onts/cm/cmsy8.pfb><C:/Users/marga/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmti10.pfb><C:/Users/marga/AppData/Local/Programs/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/marga/AppData/Local/Progr
 ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmu10.pfb>
-Output written on Industrial_Reading_Project.pdf (43 pages, 1914069 bytes).
+Output written on Industrial_Reading_Project.pdf (44 pages, 1918644 bytes).
 PDF statistics:
- 232 PDF objects out of 1000 (max. 8388607)
+ 235 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
