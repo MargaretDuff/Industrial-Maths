@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.26)  29 DEC 2018 14:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.26)  30 DEC 2018 15:06
 entering extended mode
 **./Industrial_Reading_Project.tex
 (Industrial_Reading_Project.tex
@@ -320,11 +320,7 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 89.
 
-[3] [4] [5] [6] [7] [8]
-
-LaTeX Warning: Citation `ESGIhandbook' on page 9 undefined on input line 242.
-
-[9] [10]
+[3] [4] [5] [6] [7] [8] [9] [10]
 <"Report_images/phd career paths".jpg, id=45, 323.70938pt x 284.56313pt>
 File: "Report_images/phd career paths".jpg Graphic file (type jpg)
 <use "Report_images/phd career paths".jpg>
@@ -352,18 +348,14 @@ File: Report_images/homeless_rates.jpg Graphic file (type jpg)
 Package pdftex.def Info: Report_images/homeless_rates.jpg  used on input line 4
 23.
 (pdftex.def)             Requested size: 435.32422pt x 313.30191pt.
-
-[16] [17 <./Report_images/homeless_rates.jpg>]
-
-LaTeX Warning: Reference `European2011' on page 18 undefined on input line 465.
-
-
+ [16] [17 <./Report_images/homeless_rates.jpg>]
 <Report_images/MilanEMS.jpg, id=77, 526.96875pt x 538.26094pt>
 File: Report_images/MilanEMS.jpg Graphic file (type jpg)
 <use Report_images/MilanEMS.jpg>
 Package pdftex.def Info: Report_images/MilanEMS.jpg  used on input line 480.
 (pdftex.def)             Requested size: 483.69687pt x 494.08908pt.
-[18] [19 <./Report_images/MilanEMS.jpg>] [20]
+ [18]
+[19 <./Report_images/MilanEMS.jpg>] [20]
 <"Report_images/ems milan".jpg, id=88, 449.17813pt x 200.75pt>
 File: "Report_images/ems milan".jpg Graphic file (type jpg)
 <use "Report_images/ems milan".jpg>
@@ -416,17 +408,13 @@ Package pdftex.def Info: Report_images/tissueproperties.jpg  used on input line
  798.
 (pdftex.def)             Requested size: 483.69687pt x 115.03864pt.
  [31 <./Report_images/tissueproperties.jpg>] [32]
-
-LaTeX Warning: Reference `studygroupcode' on page 33 undefined on input line 89
-9.
-
 <Report_images/studygroupcode.jpg, id=135, 336.50719pt x 212.29312pt>
 File: Report_images/studygroupcode.jpg Graphic file (type jpg)
 <use Report_images/studygroupcode.jpg>
 Package pdftex.def Info: Report_images/studygroupcode.jpg  used on input line 9
 06.
 (pdftex.def)             Requested size: 338.58632pt x 213.60776pt.
-[33 <./Report_images/studygroupcode.jpg>]
+ [33 <./Report_images/studygroupcode.jpg>]
 <Report_images/sassaroli.png, id=139, 663.9204pt x 289.5618pt>
 File: Report_images/sassaroli.png Graphic file (type png)
 <use Report_images/sassaroli.png>
@@ -464,26 +452,46 @@ nput line 1012.
 <Report_images/instability.jpg, id=155, 918.3108pt x 208.6194pt>
 File: Report_images/instability.jpg Graphic file (type jpg)
 <use Report_images/instability.jpg>
-Package pdftex.def Info: Report_images/instability.jpg  used on input line 1036
+Package pdftex.def Info: Report_images/instability.jpg  used on input line 1032
 .
 (pdftex.def)             Requested size: 459.51054pt x 104.3922pt.
  [37 <./Report_images/study_group_code_2D_model.jpg>]
-<"Report_images/bone without changing Q".jpg, id=159, 425.4294pt x 198.9834pt>
+<"Report_images/bone without changing Q".jpg, id=159, 791.1156pt x 208.1376pt>
 File: "Report_images/bone without changing Q".jpg Graphic file (type jpg)
 <use "Report_images/bone without changing Q".jpg>
 Package pdftex.def Info: "Report_images/bone without changing Q".jpg  used on i
-nput line 1056.
-(pdftex.def)             Requested size: 338.58632pt x 158.37018pt.
+nput line 1057.
+(pdftex.def)             Requested size: 483.69687pt x 127.2591pt.
 <"Report_images/change diffusion constant".jpg, id=160, 283.81032pt x 198.7425p
 t>
 File: "Report_images/change diffusion constant".jpg Graphic file (type jpg)
 <use "Report_images/change diffusion constant".jpg>
 Package pdftex.def Info: "Report_images/change diffusion constant".jpg  used on
- input line 1065.
+ input line 1066.
 (pdftex.def)             Requested size: 386.95897pt x 270.99886pt.
- [38 <./Report_images/instability.jpg> <./Report_images/bone without changing Q
-.jpg>] [39 <./Report_images/change diffusion constant.jpg>] [40] (Industrial_Re
-ading_Project.bbl
+ [38 <./Report_images/instability.jpg>] [39 <./Report_images/bone without chang
+ing Q.jpg> <./Report_images/change diffusion constant.jpg>]
+<"Report_images/bone with changing Q".jpg, id=167, 707.2824pt x 209.583pt>
+File: "Report_images/bone with changing Q".jpg Graphic file (type jpg)
+<use "Report_images/bone with changing Q".jpg>
+Package pdftex.def Info: "Report_images/bone with changing Q".jpg  used on inpu
+t line 1082.
+(pdftex.def)             Requested size: 483.69687pt x 143.33322pt.
+ [40 <./Report_images/bone with changing Q.jpg>]
+<"Report_images/various bone structures".jpg, id=171, 391.7034pt x 601.7682pt>
+File: "Report_images/various bone structures".jpg Graphic file (type jpg)
+<use "Report_images/various bone structures".jpg>
+Package pdftex.def Info: "Report_images/various bone structures".jpg  used on i
+nput line 1121.
+(pdftex.def)             Requested size: 380.7886pt x 584.99089pt.
+ [41]
+[42 <./Report_images/various bone structures.jpg>]
+Overfull \hbox (0.35039pt too wide) in paragraph at lines 1151--1152
+[]\OT1/cmr/m/n/10.95 Secondly, I re-turn to my com-ments on un-der-grad-u-ate p
+lace-ments, in-tern-ships and years-in-industry.
+ []
+
+[43] (Industrial_Reading_Project.bbl
 
 ! Package inputenc Error: Unicode character ´ (U+B4)
 (inputenc)                not set up for use with LaTeX.
@@ -492,59 +500,56 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.23 ...den Nikolic, and Tijana~Stojan{\v{c}}evi´
+l.30 ...den Nikolic, and Tijana~Stojan{\v{c}}evi´
                                                    Stojancevic.
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-Underfull \hbox (badness 2134) in paragraph at lines 62--67
+Underfull \hbox (badness 2134) in paragraph at lines 69--74
 []\OT1/cmr/m/n/10.95 Professor Dame Ann Dowl-ing.  The Dowl-ing Re-view of Busi
 ness-University Re-search
  []
 
-[41]
-Underfull \hbox (badness 2126) in paragraph at lines 224--228
+[44] [45]
+Underfull \hbox (badness 2126) in paragraph at lines 231--235
 []\OT1/cmr/m/n/10.95 UK Re-search and In-no-va-tion.  Path-ways to Im-pact - UK
  Re-search and In-no-va-tion.
  []
 
-[42]) [43] (Industrial_Reading_Project.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+) [46] (Industrial_Reading_Project.aux) ) 
 Here is how much of TeX's memory you used:
- 3029 strings out of 492970
- 45322 string characters out of 3126593
- 119189 words of memory out of 3000000
- 6831 multiletter control sequences out of 15000+200000
+ 3042 strings out of 492970
+ 45797 string characters out of 3126593
+ 120243 words of memory out of 3000000
+ 6842 multiletter control sequences out of 15000+200000
  11440 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,12n,29p,1349b,346s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/marga/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmbx10.pfb><C:/Users/marga/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmbx12.pfb><C:/Users/marga/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/marga/AppData/Local/Program
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/marga/AppData/
-Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/m
-arga/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb
-><C:/Users/marga/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmmi8.pfb><C:/Users/marga/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmr10.pfb><C:/Users/marga/AppData/Local/Programs/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/marga/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/marga/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/marga/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Use
-rs/marga/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb><C:/Users/marga/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmsy8.pfb><C:/Users/marga/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmti10.pfb><C:/Users/marga/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/marga/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmu10.pfb>
-Output written on Industrial_Reading_Project.pdf (44 pages, 1918644 bytes).
+<C:/Users/marga/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/marga/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ma
+rga/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pf
+b><C:/Users/marga/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmex10.pfb><C:/Users/marga/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmmi10.pfb><C:/Users/marga/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/marga/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/marga/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/marga
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
+/Users/marga/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mr6.pfb><C:/Users/marga/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmr8.pfb><C:/Users/marga/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmsl10.pfb><C:/Users/marga/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/marga/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/marga/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users
+/marga/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.
+pfb><C:/Users/marga/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmu10.pfb>
+Output written on Industrial_Reading_Project.pdf (47 pages, 2091740 bytes).
 PDF statistics:
- 235 PDF objects out of 1000 (max. 8388607)
+ 246 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 

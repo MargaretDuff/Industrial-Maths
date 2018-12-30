@@ -1,15 +1,22 @@
 \begin{thebibliography}{10}
 
+\bibitem{ESGIhandbook}
+Aderito Araujo, Miguel Bustamante, Manuel Cruz, Rada Novakovic, and Vivi
+  Rottschafer.
+\newblock {Handbook for running a sustainable European Study Group with
+  Industry}.
+\newblock Technical report, European Study Group with Industry.
+
 \bibitem{Aston2016}
 Philip~J. Aston, Anthony~J. Mulholland, and Katherine~M.M. Tant, editors.
 \newblock {\em {UK Success Stories in Industrial Mathematics}}.
 \newblock Springer International Publishing, Cham, 2016.
 
 \bibitem{Babey}
-Stephen~K Babey, John~E Mcfee, Cliiord~D Anger, Avygdor Moise, and Stephen~B
+Stephen~K Babey, John~E Mcfee, Clifford~D Anger, Avygdor Moise, and Stephen~B
   Achal.
 \newblock {Feasibility of optical detection of landmine tripwires}.
-\newblock Technical report.
+\newblock 2000.
 
 \bibitem{Bond}
 Philip Bond.
@@ -22,7 +29,7 @@ Philip Bond.
 Piotr Broda, Tijana Levajkovic, Milena Kresoja, Marina Marceta, Hermann Mena,
   Mladen Nikolic, and Tijana~Stojan{\v{c}}evi´ Stojancevic.
 \newblock {Optimization of ATMs filling-in with cash}.
-\newblock Technical report.
+\newblock 2014.
 
 \bibitem{Byatt-Smith2003}
 J~G Byatt-Smith, A~A Lacey, D~F Parker, D~Simpson, W~R Smith, and J~A~D Wattis.
@@ -45,7 +52,7 @@ E.~Cochard, C.~Prada, J.~F. Aubry, and M.~Fink.
 Douglas~R Daum, Nadine~B Smith, Randy King, and Kullervo Hynynen.
 \newblock {IN VIVO DEMONSTRATION OF NONINVASIVE THERMAL SURGERY OF THE LIVER
   AND KIDNEY USING AN ULTRASONIC PHASED ARRAY}.
-\newblock Technical report, 1999.
+\newblock {\em Ultrasound in Medicine and Biology}, 25(7):1087--1098, 1999.
 
 \bibitem{deloitteNL}
 {Deloitte Netherlands}.
@@ -96,18 +103,18 @@ Gov.uk.
 \newblock {Research and Development tax reliefs - GOV.UK}.
 
 \bibitem{Hosseini2018}
-Bamdad Hosseini, Charles Mougenot, Samuel Pichardo, James~M Drake, John~M
-  Stockie, and Elodie Constanciel.
+Bamdad Hosseini, Charles Mougenot, Samuel Pichardo, Elodie Constanciel,
+  James~M. Drake, and John~M. Stockie.
 \newblock {A Bayesian approach for energy-based estimation of acoustic
   aberrations in high intensity focused ultrasound treatment}.
-\newblock Technical report, 2018.
+\newblock feb 2016.
 
 \bibitem{IMI}
 {Institute for Mathematics of Innovation}.
 \newblock {Guide to Industry-University Collaboration: Delivering innovative
   solutions to complex challenges}.
 \newblock Technical report, Institute for Mathematical Innovation, University
-  of Bath.
+  of Bath, 2018.
 
 \bibitem{landmine}
 {International Campaign to Ban Landmines}.
@@ -136,7 +143,7 @@ Thibaut Lery, Heather Tewkesbury, Mario Primicerio, Maria~J. Esteban, Magnus
 Jelena Luci, Danka {Nedeljkov Marko Neumann Lukas Vojnovi}, and Ivana {Zarin
   Helena}.
 \newblock {Improving defrosting procedure for a frozen dough}.
-\newblock Technical report.
+\newblock Technical report, European Study Group in Industry 99, 2014.
 
 \bibitem{Owens2018}
 Brian Owens.
@@ -182,7 +189,7 @@ Stephen~A. Sapareto and William~C. Dewey.
   10(6):787--800, apr 1984.
 
 \bibitem{Sassaroli2012}
-E.~Sassaroli, K.~C.P. Li, and B.~E. O'Neill.
+E.~Sassaroli, K.~C.P. Li, and B.~E. ONeill.
 \newblock {Modeling focused ultrasound exposure for the optimal control of
   thermal dose distribution}.
 \newblock {\em The Scientific World Journal}, 2012.
@@ -218,7 +225,7 @@ John~M. Stockie.
 \bibitem{Thum2017}
 Dr~Martin Thum.
 \newblock {Frauhofer-Sesellschaft Annual Report 2017: THE FUTURE OF WORK}.
-\newblock Technical report, 2017.
+\newblock Technical report, Frauhofer-Sesellschaft, 2017.
 
 \bibitem{UKRI}
 {UK Research and Innovation}.
@@ -244,7 +251,7 @@ Andrew Waugh and Andrew Lacey.
 \bibitem{WIPO}
 {World Intellectual Property Organisation}.
 \newblock {World Intellectual Property Indicators 2017}.
-\newblock Technical report, 2017.
+\newblock Technical report, World Intellectual Property Organisation, 2017.
 
 \bibitem{Zhou2007}
 Jianhua Zhou, J~K Chen, Yuwen Zhang, † William, and Nancy Thompson.
