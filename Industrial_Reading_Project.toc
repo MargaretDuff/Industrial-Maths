@@ -1,7 +1,7 @@
 \contentsline {section}{\numberline {1}Introduction}{2}
 \contentsline {section}{\numberline {2}Review of the International State of Industrial and Applied Mathematics, Mechanisms, Philosophy and Effectiveness}{3}
 \contentsline {subsection}{\numberline {2.1}Definitions }{3}
-\contentsline {subsection}{\numberline {2.2}Significance }{4}
+\contentsline {subsection}{\numberline {2.2}Significance }{3}
 \contentsline {subsection}{\numberline {2.3}Current State }{4}
 \contentsline {subsubsection}{\numberline {2.3.1} Mechanisms in the UK }{4}
 \contentsline {subsubsection}{\numberline {2.3.2}Incentives and Enablers in the UK}{6}
@@ -13,22 +13,22 @@
 \contentsline {subsubsection}{\numberline {2.5.1}Identifying Suitable Problems and Creating links}{9}
 \contentsline {subsubsection}{\numberline {2.5.2}Building working relationships}{10}
 \contentsline {subsubsection}{\numberline {2.5.3}Intellectual Property and Conflicts of Interest}{10}
-\contentsline {subsubsection}{\numberline {2.5.4}Career Paths}{11}
-\contentsline {paragraph}{Academic Careers}{11}
+\contentsline {subsubsection}{\numberline {2.5.4}Career Paths}{10}
+\contentsline {paragraph}{Academic Careers}{10}
 \contentsline {paragraph}{Non-academic careers}{11}
 \contentsline {subsubsection}{\numberline {2.5.5}Brexit}{13}
 \contentsline {subsection}{\numberline {2.6}Case Study 1: Trip Wire Detection for Land Mines }{13}
-\contentsline {paragraph}{Pre-processing}{14}
+\contentsline {paragraph}{Pre-processing}{13}
 \contentsline {paragraph}{Line Detection}{14}
-\contentsline {paragraph}{Algorithm Speed}{15}
+\contentsline {paragraph}{Algorithm Speed}{14}
 \contentsline {subsection}{\numberline {2.7}Case Study 2 - Shelter: Homeless Populations }{15}
 \contentsline {subsection}{\numberline {2.8}Case Study 3: Optimisation of the \IeC {\textquotedblleft }118\IeC {\textquotedblright } Emergency Management System in Milan }{18}
 \contentsline {paragraph}{Evaluation of the current EMS system }{18}
 \contentsline {paragraph}{Development of a simulation model in order to test operational policies }{20}
 \contentsline {paragraph}{Finding an alternative set of ambulance posts}{20}
-\contentsline {subsection}{\numberline {2.9}Case Study 4: Mathematical Modelling of the Dynamics of Meningococcal Meningitis in Africa }{21}
+\contentsline {subsection}{\numberline {2.9}Case Study 4: Mathematical Modelling of the Dynamics of Meningococcal Meningitis in Africa }{22}
 \contentsline {paragraph}{Initial Modelling and Identification of Reproduction Number }{22}
-\contentsline {paragraph}{Adding the seasonal effects }{25}
+\contentsline {paragraph}{Adding the seasonal effects }{24}
 \contentsline {paragraph}{Impact}{25}
 \contentsline {section}{\numberline {3}Extended Case Study - High Intensity Focused Ultrasound }{26}
 \contentsline {subsection}{\numberline {3.1}Background}{26}
@@ -37,8 +37,8 @@
 \contentsline {subsubsection}{\numberline {3.1.3}Focusing the ultrasound signal}{28}
 \contentsline {subsubsection}{\numberline {3.1.4}Modelling Heat transfer and thermal dose}{30}
 \contentsline {subsubsection}{\numberline {3.1.5}Study group work}{32}
-\contentsline {subsection}{\numberline {3.2}Current Work }{33}
-\contentsline {subsubsection}{\numberline {3.2.1}Aims}{33}
+\contentsline {subsection}{\numberline {3.2}Current Work }{34}
+\contentsline {subsubsection}{\numberline {3.2.1}Aims}{34}
 \contentsline {subsubsection}{\numberline {3.2.2}(Very) Brief literature review}{34}
 \contentsline {subsubsection}{\numberline {3.2.3}2D model homogeneous muscle tissue}{35}
 \contentsline {subsubsection}{\numberline {3.2.4}2D model with added bone structures}{38}
