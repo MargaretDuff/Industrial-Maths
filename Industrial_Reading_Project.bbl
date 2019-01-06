@@ -25,6 +25,11 @@ Philip Bond.
 \newblock Technical report, Facilitated by te Engineering and Physical Sciences
   Research Council and the Knowledge Transfer Network, 2018.
 
+\bibitem{Borcea2002}
+Liliana Borcea, George Papanicolaou, Chrysoula Tsogka, and James Berryman.
+\newblock {Imaging and time reversal in random media}.
+\newblock {\em Inverse Problems}, 2002.
+
 \bibitem{Broda}
 Piotr Broda, Tijana Levajkovic, Milena Kresoja, Marina Marceta, Hermann Mena,
   Mladen Nikolic, and Tijana~Stojan{\v{c}}evi´ Stojancevic.
@@ -72,6 +77,11 @@ Professor Dame~Ann Dowling.
   https://www.raeng.org.uk/publications/reports/the-dowling-review-of-business-university-research,
   2015.
 
+\bibitem{Duff2018}
+Margaret Duff.
+\newblock {Time Reversal Imaging in Inhomogeneous Media}.
+\newblock 2018.
+
 \bibitem{IAA}
 {Engineering and Physical Sciences Research Council}.
 \newblock {Impact Acceleration Accounts - EPSRC website}.
@@ -97,6 +107,12 @@ Professor Dame~Ann Dowling.
 {Fields Institute for Research in Mathematical Sciences}.
 \newblock {Fields-CQAM | Mathematics | Ontario}.
 \newblock https://www.cqam.ca/.
+
+\bibitem{Fink1992}
+Mathias Fink.
+\newblock {Time Reversal of Ultrasonic Fields—Part I: Basic Principles}.
+\newblock {\em IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency
+  Control}, 1992.
 
 \bibitem{Fink1999}
 Mathias Fink.
