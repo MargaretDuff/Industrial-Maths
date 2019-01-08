@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.6)  7 JAN 2019 08:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.6)  8 JAN 2019 15:00
 entering extended mode
 **./Industrial_Reading_Project.tex
 (Industrial_Reading_Project.tex
@@ -294,184 +294,179 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 91.
  [3] [4] [5] [6]
 [7] [8] [9] [10]
-<"Report_images/phd career paths".jpg, id=45, 323.70938pt x 284.56313pt>
+<"Report_images/phd career paths".jpg, id=46, 323.70938pt x 284.56313pt>
 File: "Report_images/phd career paths".jpg Graphic file (type jpg)
 <use "Report_images/phd career paths".jpg>
 Package pdftex.def Info: "Report_images/phd career paths".jpg  used on input li
-ne 290.
+ne 291.
 (pdftex.def)             Requested size: 435.32422pt x 382.70206pt.
  [11] [12 <./Report_images/phd career paths.jpg>]
-<"Report_images/landmine image".jpg, id=53, 264.48813pt x 215.30438pt>
+<"Report_images/landmine image".jpg, id=54, 264.48813pt x 215.30438pt>
 File: "Report_images/landmine image".jpg Graphic file (type jpg)
 <use "Report_images/landmine image".jpg>
 Package pdftex.def Info: "Report_images/landmine image".jpg  used on input line
- 333.
+ 334.
 (pdftex.def)             Requested size: 338.58632pt x 275.64122pt.
  [13] [14 <./Report_images/landmine image.jpg>]
-<"Report_images/landmine linear features".jpg, id=65, 236.38312pt x 220.825pt>
+<"Report_images/landmine linear features".jpg, id=66, 236.38312pt x 220.825pt>
 File: "Report_images/landmine linear features".jpg Graphic file (type jpg)
 <use "Report_images/landmine linear features".jpg>
 Package pdftex.def Info: "Report_images/landmine linear features".jpg  used on 
-input line 369.
+input line 370.
 (pdftex.def)             Requested size: 338.58632pt x 316.30972pt.
  [15 <./Report_images/landmine linear features.jpg>]
-<Report_images/homeless_rates.jpg, id=69, 599.841pt x 431.6928pt>
+<Report_images/homeless_rates.jpg, id=70, 599.841pt x 431.6928pt>
 File: Report_images/homeless_rates.jpg Graphic file (type jpg)
 <use Report_images/homeless_rates.jpg>
 Package pdftex.def Info: Report_images/homeless_rates.jpg  used on input line 4
-21.
+22.
 (pdftex.def)             Requested size: 435.32422pt x 313.30191pt.
  [16] [17 <./Report_images/homeless_rates.jpg>]
 <Report_images/MilanEMS.jpg, id=77, 526.96875pt x 538.26094pt>
 File: Report_images/MilanEMS.jpg Graphic file (type jpg)
 <use Report_images/MilanEMS.jpg>
-Package pdftex.def Info: Report_images/MilanEMS.jpg  used on input line 478.
+Package pdftex.def Info: Report_images/MilanEMS.jpg  used on input line 479.
 (pdftex.def)             Requested size: 483.69687pt x 494.08908pt.
  [18] [19 <./Report_images/MilanEMS.jpg>] [20]
 <"Report_images/ems milan".jpg, id=88, 449.17813pt x 200.75pt>
 File: "Report_images/ems milan".jpg Graphic file (type jpg)
 <use "Report_images/ems milan".jpg>
-Package pdftex.def Info: "Report_images/ems milan".jpg  used on input line 539.
+Package pdftex.def Info: "Report_images/ems milan".jpg  used on input line 540.
 
 (pdftex.def)             Requested size: 435.32422pt x 194.5649pt.
- [21 <./Report_images/ems milan.jpg>]
+ [21]
 <Report_images/meningitis_model.jpg, id=94, 637.4214pt x 255.354pt>
 File: Report_images/meningitis_model.jpg Graphic file (type jpg)
 <use Report_images/meningitis_model.jpg>
 Package pdftex.def Info: Report_images/meningitis_model.jpg  used on input line
- 574.
+ 575.
 (pdftex.def)             Requested size: 435.32422pt x 174.39432pt.
- [22 <./Report_images/meningitis_model.jpg>]
-Overfull \hbox (3.03613pt too wide) in alignment at lines 618--622
+ [22 <./Report_images/ems milan.jpg>]
+Overfull \hbox (3.03613pt too wide) in alignment at lines 619--623
  [][][] []
  []
 
-[23] [24] [25]
+[23 <./Report_images/meningitis_model.jpg>] [24] [25]
 <"Report_images/howitworks".jpg, id=108, 663.4386pt x 425.9112pt>
 File: "Report_images/howitworks".jpg Graphic file (type jpg)
 <use "Report_images/howitworks".jpg>
-Package pdftex.def Info: "Report_images/howitworks".jpg  used on input line 710
+Package pdftex.def Info: "Report_images/howitworks".jpg  used on input line 711
 .
 (pdftex.def)             Requested size: 435.32422pt x 279.47752pt.
 <"Report_images/howitworks2".jpg, id=109, 270.7716pt x 148.3944pt>
 File: "Report_images/howitworks2".jpg Graphic file (type jpg)
 <use "Report_images/howitworks2".jpg>
 Package pdftex.def Info: "Report_images/howitworks2".jpg  used on input line 71
-1.
+2.
 (pdftex.def)             Requested size: 241.84843pt x 132.54382pt.
 <"Report_images/howitworks3".jpg, id=110, 490.2315pt x 241.50224pt>
 File: "Report_images/howitworks3".jpg Graphic file (type jpg)
 <use "Report_images/howitworks3".jpg>
 Package pdftex.def Info: "Report_images/howitworks3".jpg  used on input line 71
-2.
+3.
 (pdftex.def)             Requested size: 435.32422pt x 214.45724pt.
  [26] [27 <./Report_images/howitworks.jpg> <./Report_images/howitworks2.jpg> <.
 /Report_images/howitworks3.jpg>]
 <Report_images/MRIimage.jpg, id=117, 272.51813pt x 308.65312pt>
 File: Report_images/MRIimage.jpg Graphic file (type jpg)
 <use Report_images/MRIimage.jpg>
-Package pdftex.def Info: Report_images/MRIimage.jpg  used on input line 743.
+Package pdftex.def Info: Report_images/MRIimage.jpg  used on input line 744.
 (pdftex.def)             Requested size: 338.58632pt x 383.50299pt.
- [28] [29 <./Report_images/MRIimage.jpg>]
-<"Report_images/Time-reversal cavity".png, id=124, 965.5272pt x 306.9066pt>
+ [28 <./Report_images/MRIimage.jpg>]
+<"Report_images/Time-reversal cavity".png, id=121, 965.5272pt x 306.9066pt>
 File: "Report_images/Time-reversal cavity".png Graphic file (type png)
 <use "Report_images/Time-reversal cavity".png>
 Package pdftex.def Info: "Report_images/Time-reversal cavity".png  used on inpu
-t line 766.
+t line 767.
 (pdftex.def)             Requested size: 483.69687pt x 153.75262pt.
- [30 <./Report_images/Time-reversal cavity.png>]
-<Report_images/tissueproperties.jpg, id=131, 680.5425pt x 161.85469pt>
+ [29 <./Report_images/Time-reversal cavity.png>]
+<Report_images/tissueproperties.jpg, id=127, 680.5425pt x 161.85469pt>
 File: Report_images/tissueproperties.jpg Graphic file (type jpg)
 <use Report_images/tissueproperties.jpg>
 Package pdftex.def Info: Report_images/tissueproperties.jpg  used on input line
- 809.
+ 810.
 (pdftex.def)             Requested size: 483.69687pt x 115.03864pt.
- [31 <./Report_images/tissueproperties.jpg>] [32]
-<Report_images/studygroupcode.jpg, id=138, 336.50719pt x 212.29312pt>
+ [30 <./Report_images/tissueproperties.jpg>] [31]
+<Report_images/studygroupcode.jpg, id=135, 336.50719pt x 212.29312pt>
 File: Report_images/studygroupcode.jpg Graphic file (type jpg)
 <use Report_images/studygroupcode.jpg>
 Package pdftex.def Info: Report_images/studygroupcode.jpg  used on input line 9
-15.
+16.
 (pdftex.def)             Requested size: 338.58632pt x 213.60776pt.
- [33] [34 <./Report_images/studygroupcode.jpg>]
-<Report_images/sassaroli.png, id=145, 663.9204pt x 289.5618pt>
+ [32] [33 <./Report_images/studygroupcode.jpg>]
+<Report_images/sassaroli.png, id=142, 663.9204pt x 289.5618pt>
 File: Report_images/sassaroli.png Graphic file (type png)
 <use Report_images/sassaroli.png>
-Package pdftex.def Info: Report_images/sassaroli.png  used on input line 953.
+Package pdftex.def Info: Report_images/sassaroli.png  used on input line 954.
 (pdftex.def)             Requested size: 483.69687pt x 210.96301pt.
-
-Overfull \hbox (57.18202pt too wide) in alignment at lines 972--974
- [][][] []
- []
-
-<Report_images/forward_central_difference.jpg, id=146, 319.1925pt x 210.7875pt>
+ [34 <./Report_images/sassaroli.png>]
+<Report_images/forward_central_difference.jpg, id=147, 319.1925pt x 210.7875pt>
 
 File: Report_images/forward_central_difference.jpg Graphic file (type jpg)
 <use Report_images/forward_central_difference.jpg>
 Package pdftex.def Info: Report_images/forward_central_difference.jpg  used on 
-input line 980.
+input line 981.
 (pdftex.def)             Requested size: 435.32422pt x 287.48094pt.
-[35 <./Report_images/sassaroli.png>]
-<"Report_images/2d_homogenous heating and cooling".jpg, id=151, 533.3526pt x 32
+<"Report_images/2d_homogenous heating and cooling".jpg, id=148, 533.3526pt x 32
 0.397pt>
 File: "Report_images/2d_homogenous heating and cooling".jpg Graphic file (type 
 jpg)
 <use "Report_images/2d_homogenous heating and cooling".jpg>
 Package pdftex.def Info: "Report_images/2d_homogenous heating and cooling".jpg 
- used on input line 989.
+ used on input line 990.
 (pdftex.def)             Requested size: 483.69687pt x 290.56927pt.
- [36 <./Report_images/forward_central_difference.jpg>]
-<Report_images/study_group_code_2D_model.jpg, id=156, 312.41719pt x 208.52907pt
+ [35 <./Report_images/forward_central_difference.jpg>]
+<Report_images/study_group_code_2D_model.jpg, id=152, 312.41719pt x 208.52907pt
 >
 File: Report_images/study_group_code_2D_model.jpg Graphic file (type jpg)
 <use Report_images/study_group_code_2D_model.jpg>
 Package pdftex.def Info: Report_images/study_group_code_2D_model.jpg  used on i
-nput line 1021.
+nput line 1022.
 (pdftex.def)             Requested size: 338.58632pt x 226.0035pt.
+ [36 <./Report_images/2d_homogenous heating and cooling.jpg>]
 <Report_images/instability.jpg, id=157, 918.3108pt x 208.6194pt>
 File: Report_images/instability.jpg Graphic file (type jpg)
 <use Report_images/instability.jpg>
-Package pdftex.def Info: Report_images/instability.jpg  used on input line 1041
+Package pdftex.def Info: Report_images/instability.jpg  used on input line 1042
 .
 (pdftex.def)             Requested size: 459.51054pt x 104.3922pt.
- [37 <./Report_images/2d_homogenous heating and cooling.jpg>]
-[38 <./Report_images/study_group_code_2D_model.jpg> <./Report_images/instabilit
-y.jpg>]
-<"Report_images/bone without changing Q".jpg, id=164, 791.1156pt x 208.1376pt>
+ [37 <./Report_images/study_group_code_2D_model.jpg> <./Report_images/instabili
+ty.jpg>]
+<"Report_images/bone without changing Q".jpg, id=161, 791.1156pt x 208.1376pt>
 File: "Report_images/bone without changing Q".jpg Graphic file (type jpg)
 <use "Report_images/bone without changing Q".jpg>
 Package pdftex.def Info: "Report_images/bone without changing Q".jpg  used on i
-nput line 1066.
+nput line 1067.
 (pdftex.def)             Requested size: 483.69687pt x 127.2591pt.
-<"Report_images/change diffusion constant".jpg, id=165, 283.81032pt x 198.7425p
+<"Report_images/change diffusion constant".jpg, id=162, 283.81032pt x 198.7425p
 t>
 File: "Report_images/change diffusion constant".jpg Graphic file (type jpg)
 <use "Report_images/change diffusion constant".jpg>
 Package pdftex.def Info: "Report_images/change diffusion constant".jpg  used on
- input line 1075.
+ input line 1076.
 (pdftex.def)             Requested size: 386.95897pt x 270.99886pt.
- [39 <./Report_images/bone without changing Q.jpg>]
-<"Report_images/bone with changing Q".jpg, id=169, 707.2824pt x 209.583pt>
+<"Report_images/bone with changing Q".jpg, id=163, 707.2824pt x 209.583pt>
 File: "Report_images/bone with changing Q".jpg Graphic file (type jpg)
 <use "Report_images/bone with changing Q".jpg>
 Package pdftex.def Info: "Report_images/bone with changing Q".jpg  used on inpu
-t line 1091.
+t line 1092.
 (pdftex.def)             Requested size: 483.69687pt x 143.33322pt.
- [40 <./Report_images/change diffusion constant.jpg>]
-<"Report_images/various bone structures".jpg, id=173, 391.7034pt x 601.7682pt>
+ [38 <./Report_images/bone without changing Q.jpg>] [39 <./Report_images/change
+ diffusion constant.jpg> <./Report_images/bone with changing Q.jpg>]
+<"Report_images/various bone structures".jpg, id=170, 391.7034pt x 601.7682pt>
 File: "Report_images/various bone structures".jpg Graphic file (type jpg)
 <use "Report_images/various bone structures".jpg>
 Package pdftex.def Info: "Report_images/various bone structures".jpg  used on i
-nput line 1130.
+nput line 1131.
 (pdftex.def)             Requested size: 380.7886pt x 584.99089pt.
- [41 <./Report_images/bone with changing Q.jpg>] [42 <./Report_images/various b
-one structures.jpg>] [43]
-Overfull \hbox (0.35039pt too wide) in paragraph at lines 1160--1161
+ [40] [41 <./Report_images/various bone structures.jpg>]
+[42]
+Overfull \hbox (0.35039pt too wide) in paragraph at lines 1164--1165
 []\OT1/cmr/m/n/10.95 Secondly, I re-turn to my com-ments on un-der-grad-u-ate p
 lace-ments, in-tern-ships and years-in-industry.
  []
 
-[44] (Industrial_Reading_Project.bbl
+[43] (Industrial_Reading_Project.bbl
 
 ! Package inputenc Error: Unicode character ´ (U+B4)
 (inputenc)                not set up for use with LaTeX.
@@ -491,21 +486,21 @@ Underfull \hbox (badness 2134) in paragraph at lines 74--79
 ness-University Re-search
  []
 
-[45] [46]
+[44] [45]
 Underfull \hbox (badness 2126) in paragraph at lines 252--256
 []\OT1/cmr/m/n/10.95 UK Re-search and In-no-va-tion.  Path-ways to Im-pact - UK
  Re-search and In-no-va-tion.
  []
 
-) [47] (Industrial_Reading_Project.aux) ) 
+) [46] (Industrial_Reading_Project.aux) ) 
 Here is how much of TeX's memory you used:
- 3052 strings out of 492970
- 44569 string characters out of 3135852
- 121269 words of memory out of 3000000
- 6851 multiletter control sequences out of 15000+200000
+ 3051 strings out of 492970
+ 44559 string characters out of 3135852
+ 119269 words of memory out of 3000000
+ 6850 multiletter control sequences out of 15000+200000
  11440 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,12n,29p,1315b,346s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,12n,29p,1315b,354s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
@@ -522,9 +517,9 @@ sy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Prog
 ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmu10.pfb>
-Output written on Industrial_Reading_Project.pdf (48 pages, 2214374 bytes).
+Output written on Industrial_Reading_Project.pdf (47 pages, 2215840 bytes).
 PDF statistics:
- 251 PDF objects out of 1000 (max. 8388607)
+ 248 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  116 words of extra memory for PDF output out of 10000 (max. 10000000)
 
