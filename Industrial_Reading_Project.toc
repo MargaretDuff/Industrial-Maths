@@ -6,10 +6,10 @@
 \contentsline {subsubsection}{\numberline {2.3.1} Mechanisms in the UK }{4}
 \contentsline {subsubsection}{\numberline {2.3.2}Incentives and Enablers in the UK}{6}
 \contentsline {subsubsection}{\numberline {2.3.3}Elsewhere in the world }{7}
-\contentsline {subsection}{\numberline {2.4}Successes and failures}{8}
+\contentsline {subsection}{\numberline {2.4}Successes and failures }{8}
 \contentsline {paragraph}{Reach}{8}
 \contentsline {paragraph}{Significance}{8}
-\contentsline {subsection}{\numberline {2.5}Challenges}{9}
+\contentsline {subsection}{\numberline {2.5}Challenges }{9}
 \contentsline {subsubsection}{\numberline {2.5.1}Identifying Suitable Problems and Creating links}{9}
 \contentsline {subsubsection}{\numberline {2.5.2}Building working relationships}{10}
 \contentsline {subsubsection}{\numberline {2.5.3}Intellectual Property and Conflicts of Interest}{10}
