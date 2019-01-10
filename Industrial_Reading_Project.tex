@@ -235,7 +235,7 @@ It is worth considering what makes a piece of industrial mathematics successful.
 	
 	
 	
-	When initiating collaborations it can be hard for individual academics to know where to start, there may be  no recognised route and they can be  unsure of their own abilities.	The Bond report stated that ``just 26\% of SMES and large business respondents cited via a University knowledge/technology transfer office" as their mode of initiation. Initial contacts can be based on a who-you-know  method; indeed John Stockie describes how his first bit of industrial mathematics developed out of a  ``neighbourhood social event" \cite{Stockie2015}. Large alumni networks can be incredibly useful in initiating contacts and this is highlighted in the Bond report \cite{Bond}  which recommends ``mechanisms to generate systematic and long-term relationship building and engagement with alumni should be created."
+	When initiating collaborations it can be hard for individual academics to know where to start, there may be  no recognised route and they can be  unsure of their own abilities.	The Bond report stated that ``just 26\% of SMEs and large business respondents cited via a University knowledge/technology transfer office" as their mode of initiation. Initial contacts can be based on a who-you-know  method; indeed John Stockie describes how his first bit of industrial mathematics developed out of a  ``neighbourhood social event" \cite{Stockie2015}. Large alumni networks can be incredibly useful in initiating contacts and this is highlighted in the Bond report \cite{Bond}  which recommends ``mechanisms to generate systematic and long-term relationship building and engagement with alumni should be created."
 	
 	It also recommends that more be done  and ``a more systematic and coordinated approach needs to be adopted to make new and maintain existing knowledge exchange (KE) contacts and to track the outcomes and impacts of KE activities". A more systematic approach may be better able to allocated resources to be most effective, tackling the most important problems in which significant progress is most achievable. To do this requires some sort of oversight and indeed the Bond report recommends: ``An Academy for the Mathematical Sciences should be established in order to facilitate links between academia, government and industry". An excellent idea, but in practice requires funding, and is only really feasible in the long term as relationships and trust take a long time to build up. 
 	
@@ -331,7 +331,7 @@ The industrial partner was ITRES Research LTD and in their work on landmine clea
 	\begin{figure}
 		\centering
 		\includegraphics[width=0.7\linewidth]{"Report_images/landmine image"}
-		\caption{Example image provided to the study group containing two trip wires and some other false linear feaatures. Sourced from the study group report \cite{Jessop}}
+		\caption{Example image provided to the study group containing two trip wires and some other false linear features. Sourced from the study group report \cite{Jessop}}
 		\label{fig:landmine-image}
 	\end{figure}
 	
@@ -376,7 +376,7 @@ The industrial partner was ITRES Research LTD and in their work on landmine clea
 	\subsection{Case Study 2 - Shelter: Homeless Populations \label{homeless}}
 	
 
-   Brought to ESGI 29, held in Oxford in March 1996, this problem from the charity Shelter  was to model the numbers of homeless and non-homeless people in a Borough. The model should then be able to predict changes in homeless populations as a result of loal policy decisions. I follow the report produced at the end of the study group \cite{Shelter1996}.
+   Brought to ESGI 29, held in Oxford in March 1996, this problem from the charity Shelter  was to model the numbers of homeless and non-homeless people in a Borough. The model should then be able to predict changes in homeless populations as a result of local policy decisions. I follow the report produced at the end of the study group \cite{Shelter1996}.
 	
 	The populations was split into broad classes: 
 	\begin{itemize}
@@ -469,7 +469,7 @@ These equations look intractable but substituting $ G_0=P+T+G_r+G_N $ and $ G_0=
 	Perhaps, not a sentence I should have taken out of context, but perhaps a typical  opinion of a sceptical academic or company of industrial mathematics and one that needs to be repeatedly challenged.
 	
 
-	I follow the 2013 paper by R. Arinhieri, G. Carello and D. Morale \cite{Carello2013}  to describe some fo the work behind this case study.	They focused on 3 areas: evaluation of the current EMS system; study of operational policies which can improve the system performance through a simulation model and using optimisation to fund an alternative set of ambulance posts. 
+	I follow the 2013 paper by R. Arinhieri, G. Carello and D. Morale \cite{Carello2013}  to describe some of the work behind this case study.	They focused on 3 areas: evaluation of the current EMS system; study of operational policies which can improve the system performance through a simulation model and using optimisation to fund an alternative set of ambulance posts. 
 	\begin{figure}
 		\centering
 		\includegraphics[width=\linewidth]{Report_images/MilanEMS}
@@ -524,7 +524,7 @@ s.t.\ &\sum_{j\in W_i^h} x_j\geq1\ \ &\forall i \in V\label{1b}\\
 &\sum_{i \in V} (d_i^h y_{ij} +d_i^l w_{ij}) \leq k_jx_j & \forall j \in W\label{1f}\\
 &x_j\in Z_+, \ w_{ij} \in [0,1], \ &\forall i \in V,\  \forall j \in W \label{1g}
 \end{eqnarray}
-Where Eq \ref{1a} is the objective function: to minimise the number of required ambulances. Eq \ref{1b} ensures that there is coverage over all the city. Eq \ref{1c} ensures that urgent calls are served within the given time limit. Eq \ref{1d} guarantees that all the low priority calls can be served by and ambulance at any posts. Eq \ref{1e} forces that a given percentage of the non-urgent calls ate served with a second time limit. Eq \ref{1f} limits the number of missions in a given time frames. Finally \ref{1g} defines the domains of the variables 
+Where equation \ref{1a} is the objective function: to minimise the number of required ambulances. equation \ref{1b} ensures that there is coverage over all the city. equation \ref{1c} ensures that urgent calls are served within the given time limit. equation \ref{1d} guarantees that all the low priority calls can be served by and ambulance at any posts. equation \ref{1e} forces that a given percentage of the non-urgent calls ate served with a second time limit. equation \ref{1f} limits the number of missions in a given time frames. Finally \ref{1g} defines the domains of the variables 
  
  
 For the solution of Milan the city was divided into 493 grid squares, chosen such that the area in each gird is covered by the same set of candidate post locations. Thus as long as each sub area is covered, all possible areas will also be covered. They set $ V=W $, $ q=0.5 $ and the non-urgent time frame to be 30 minutes. Diagrams showing the grid, the demand for high and low priority calls and the current ambulance positions are shown in figure \ref{fig:ems-milan} . This gives an optimal solution of 25 ambulances.
